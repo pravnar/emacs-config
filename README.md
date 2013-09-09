@@ -2,4 +2,6 @@ emacs-config
 ============
 
 - A repository of my .emacs and related elisp code
-- So that I can use the same config on another (similar) machine
+  - modes/ contains configs for various language modes. These are called in modes.el
+  - user_interface.el contains settings affecting the appearance and related behaviour of my emacs
+

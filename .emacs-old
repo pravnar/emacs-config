@@ -1,0 +1,303 @@
+;;
+;; prav's .emacs file
+;;
+
+(defun add-path (p) (add-to-list 'load-path (concat "~/" p)))
+
+(add-path "emacs")
+(add-path "emacs/modes")
+(add-path "emacs/plugins")
+(add-path "emacs/plugins/tuareg-2.0.4") ;; OCaml
+
+(load-library "modes")
+(load-library "user_interface")
+
+;; (setq mouse-wheel-scroll-amount '(0.01))
+;; (require 'cc-mode)
+
+(add-to-list 'load-path "~/.emacs.d/")
+(add-to-list 'load-path "~/.emacs.d/plugins/")
+
+;; (require 'autopair)
+;; (autopair-global-mode) ;; enable autopair in all buffers ...
+
+;; (show-paren-mode 1)
+;; (setq show-paren-delay 0)
+
+;; ;; How to show the matching offscreen paren (line shown in minibuffer)
+;; (defadvice show-paren-function
+;;       (after show-matching-paren-offscreen activate)
+;;       "If the matching paren is offscreen, show the matching line in the
+;;         echo area. Has no effect if the character before point is not of
+;;         the syntax class ')'."
+;;       (interactive)
+;;       (if (not (minibuffer-prompt))
+;;           (let ((matching-text nil))
+;;             ;; Only call `blink-matching-open' if the character before point
+;;             ;; is a close parentheses type character. Otherwise, there's not
+;;             ;; really any point, and `blink-matching-open' would just echo
+;;             ;; "Mismatched parentheses", which gets really annoying.
+;;             (if (char-equal (char-syntax (char-before (point))) ?\))
+;;                 (setq matching-text (blink-matching-open)))
+;;             (if (not (null matching-text))
+;;                 (message matching-text)))))
+
+
+;; ;;; Tabs are evil?
+;; ;;; Use spaces instead of tabs for indentation.
+;; (setq indent-tabs-mode nil) 
+
+;; ;;; Turn on syntax-highlighting.
+;; (global-font-lock-mode t)
+;; (load-library "font-lock")
+;; (setq font-lock-maximum-decoration t)
+
+
+;; ;;; Scheme-specific customization
+
+;; ;;; Load the Quack mode, which is an advanced Scheme mode.
+;; (require 'quack)
+
+;; ;;; Loading/creating a file/buffer whose name ends with '.ss'
+;; ;;; automagically switches Emacs to Scheme mode.
+;; (setq auto-mode-alist (cons '("\\.ss" . scheme-mode) auto-mode-alist))
+
+;; ;;; Change the program name string below to point to Petite Chez
+;; ;;; Scheme on your machine.  For example, Will uses the string
+;; ;;; "/usr/bin/petite" on his laptop running Mac OS X.
+;; (setq scheme-program-name "/usr/bin/petite")
+
+;; ;;; Teach Emacs how to properly indent
+;; ;;; certain Scheme special forms
+;; ;;; (such as 'pmatch')
+;; (put 'cond 'scheme-indent-function 0)
+;; (put 'for-each 'scheme-indent-function 0)
+;; (put 'pmatch 'scheme-indent-function 1)
+;; (put 'dmatch 'scheme-indent-function 1)
+;; (put 'match 'scheme-indent-function 1)
+;; (put 'library 'scheme-indent-function 1)
+;; (put 'union-case 'scheme-indent-function 2)
+;; (put 'cases 'scheme-indent-function 1)
+;; (put 'let-values 'scheme-indent-function 1)
+;; (put 'call-with-values 'scheme-indent-function 2)
+;; (put 'syntax-case 'scheme-indent-function 2)
+;; (put 'test 'scheme-indent-function 1)
+;; (put 'test-check 'scheme-indent-function 1)
+;; (put 'test-divergence 'scheme-indent-function 1)
+;; (put 'make-engine 'scheme-indent-function 0)
+;; (put 'with-mutex 'scheme-indent-function 1)
+;; (put 'trace-lambda 'scheme-indent-function 1)
+;; (put 'timed-lambda 'scheme-indent-function 1)
+;; (put 'tlambda 'scheme-indent-function 1)
+
+;; ;;; minikanren-specific indentation
+;; (put 'lambdaf@ 'scheme-indent-function 1)
+;; (put 'lambdag@ 'scheme-indent-function 1)
+;; (put 'fresh 'scheme-indent-function 1)
+;; (put 'exists 'scheme-indent-function 1)
+;; (put 'exist 'scheme-indent-function 1)
+;; (put 'nom 'scheme-indent-function 1)
+;; (put 'run 'scheme-indent-function 2)
+;; (put 'conde 'scheme-indent-function 0)
+;; (put 'conda 'scheme-indent-function 0)
+;; (put 'condu 'scheme-indent-function 0)
+;; (put 'project 'scheme-indent-function 1)
+;; (put 'run* 'scheme-indent-function 1)
+;; (put 'run1 'scheme-indent-function 1)
+;; (put 'run2 'scheme-indent-function 1)
+;; (put 'run3 'scheme-indent-function 1)
+;; (put 'run4 'scheme-indent-function 1)
+;; (put 'run5 'scheme-indent-function 1)
+;; (put 'run6 'scheme-indent-function 1)
+;; (put 'run7 'scheme-indent-function 1)
+;; (put 'run8 'scheme-indent-function 1)
+;; (put 'run9 'scheme-indent-function 1)
+;; (put 'run10 'scheme-indent-function 1)
+;; (put 'run11 'scheme-indent-function 1)
+;; (put 'run12 'scheme-indent-function 1)
+;; (put 'run13 'scheme-indent-function 1)
+;; (put 'run15 'scheme-indent-function 1)
+;; (put 'run22 'scheme-indent-function 1)
+;; (put 'run34 'scheme-indent-function 1)
+
+(customize-set-variable 'column-number-mode t)
+
+(custom-set-variables
+ ;; custom-set-variables was added by Custom.
+ ;; If you edit it by hand, you could mess it up, so be careful.
+ ;; Your init file should contain only one such instance.
+ ;; If there is more than one, they won't work right.
+ ;; '(column-number-mode t)
+ '(inhibit-startup-screen t)
+ '(paren-blinking "t" t)
+ '(paren-matching t t)
+ '(quack-default-program "petite")
+ '(quack-fontify-style (quote emacs))
+ '(quack-fontify-threesemi-p t)
+ '(quack-pltish-fontify-keywords-p t)
+ '(quack-pltish-keywords-to-fontify (quote ("and" "begin" "begin0" "c-declare" "c-lambda" "call-with-current-continuation" "call-with-input-file" "call-with-output-file" "call/cc" "case" "case-lambda" "class" "class*" "class*/names" "class100" "class100*" "compound-unit/sig" "cond" "cond-expand" "define" "define-compiler" "define-macro" "define-module" "define-public" "define-signature" "define-struct" "define-syntax" "define-syntax-set" "define-values" "define-values/invoke-unit/sig" "define/contract" "define/override" "define/private" "define/public" "delay" "do" "else" "exit-handler" "field" "if" "import" "inherit" "inherit-field" "init" "init-field" "init-rest" "instantiate" "interface" "lambda" "let" "let*" "let*-values" "let+" "let-syntax" "let-values" "let/ec" "letrec" "letrec-values" "letrec-syntax" "library" "match" "match-lambda" "match-lambda*" "match-let" "match-let*" "match-letrec" "match-define" "mixin" "module" "opt-lambda" "or" "override" "override*" "namespace-variable-bind/invoke-unit/sig" "parameterize" "private" "private*" "protect" "provide" "provide-signature-elements" "provide/contract" "public" "public*" "quote" "receive" "rename" "require" "require-for-syntax" "send" "send*" "set!" "set!-values" "signature->symbols" "super-instantiate" "syntax-case" "syntax-case*" "syntax-error" "syntax-rules" "unit/sig" "unless" "when" "with-handlers" "with-method" "with-syntax")))
+ '(quack-pretty-lambda-p nil)
+ '(quack-programs (quote ("petite" "bigloo" "csi" "gosh" "gsi" "guile" "kawa" "mit-scheme" "mred -z" "mzscheme" "mzscheme -M errortrace" "rs" "scheme" "scheme48" "scsh" "sisc" "stklos" "sxi")))
+ '(quack-remap-find-file-bindings-p nil)
+ '(quack-run-scheme-always-prompts-p nil)
+ '(quack-switch-to-scheme-method (quote cmuscheme))
+ '(show-paren-mode t)
+ '(tool-bar-mode nil))
+
+
+;; linum for fancy line numbers
+
+;; (require 'linum)
+;; (setq linum-format "%d ")
+;; (global-linum-mode 1)
+
+
+(custom-set-faces
+ ;; custom-set-faces was added by Custom.
+ ;; If you edit it by hand, you could mess it up, so be careful.
+ ;; Your init file should contain only one such instance.
+ ;; If there is more than one, they won't work right.
+ '(border ((t (:width condensed))))
+ '(fringe ((t (:width condensed))))
+ '(quack-pltish-comment-face ((((class color) (background dark)) (:slant italic)))))
+
+;; (set-face-attribute 'default nil :family "Inconsolata" :height 145 :weight 'normal)
+;; (set-face-attribute 'linum nil :background "#2d2d2d")
+
+(set-default-font "apple-monaco-12")
+
+;; (set-default-font "Menlo-12")
+(setq inhibit-startup-message t)
+
+
+;;;;;;;;;;;;;;;;;;;;
+;;; Color themes ;;;
+;;;;;;;;;;;;;;;;;;;;
+
+
+;; Perhaps color-theme is not needed for Emacs 24+
+
+;; (add-to-list 'load-path "/Users/praveennarayanan/color-theme-6.6.0/")
+;; (require 'color-theme)
+;; (color-theme-initialize)
+
+;; For each color theme, the background is specified
+;; Might have to change fringe background: M-x customize-group RET basic-faces RET
+;; Might have to change linum background: M-x customize-group RET linum RET
+
+;; Molokai is dark grey, high contrast  
+;; (load "~/.emacs.d/plugins/color-theme-molokai.el")
+;; (color-theme-molokai)
+
+; Solarized dark is ocean colors, low contrast 
+;; (add-to-list 'custom-theme-load-path "~/.emacs.d/plugins/emacs-color-theme-solarized/")
+;; (load-theme 'solarized-dark t)
+;; (require 'color-theme-solarized)
+;; (color-theme-solarized-dark) ;; #002b36 Background
+
+;; Gentooish - mostly black and red
+;; (require 'gentooish)
+;; (color-theme-gentooish)
+
+;; A blue theme from 311
+;; (color-theme-dark-blue2)
+
+;; (add-to-list 'custom-theme-load-path "~/.emacs.d/themes/")
+;; (load-theme 'zenburn t) ;; #303030 Background
+;; (load-theme 'tomorrow t) ;; #ffffff Background
+;; (load-theme 'tomorrow-night t) ;; #1d1f21 Background
+;; (load-theme 'tomorrow-night-eighties t) ;; #2d2d2d Background
+
+;; (unless (boundp 'aquamacs-version)
+  ;; (load-theme 'misterioso t))
+
+(add-to-list 'custom-theme-load-path "~/.emacs.d/themes/soothe_theme/")
+(load-theme 'soothe t)
+
+;transparency
+;;(set-frame-parameter (selected-frame) 'alpha '(<active> [<inactive>]))
+(set-frame-parameter (selected-frame) 'alpha '(100 83))
+(add-to-list 'default-frame-alist '(alpha 100 83))
+
+(line-number-mode 1)
+(column-number-mode 1)
+(menu-bar-mode -1)
+(tool-bar-mode -1)
+(scroll-bar-mode -1)
+
+(fringe-mode -1)
+;(set-fringe-mode '(1 . 0))
+
+(global-set-key (kbd "M-RET") 'ns-toggle-fullscreen)
+
+(add-hook 'c-mode-common-hook
+          (lambda ()
+            (local-set-key (kbd "<tab>") (c-indent-defun))
+            (local-set-key (kbd "<ret>") 'newline-and-indent)
+            (local-set-key (kbd "C-m")   'c-context-line-break)
+            ;; (local-set-key (kbd "<tab>") 'yas/expand)
+            (c-set-style                 "linux")
+            (set-variable 'c-file-style  "linux")
+            (setq c-default-style        "linux")
+            (setq tab-width              8)
+            (setq indent-tabs-mode       nil)
+            (setq c-basic-offset         8)
+            ;; (gtags-mode                  t)
+            ;;(which-function-mode         t)
+	    ))
+
+
+; Mode to make SpeedBar show in Current Frame
+(require 'sr-speedbar)
+
+
+(autoload 'markdown-mode "markdown-mode.el"
+  "Major mode for editing Markdown files" t)
+(setq auto-mode-alist
+      (cons '("\\.markdown" . markdown-mode) auto-mode-alist))
+(setq auto-mode-alist
+      (cons '("\\.md" . markdown-mode) auto-mode-alist))
+
+
+;; for haskell-mode and other fun packages
+;; do M-x package-list-packages to see them
+
+(unless (boundp 'aquamacs-version)
+  (require 'package)
+  (add-to-list 'package-archives
+	       '("marmalade" . "http://marmalade-repo.org/packages/"))
+  (package-initialize))
+
+(add-hook 'haskell-mode-hook 'turn-on-haskell-doc-mode)
+;;(add-hook 'haskell-mode-hook 'turn-on-haskell-indentation)
+(add-hook 'haskell-mode-hook 'turn-on-haskell-indent)
+;;(add-hook 'haskell-mode-hook 'turn-on-haskell-simple-indent)
+
+
+
+;;;;;;;;;; LaTeX with AucTex ;;;;;;;;;;
+
+(add-to-list 'load-path "~/.emacs.d/auctex-11.87")
+;;(load "auctex.el" nil t t)
+;;(load "preview-latex.el" nil t t)
+
+
+;;;;;;;;;; Grammatical Framework ;;;;;;;;;;
+
+(autoload 'run-gf "gf" nil t)
+(autoload 'gf-mode "gf" nil t)
+(add-to-list 'auto-mode-alist '("\\.gf\\(\\|e\\|r\\|cm?\\)\\'" . gf-mode))
+(add-to-list 'auto-mode-alist '("\\.cf\\'" . gf-mode))
+(add-to-list 'auto-mode-alist '("\\.ebnf\\'" . gf-mode))
+
+
+;;; Align regular expessions - useful for aligning inline comments ;;;
+(global-set-key (kbd "C-x a r") 'align-regexp)
+
+
+;;;;;;;;;; Agda Mode ;;;;;;;;;;
+
+(load-file (let ((coding-system-for-read 'utf-8))
+                (shell-command-to-string "agda-mode locate")))
+
+(customize-set-variable 'agda2-include-dirs (quote ("/Users/praveennarayanan/lib-0.6/src" ".")))

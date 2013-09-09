@@ -99,9 +99,9 @@
 
 ;; Things I need and don't need
 
-(setq inhibit-startup-message t)
-(line-number-mode t)
-(column-number-mode t)
+(setq inhibit-startup-message 1)
+(line-number-mode 1)
+(column-number-mode 1)
 (menu-bar-mode -1)
 (tool-bar-mode -1)
 (scroll-bar-mode -1)
@@ -111,16 +111,15 @@
 
 ;; Color Themes
 
-(add-to-list 'custom-theme-load-path "~/emacs/themes/")
-(add-to-list 'custom-theme-load-path "~/emacs/themes/soothe_theme/")
-
-;; (load-theme 'zenburn t) ;; #303030 Background
-;; (load-theme 'tomorrow t) ;; #ffffff Background
-;; (load-theme 'tomorrow-night t) ;; #1d1f21 Background
-;; (load-theme 'tomorrow-night-eighties t) ;; #2d2d2d Background
-;; (unless (boundp 'aquamacs-version)
-  ;; (load-theme 'misterioso t))
-(load-theme 'soothe t)
+(when (>= emacs-major-version 24)
+  (add-to-list 'custom-theme-load-path "~/emacs/themes/")
+  (add-to-list 'custom-theme-load-path "~/emacs/themes/soothe_theme/")
+  ;; (load-theme 'misterioso t)
+  ;; (load-theme 'zenburn t) ;; #303030 Background
+  ;; (load-theme 'tomorrow t) ;; #ffffff Background
+  ;; (load-theme 'tomorrow-night t) ;; #1d1f21 Background
+  ;; (load-theme 'tomorrow-night-eighties t) ;; #2d2d2d Background
+  (load-theme 'soothe t))
 
 
 ;; Fullscreen

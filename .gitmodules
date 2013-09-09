@@ -1,0 +1,3 @@
+[submodule "themes/soothe_theme"]
+	path = themes/soothe_theme
+	url = https://github.com/jasonm23/emacs-soothe-theme.git

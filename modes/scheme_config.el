@@ -3,11 +3,17 @@
 ;;; Load the Quack mode, which is an advanced Scheme mode.
 (require 'quack)
 
+;; Quack + Scheme bindings (already present, this is for reference):
+;; C-c C-q r : open up a REPL (same as M-x run-scheme)
+;; C-x C-e : Send the last sexpr to the Scheme process
+;; C-x h C-c C-r : Send the whole buffer by first marking (C-x h) and then sending region (C-c C-r)
+
 ;;; Loading/creating a file/buffer whose name ends with '.ss'
 ;;; automagically switches Emacs to Scheme mode.
 (setq auto-mode-alist (cons '("\\.ss" . scheme-mode) auto-mode-alist))
 
 ;;; Change the program name string below to point to Petite Chez
+
 ;;; Scheme on your machine.  For example, Will uses the string
 ;;; "/usr/bin/petite" on his laptop running Mac OS X.
 (let ((name (if (eq system-type 'darwin) "petite" "scheme")))

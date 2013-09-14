@@ -76,3 +76,11 @@
 (load-library "agda")
 
 
+;; Org mode
+
+(load-library "org_config")
+
+
+;; Deft
+
+(load-library "deft_config")

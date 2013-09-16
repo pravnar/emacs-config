@@ -138,6 +138,7 @@
      (when (not (frame-parameter nil 'fullscreen)) 'fullboth))))
 
 
+
 ;; Keybindings
 
 (when (eq emacs-major-version 24)

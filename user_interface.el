@@ -89,7 +89,7 @@
 ;; (set-default-font "apple-monaco-11")
 ;; (set-default-font "dejavu-sans-mono-11")
 ;; (set-default-font "consolas-12")
-(set-default-font "anonymous-pro-13")
+(set-default-font "anonymous-pro-15")
 ;; (set-default-font "menlo-11")
 
 

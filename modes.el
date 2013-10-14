@@ -84,3 +84,8 @@
 ;; Deft
 
 (load-library "deft_config")
+
+
+;; ESS (Emacs Speaks Statistics)
+
+(load "ess-13.09/lisp/ess-site")

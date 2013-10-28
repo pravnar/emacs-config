@@ -89,3 +89,11 @@
 ;; ESS (Emacs Speaks Statistics)
 
 (load "ess-13.09/lisp/ess-site")
+
+
+;; Autocomplete
+
+(require 'auto-complete-config)
+(add-to-list 'ac-dictionary-directories 
+	     "~/emacs/plugins/auto-complete-1.3.1/ac-dict")
+(ac-config-default)

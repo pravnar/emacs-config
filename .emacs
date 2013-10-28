@@ -10,6 +10,7 @@
 (add-path "emacs/plugins/tuareg-2.0.4") ;; OCaml
 (add-path "/emacs/plugins/auctex-11.87") ;; LaTeX with AucTex
 (add-path "/emacs/plugins/ess") ;; Emacs Speaks Statistics
+(add-path "/emacs/plugins/auto-complete-1.3.1") ;; Autocomplete
 
 (load-library "modes")
 (load-library "user_interface")

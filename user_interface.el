@@ -89,9 +89,10 @@
 ;; (set-default-font "apple-monaco-11")
 ;; (set-default-font "dejavu-sans-mono-11")
 ;; (set-default-font "consolas-12")
-(set-default-font "anonymous-pro-15")
+;; (set-default-font "anonymous-pro-15")
 ;; (set-default-font "menlo-11")
-
+(set-face-attribute 'default nil
+		    :family "Consolas" :height 185 :weight 'normal)
 
 
 ;; Transparency
@@ -109,7 +110,7 @@
 (menu-bar-mode -1)
 (tool-bar-mode -1)
 (scroll-bar-mode -1)
-(fringe-mode -1)
+;; (fringe-mode -1)
 ;; (set-fringe-mode '(1 . 0))
 
 
@@ -119,11 +120,32 @@
   (add-to-list 'custom-theme-load-path "~/emacs/themes/")
   (add-to-list 'custom-theme-load-path "~/emacs/themes/soothe_theme/")
   ;; (load-theme 'misterioso t)
-  ;; (load-theme 'zenburn t) ;; #303030 Background
-  ;; (load-theme 'tomorrow t) ;; #ffffff Background
-  ;; (load-theme 'tomorrow-night t) ;; #1d1f21 Background
-  ;; (load-theme 'tomorrow-night-eighties t) ;; #2d2d2d Background
-  (load-theme 'soothe t))
+  ;; (load-theme 'zenburn t)
+  ;; (load-theme 'wombat t)
+  ;; (load-theme 'tango-dark t)
+  ;; (load-theme 'tango-2 t)
+  (load-theme 'monokai t)
+  ;; (load-theme 'tomorrow t)
+  ;; (load-theme 'tomorrow-night t)
+  ;; (load-theme 'tomorrow-night-eighties t)
+  ;; (load-theme 'soothe t)
+  ;; (load-theme 'ample-zen t)
+  ;; (load-theme 'gruber-darker t)
+  ;; (load-theme 'assemblage t)
+  ;; (load-theme 'bubbleberry t)
+  ;; (load-theme 'clues t)
+  ;; (load-theme 'deep-thought t)
+  ;; (load-theme 'heroku t)
+  ;; (load-theme 'jujube t)
+  ;; (load-theme 'late-night t)
+  ;; (load-theme 'nzenburn t)
+  ;; (load-theme 'pastels-on-dark t)
+  ;; (load-theme 'sea-before-storm t)
+  ;; (load-theme 'subatomic-enhanced t)
+  ;; (load-theme 'twilight t)
+  ;; (load-theme 'waher t)
+  ;; (load-theme 'zen-and-art t)
+  )
 
 
 ;; Fullscreen
@@ -145,3 +167,9 @@
   (case emacs-minor-version
     (2 (global-set-key (kbd "M-RET") 'ns-toggle-fullscreen))
     (3 (global-set-key (kbd "M-RET") 'toggle-fullscreen))))
+
+
+
+;; Powerline
+
+(require 'powerline)

@@ -90,9 +90,10 @@
 ;; (set-default-font "dejavu-sans-mono-11")
 ;; (set-default-font "consolas-12")
 ;; (set-default-font "anonymous-pro-15")
-;; (set-default-font "menlo-11")
-(set-face-attribute 'default nil
-		    :family "Consolas" :height 185 :weight 'normal)
+;; (set-default-font "menlo-13")
+;; (set-face-attribute 'default nil
+;; 		    :family "monaco" :height 185 :weight 'normal)
+;; (set-face-attribute 'default nil :height 155)
 
 
 ;; Transparency
@@ -116,7 +117,7 @@
 
 ;; Color Themes
 
-(when (>= emacs-major-version 24)
+(when (and (>= emacs-major-version 24) (display-graphic-p))
   (add-to-list 'custom-theme-load-path "~/emacs/themes/")
   (add-to-list 'custom-theme-load-path "~/emacs/themes/soothe_theme/")
   ;; (load-theme 'misterioso t)
@@ -172,4 +173,4 @@
 
 ;; Powerline
 
-(require 'powerline)
+;; (require 'powerline)

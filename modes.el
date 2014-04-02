@@ -1,4 +1,4 @@
-;; Configurations for various modes
+; Configurations for various modes
 ;; ==========================================
 
 

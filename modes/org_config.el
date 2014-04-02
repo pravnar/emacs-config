@@ -8,3 +8,5 @@
       deft-use-filename-as-title t
       org-agenda-files (list "~/org/"
 			     "~/org/deft"))
+
+(add-hook 'org-mode-hook 'nolinum)

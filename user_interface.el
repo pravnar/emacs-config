@@ -82,6 +82,11 @@
 (global-linum-mode 1)
 ;; (set-face-attribute 'linum nil :background "#2d2d2d")
 
+;; Add this hook to modes where you don't want line numbers
+;; Currently used for org-mode
+(defun nolinum ()
+  (global-linum-mode 0))
+
 
 ;; Fonts
 
@@ -92,7 +97,7 @@
 ;; (set-default-font "anonymous-pro-15")
 ;; (set-default-font "menlo-11")
 (set-face-attribute 'default nil
-		    :family "Consolas" :height 185 :weight 'normal)
+		    :family "Consolas" :height 160 :weight 'normal)
 
 
 ;; Transparency
@@ -172,4 +177,4 @@
 
 ;; Powerline
 
-(require 'powerline)
+;; (require 'powerline)

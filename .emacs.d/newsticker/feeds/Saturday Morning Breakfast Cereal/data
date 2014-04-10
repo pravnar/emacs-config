@@ -1,0 +1,53 @@
+;; -*- coding: utf-8 -*-
+(("Saturday Morning Breakfast Cereal (updated daily)" "The Saturday Morning Breakfast Cereal Blog" "http://www.smbc-comics.com" (21317 36649 57554 635000) feed 0 nil nil ((title nil "Saturday Morning Breakfast Cereal (updated daily)") (link nil "http://www.smbc-comics.com") (description nil "The Saturday Morning Breakfast Cereal Blog") (language nil "en-us") (atom10:link ((xmlns:atom10 . "http://www.w3.org/2005/Atom") (rel . "self") (type . "application/rss+xml") (href . "http://feeds.feedburner.com/smbc-comics/PvLb"))) (feedburner:info ((uri . "smbc-comics/pvlb"))) (atom10:link ((xmlns:atom10 . "http://www.w3.org/2005/Atom") (rel . "hub") (href . "http://pubsubhubbub.appspot.com/"))) (item nil (link nil "http://feedproxy.google.com/~r/smbc-comics/PvLb/~3/9FYrD0tx4JY/index.php") (title nil "April 09, 2014") (description nil "<img src=\"http://www.smbc-comics.com/comics/20140409.png\"><br>
+<script type=\"text/javascript\">
+var gaJsHost = ((\"https:\" == document.location.protocol) ? \"https://ssl.\" : \"http://www.\");
+document.write(unescape(\"%3Cscript src='\" + gaJsHost + \"google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E\"));
+</script>
+<script type=\"text/javascript\">
+try {
+var pageTracker = _gat._getTracker(\"UA-3727700-1\");
+pageTracker._trackPageview();
+} catch(err) {}</script> AND there's a favorite smbc comic of mine over at <a href=https://medium.com/the-nib/d915306346a6>The Nib.<br>
+<br>
+<img src=http://i.imgur.com/lXW1M2I.png?1></a><img src=\"http://feeds.feedburner.com/~r/smbc-comics/PvLb/~4/9FYrD0tx4JY\" height=\"1\" width=\"1\"/>") (pubDate nil "Wed, 09 Apr 2014 00:00:00 -0400") (feedburner:origLink nil "http://www.smbc-comics.com/index.php?db=comics&id=3322")) (item nil (link nil "http://feedproxy.google.com/~r/smbc-comics/PvLb/~3/tD2nLD5DAN0/index.php") (title nil "April 08, 2014") (description nil "<img src=\"http://www.smbc-comics.com/comics/20140408.png\"><br>
+<a href=http://smbc.myshopify.com/collections/frontpage/products/how-to-solve-a-physics-problem-18x24-poster>\"How to Solve a Physics Porblem\" is now available as a poster!<br><br><img src=http://i.imgur.com/F2y1Cyx.jpg></a><img src=\"http://feeds.feedburner.com/~r/smbc-comics/PvLb/~4/tD2nLD5DAN0\" height=\"1\" width=\"1\"/>") (pubDate nil "Tue, 08 Apr 2014 00:00:00 -0400") (feedburner:origLink nil "http://www.smbc-comics.com/index.php?db=comics&id=3321")) (item nil (link nil "http://feedproxy.google.com/~r/smbc-comics/PvLb/~3/ounMit3BxgU/index.php") (title nil "April 07, 2014") (description nil "<img src=\"http://www.smbc-comics.com/comics/20140407.png\"><br>
+WOOH. Sick and sick kid. Wish me luck, geeks.<img src=\"http://feeds.feedburner.com/~r/smbc-comics/PvLb/~4/ounMit3BxgU\" height=\"1\" width=\"1\"/>") (pubDate nil "Mon, 07 Apr 2014 00:00:00 -0400") (feedburner:origLink nil "http://www.smbc-comics.com/index.php?db=comics&id=3320")) (item nil (link nil "http://feedproxy.google.com/~r/smbc-comics/PvLb/~3/tgFr3zBdnCk/index.php") (title nil "April 06, 2014") (description nil "<img src=\"http://www.smbc-comics.com/comics/20140406.png\"><br>
+Hoping the parents decide to skip a day...<br>
+<br>
+PS: Just because I worry about this, this comic is in no way meant to insult or belittle trans people. In case it wasn't perfectly clear, the problem Popeye is having is with the accidental alteration of his physical appearance to something he dislikes. If it were on purpose, there would be no joke. <3, Zach<img src=\"http://feeds.feedburner.com/~r/smbc-comics/PvLb/~4/tgFr3zBdnCk\" height=\"1\" width=\"1\"/>") (pubDate nil "Sun, 06 Apr 2014 00:00:00 -0400") (feedburner:origLink nil "http://www.smbc-comics.com/index.php?db=comics&id=3319")) (item nil (link nil "http://feedproxy.google.com/~r/smbc-comics/PvLb/~3/uQJ_yvl-yCg/index.php") (title nil "April 05, 2014") (description nil "<img src=\"http://www.smbc-comics.com/comics/20140405.png\"><br>
+Kerpow!<img src=\"http://feeds.feedburner.com/~r/smbc-comics/PvLb/~4/uQJ_yvl-yCg\" height=\"1\" width=\"1\"/>") (pubDate nil "Sat, 05 Apr 2014 00:00:00 -0400") (feedburner:origLink nil "http://www.smbc-comics.com/index.php?db=comics&id=3318")))) ("April 09, 2014" "<img src=\"http://www.smbc-comics.com/comics/20140409.png\"><br>
+<script type=\"text/javascript\">
+var gaJsHost = ((\"https:\" == document.location.protocol) ? \"https://ssl.\" : \"http://www.\");
+document.write(unescape(\"%3Cscript src='\" + gaJsHost + \"google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E\"));
+</script>
+<script type=\"text/javascript\">
+try {
+var pageTracker = _gat._getTracker(\"UA-3727700-1\");
+pageTracker._trackPageview();
+} catch(err) {}</script> AND there's a favorite smbc comic of mine over at <a href=https://medium.com/the-nib/d915306346a6>The Nib.<br>
+<br>
+<img src=http://i.imgur.com/lXW1M2I.png?1></a><img src=\"http://feeds.feedburner.com/~r/smbc-comics/PvLb/~4/9FYrD0tx4JY\" height=\"1\" width=\"1\"/>" "http://feedproxy.google.com/~r/smbc-comics/PvLb/~3/9FYrD0tx4JY/index.php" (21316 50624) new 1 nil nil ((link nil "http://feedproxy.google.com/~r/smbc-comics/PvLb/~3/9FYrD0tx4JY/index.php") (title nil "April 09, 2014") (description nil "<img src=\"http://www.smbc-comics.com/comics/20140409.png\"><br>
+<script type=\"text/javascript\">
+var gaJsHost = ((\"https:\" == document.location.protocol) ? \"https://ssl.\" : \"http://www.\");
+document.write(unescape(\"%3Cscript src='\" + gaJsHost + \"google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E\"));
+</script>
+<script type=\"text/javascript\">
+try {
+var pageTracker = _gat._getTracker(\"UA-3727700-1\");
+pageTracker._trackPageview();
+} catch(err) {}</script> AND there's a favorite smbc comic of mine over at <a href=https://medium.com/the-nib/d915306346a6>The Nib.<br>
+<br>
+<img src=http://i.imgur.com/lXW1M2I.png?1></a><img src=\"http://feeds.feedburner.com/~r/smbc-comics/PvLb/~4/9FYrD0tx4JY\" height=\"1\" width=\"1\"/>") (pubDate nil "Wed, 09 Apr 2014 00:00:00 -0400") (feedburner:origLink nil "http://www.smbc-comics.com/index.php?db=comics&id=3322"))) ("April 08, 2014" "<img src=\"http://www.smbc-comics.com/comics/20140408.png\"><br>
+<a href=http://smbc.myshopify.com/collections/frontpage/products/how-to-solve-a-physics-problem-18x24-poster>\"How to Solve a Physics Porblem\" is now available as a poster!<br><br><img src=http://i.imgur.com/F2y1Cyx.jpg></a><img src=\"http://feeds.feedburner.com/~r/smbc-comics/PvLb/~4/tD2nLD5DAN0\" height=\"1\" width=\"1\"/>" "http://feedproxy.google.com/~r/smbc-comics/PvLb/~3/tD2nLD5DAN0/index.php" (21315 29760) new 2 nil nil ((link nil "http://feedproxy.google.com/~r/smbc-comics/PvLb/~3/tD2nLD5DAN0/index.php") (title nil "April 08, 2014") (description nil "<img src=\"http://www.smbc-comics.com/comics/20140408.png\"><br>
+<a href=http://smbc.myshopify.com/collections/frontpage/products/how-to-solve-a-physics-problem-18x24-poster>\"How to Solve a Physics Porblem\" is now available as a poster!<br><br><img src=http://i.imgur.com/F2y1Cyx.jpg></a><img src=\"http://feeds.feedburner.com/~r/smbc-comics/PvLb/~4/tD2nLD5DAN0\" height=\"1\" width=\"1\"/>") (pubDate nil "Tue, 08 Apr 2014 00:00:00 -0400") (feedburner:origLink nil "http://www.smbc-comics.com/index.php?db=comics&id=3321"))) ("April 07, 2014" "<img src=\"http://www.smbc-comics.com/comics/20140407.png\"><br>
+WOOH. Sick and sick kid. Wish me luck, geeks.<img src=\"http://feeds.feedburner.com/~r/smbc-comics/PvLb/~4/ounMit3BxgU\" height=\"1\" width=\"1\"/>" "http://feedproxy.google.com/~r/smbc-comics/PvLb/~3/ounMit3BxgU/index.php" (21314 8896) new 3 nil nil ((link nil "http://feedproxy.google.com/~r/smbc-comics/PvLb/~3/ounMit3BxgU/index.php") (title nil "April 07, 2014") (description nil "<img src=\"http://www.smbc-comics.com/comics/20140407.png\"><br>
+WOOH. Sick and sick kid. Wish me luck, geeks.<img src=\"http://feeds.feedburner.com/~r/smbc-comics/PvLb/~4/ounMit3BxgU\" height=\"1\" width=\"1\"/>") (pubDate nil "Mon, 07 Apr 2014 00:00:00 -0400") (feedburner:origLink nil "http://www.smbc-comics.com/index.php?db=comics&id=3320"))) ("April 06, 2014" "<img src=\"http://www.smbc-comics.com/comics/20140406.png\"><br>
+Hoping the parents decide to skip a day...<br>
+<br>
+PS: Just because I worry about this, this comic is in no way meant to insult or belittle trans people. In case it wasn't perfectly clear, the problem Popeye is having is with the accidental alteration of his physical appearance to something he dislikes. If it were on purpose, there would be no joke. <3, Zach<img src=\"http://feeds.feedburner.com/~r/smbc-comics/PvLb/~4/tgFr3zBdnCk\" height=\"1\" width=\"1\"/>" "http://feedproxy.google.com/~r/smbc-comics/PvLb/~3/tgFr3zBdnCk/index.php" (21312 53568) new 4 nil nil ((link nil "http://feedproxy.google.com/~r/smbc-comics/PvLb/~3/tgFr3zBdnCk/index.php") (title nil "April 06, 2014") (description nil "<img src=\"http://www.smbc-comics.com/comics/20140406.png\"><br>
+Hoping the parents decide to skip a day...<br>
+<br>
+PS: Just because I worry about this, this comic is in no way meant to insult or belittle trans people. In case it wasn't perfectly clear, the problem Popeye is having is with the accidental alteration of his physical appearance to something he dislikes. If it were on purpose, there would be no joke. <3, Zach<img src=\"http://feeds.feedburner.com/~r/smbc-comics/PvLb/~4/tgFr3zBdnCk\" height=\"1\" width=\"1\"/>") (pubDate nil "Sun, 06 Apr 2014 00:00:00 -0400") (feedburner:origLink nil "http://www.smbc-comics.com/index.php?db=comics&id=3319"))) ("April 05, 2014" "<img src=\"http://www.smbc-comics.com/comics/20140405.png\"><br>
+Kerpow!<img src=\"http://feeds.feedburner.com/~r/smbc-comics/PvLb/~4/uQJ_yvl-yCg\" height=\"1\" width=\"1\"/>" "http://feedproxy.google.com/~r/smbc-comics/PvLb/~3/uQJ_yvl-yCg/index.php" (21311 32704) new 5 nil nil ((link nil "http://feedproxy.google.com/~r/smbc-comics/PvLb/~3/uQJ_yvl-yCg/index.php") (title nil "April 05, 2014") (description nil "<img src=\"http://www.smbc-comics.com/comics/20140405.png\"><br>
+Kerpow!<img src=\"http://feeds.feedburner.com/~r/smbc-comics/PvLb/~4/uQJ_yvl-yCg\" height=\"1\" width=\"1\"/>") (pubDate nil "Sat, 05 Apr 2014 00:00:00 -0400") (feedburner:origLink nil "http://www.smbc-comics.com/index.php?db=comics&id=3318"))))

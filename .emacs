@@ -14,6 +14,12 @@
 (add-path "/emacs/plugins/ess") ;; Emacs Speaks Statistics
 (add-path "/emacs/plugins/auto-complete-1.3.1") ;; Autocomplete
 (add-path "/emacs/plugins/emacs-powerline") ;; Powerline
+(add-path "/emacs/plugins/lisp/w3m") ;; w3m
+(add-path "/emacs/plugins/etc/images/w3m")
+(add-path "/emacs/plugins/info/dir")
+(add-path "/emacs/plugins/share/emacs/site-lisp/w3m/")
+(add-path "/emacs/plugins/share/info/")
+
 
 (load-library "modes")
 (load-library "user_interface")

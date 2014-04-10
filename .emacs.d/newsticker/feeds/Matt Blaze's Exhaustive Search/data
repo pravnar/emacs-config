@@ -1,0 +1,1480 @@
+;; -*- coding: utf-8 -*-
+(("Matt Blaze's Exhaustive Search" "Science, Security, Curiosity" "http://www.crypto.com/blog" (21317 36647 516652 214000) feed 0 nil nil ((title nil "Matt Blaze's Exhaustive Search") (link nil "http://www.crypto.com/blog") (description nil "Science, Security, Curiosity") (language nil "en-us") (docs nil "http://blogs.law.harvard.edu/tech/rss") (generator nil "First Person") (managingEditor nil "mab@crypto.com") (webMaster nil "mab@crypto.com") (item nil (title nil "How Law Enforcement Tracks Cellular Phones") (link nil "http://www.crypto.com/blog/celltapping/") (guid nil "http://www.crypto.com/blog/celltapping/") (pubDate nil "Fri, 13 Dec 2013 05:39:31 +0000") (description nil "A brief taxonomy of wiretapping esoterica.
+
+
+
+
+	
+<p>
+<img style=\"margin: 10px 0px 10px 13px\" src=\"http://www.crypto.com/photos/blog/ngnr2000-600.jpg\" alt=\"Recall NGNR2000 DNR\" align=\"right\">
+Recent news stories, notably <a href=\"http://www.usatoday.com/story/news/nation/2013/12/08/cellphone-data-spying-nsa-police/3902809/\">this story in USA Today</a> and <a href=\"http://www.washingtonpost.com/world/national-security/agencies-collected-data-on-americans-cellphone-use-in-thousands-of-tower-dumps/2013/12/08/20549190-5e80-11e3-be07-006c776266ed_story.html\">this story in the Washington Post</a>, have brought to light extensive use of \"Stingray\" devices and \"tower dumps\" by federal -- and local -- law enforcement agencies to track cellular telephones.
+<p>
+Just how how does all this tracking and interception technology work?  There are actually a surprising number of different ways law enforcement agencies can track and get information about phones, each of which exposes different information in different ways. And it's all steeped in arcane surveillance jargon that's evolved over decades of changes in the law and the technology.  So now seems like a good time to summarize what the various phone tapping methods actually are, how they work, and how they differ from one another.
+<p>
+Note that this post is concerned specifically with phone tracking as done by US <em>domestic law enforcement</em> agencies. <em>Intelligence</em> agencies engaged in bulk surveillance, such as the NSA, have different requirements, constraints, and resources, and generally use different techniques. For example, it was recently revealed that NSA has access to <a href=\"http://www.washingtonpost.com/world/national-security/nsa-tracking-cellphone-locations-worldwide-snowden-documents-show/2013/12/04/5492873a-5cf2-11e3-bc56-c6ca94801fac_story.html\">international phone \"roaming\" databases used by phone companies to route calls</a>.  The NSA apparently collects vast amounts of telephone \"metadata\" to discover hidden communications patterns, relationships, and behaviors across the world.  There's also evidence of some data sharing to law enforcement from the intelligence side (see, for example, the DEA's \"Hemisphere\" program). But, as interesting and important as that is, it has little to do with the \"retail\" phone tracking techniques used by local law enforcement, and it's not our focus here.
+<p>
+Phone tracking by law enforcement agencies, in contrast to intelligence agencies, is intended to support investigations of specific crimes and to gather evidence for use in prosecutions.  And so their interception technology -- and the underlying law -- is supposed to be focused on obtaining information about the communications of <em>particular</em> targets rather than of the population at large.
+<p>
+In all, there are six major distinct phone tracking and tapping methods used by investigators in the US: \"call detail records requests\", \"pen register/trap and trace\", \"content wiretaps\", \"E911 pings\", \"tower dumps\", and \"Stingray/IMSI Catchers\".  Each reveals somewhat different information at different times, and each has its own legal implications.  An agency might use any or all of them over the course of a given investigation.  Let's take them one by one.
+<p>
+<a href=\"http://www.crypto.com/blog/celltapping/\">See the rest of this (rather long) entry...</a>")) (item nil (title nil "Voting by Email in New Jersey") (link nil "http://www.crypto.com/blog/njvoting/") (guid nil "http://www.crypto.com/blog/njvoting/") (pubDate nil "Sun, 04 Nov 2012 07:37:37 +0000") (description nil "Some very preliminary thoughts.
+
+
+
+
+	
+<p>
+<a href=\"http://www.flickr.com/photos/mattblaze/2999140247/\"><img style=\"margin 10px 0px 10px 13px\" src=\"http://www.crypto.com/photos/misc/ivot-vote-350.jpg\" align=\"right\"></a>
+New Jersey was hit hard by Hurricane Sandy, and many parts of the state still lack electricity and basic infrastructure.  Countless residents have been displaced, at least temporarily.  And election day is on Tuesday.
+<p>
+There can be little doubt that many New Jerseyans, whether newly displaced or rendered homebound, who had originally intended to cast their votes at their normal neighborhood polling stations will be unable to do so next week.  Unless some new flexible voting options are made available, many people will be disenfranchised, perhaps altering the outcome of races. There are compelling reasons for New Jersey officials to act quickly to create viable, flexible, secure and reliable voting options for their citizens in this emergency.
+<p>
+A few hours ago, Gov. Christie <a href=\"http://www.state.nj.us/governor/news/news/552012/approved/20121103d.html\">announced</a> that voters unable to reach their normal polling places would be permitted to vote by electronic mail.  The directive, outlined <a href=\"http://nj.gov/state/elections/2012-results/directive-email-voting.pdf\">here [pdf],</a> allows displaced registered voters to request a \"mail in\" ballot from their local county clerk by email. The voter can then return the ballot, along with a signed \"waiver of secrecy\" form, by email, to be counted as a regular ballot.  (The process is based on one used for  overseas and military voters, but on a larger scale and with a greatly accelerated timeframe.)
+<p>
+Does email voting make sense for New Jersey during this emergency? It's hard to say one way or the other without a lot more information than has been released so far about how the system will work and how it will be secured.
+<p>
+<a href=\"http://www.crypto.com/blog/njvoting/\">See the rest of this (rather long) entry...</a>")) (item nil (title nil "Having Something to Get Spun Up About") (link nil "http://www.crypto.com/blog/spinup911/") (guid nil "http://www.crypto.com/blog/spinup911/") (pubDate nil "Sat, 10 Sep 2011 18:48:43 +0000") (description nil "Ten years ago tomorrow.
+
+
+
+
+	
+<p>
+A <a href=\"http://www.nytimes.com/2011/09/10/nyregion/biden-describes-bomb-threat-as-security-is-increased.html?hp=&pagewanted=all\">
+recent NY Times piece</a>, on the response to a \"credible, specific and unconfirmed\" threat of a terrorist plot against New York on the tenth anniversary of the September 11 attacks, includes this strikingly telling quote from an anonymous senior law enforcement official: 
+<blockquote>
+\"It's 9/11, baby,\" one official said. \"We have to have something to get spun up about.\"
+</blockquote>
+<p>
+Indeed. But while it's easy to understand this remark as a bitingly candid assessment of the cynical and now reflexive fear mongering that we have allowed to become the most lasting and damaging legacy of Al Qaeda's mad war, I must also admit that there's another, equally true but much sadder, interpretation, at least for me.
+<p>
+We have to get spun up about something because the alternative is simply too painful. I can find essentially two viable emotional choices for tomorrow. One is to get ourselves \"spun up\" about a new threat, worry, take action, defend the homeland and otherwise occupy ourselves with the here and now. The other is quieter and simpler but far less palatable: to privately revisit the unspeakable horrors of that awful, awful, day, dislodging shallowly buried memories that emerge all too easily ten years later.
+<p>
+The relentless retrospective news coverage that (inevitably) is accompanying the upcoming anniversary has more than anything else reactivated the fading sense of overwhelming, escalating sadness I felt ten years ago. Sadness was ultimately the only available response, even for New Yorkers like me who lived only a few miles from the towers. It was in many ways the city's proudest moment, everyone wanting and trying to help, very little panic. But really, there wasn't nearly enough for all of us to do. Countless first responders and construction workers rushed without a thought to ground zero for a rescue that quickly became a recovery operation. Medical personnel reported to emergency rooms to treat wounded survivors who largely didn't exist. You couldn't even donate blood, the supply of volunteers overwhelming the small demand. (Working for AT&amp;T at the time, I went to down to a midtown Manhattan switching office, hoping somehow to be able to help keep our phones working with most of the staff unable to get to work, but it was quickly clear I was only getting in the way of the people there who actually knew how do useful work.)
+<p>
+All most of us could really do that day and in the days that followed was bear witness to the horror of senseless death and try to comprehend the enormity of what was lost. Last words to loved ones, captured in voicemails from those who understood enough about what was happening to know that they would never see their families again. The impossible choice made by so many to jump rather than burn to death. The ubiquitous memorials to the dead, plastered in photocopied posters on walls everywhere around the city, created initially as desperate pleas for information on the missing.
+<p>
+Rudy Giuliani, a New York mayor for whom I normally have little patience, found a deep truth that afternoon when he was asked how many were lost. He didn't know, he said, but he cautioned that it would be \"more than any of us can bear\". 
+<p>
+I remember trying to get angry at the bastards who inflicted this on us, but it didn't really work. Whoever they were, I knew they must be, in the end, simply crazy, beyond the reach of any meaningful kind of retribution. Anger couldn't displace the helplessness and sadness.
+<p>
+Remember all this or get \"spun up\"? Easy, easy choice.")) (item nil (title nil "Wikileaking a Cryptography Lesson") (link nil "http://www.crypto.com/blog/wikileaking/") (guid nil "http://www.crypto.com/blog/wikileaking/") (pubDate nil "Thu, 01 Sep 2011 20:56:34 +0000") (description nil "Authentication and decryption are different.  And sometimes this is important.
+
+
+
+
+	
+<p>
+Everything else aside, the recent Wikileaks/Guardian <a href=\"http://www.wired.com/threatlevel/2011/09/wikileaks-unredacted-cables/\">fiasco</a> (in which the passphrase for a widely-distributed encrypted file containing an un-redacted database of <em>Wikileaks</em> cables ended up published in a book by a <em>Guardian</em> editor) nicely demonstrates an important cryptologic principle: the security properties of keys used for <b>authentication</b> and those used for <b>decryption</b> are quite different.
+<p>
+Authentication keys, such as login passwords, become effectively useless once they are changed (unless they are re-used in other contexts). An attacker who learns an old authentication key would have to travel back in time to make any use of it. But old decryption keys, even after they have been changed, can remain as valuable as the secrets they once protected, forever. Old ciphertext can still be decrypted with the old keys, even if newer ciphertext can't.
+<p>
+And it appears that confusion between these two concepts is at the root of the leak here. Assuming the <em>Guardian</em> editor's narrative accurately describes his understanding of what was going on, he believed that the passphrase he had been given was a temporary password that would have already been rendered useless by the time his book would be published. But that's not what it was at all; it was a decryption key -- for a file whose ciphertext was widely available.
+<p>
+It might be tempting for us, as cryptographers and security engineers, to snicker at both <em>Wikileaks</em> and the <em>Guardian</em> for the sloppy practices that allowed this high-stakes mishap to have happened in the first place.  But we should also observe that confusion between the semantics of authentication and of confidentiality happens because these are, in fact, subtle concepts that are as poorly understood as they are intertwined, even among those who might now be laughing the hardest. The crypto literature is full of examples of protocol failures that have exactly this confusion at their root.
+<p>
+And it should also remind us that, again, cryptographic usability matters. Sometimes quite a bit.")) (item nil (title nil "Why (special agent) Johnny (still) Can't Encrypt") (link nil "http://www.crypto.com/blog/p25/") (guid nil "http://www.crypto.com/blog/p25/") (pubDate nil "Wed, 17 Aug 2011 18:09:55 +0000") (description nil "One-Way Cryptography and the First Rule of Cryptanalysis.
+
+
+
+
+	
+<p>
+<a href=\"http://www.crypto.com/blog/p25\"><img style=\"margin: 10px 0px 10px 13px\" src=\"http://www.crypto.com/photos/misc/xts-keyloader_2000-small2.jpg\" align=\"right\"></a>
+Last week at <a href=\"http://www.usenix.org/events/sec11/\">the 20th
+Usenix Security Symposium</a>, Sandy Clark, Travis Goodspeed, Perry Metzger,
+Zachary Wasserman, Kevin Xu, and I presented our paper
+<a href=\"http://www.crypto.com/papers/p25sec.pdf\"><em>Why (Special Agent) Johnny
+(Still) Can't Encrypt: A Security Analysis of the APCO Project 25 Two-Way Radio System </em>[pdf]</a>.  I'm delighted and honored to report that we won an \"Outstanding Paper\" award.
+<p>
+APCO Project 25 (\"P25\") is a suite of wireless communications protocols designed for government two-way (voice) radio systems, used for everything from dispatching police and other first responders by local government to coordinating federal tactical surveillance operations against organized crime
+and suspected terrorists.  P25 is intended to be
+a \"drop-in\" digital replacement for the analog FM systems traditionally used in public safety two-way radio, adding some additional features and security options.   It use the same frequency bands and channel allocations as the older analog systems it replaces, but with a digital modulation format and various higher-level application protocols (the most important being real-time voice broadcast).
+Although many agencies still use analog radio, P25 adoption has accelerated in
+recent years, especially among federal agencies.
+<p>
+One of the advantages of digital radio, and one of the design goals of P25, is the relative ease with which it can
+encrypt sensitive, confidential voice traffic with strong cryptographic algorithms
+and protocols.
+While most public safety
+two-way radio users (local police dispatch centers and so on)
+typically don't use (or need) encryption, for others -- those engaged in
+surveillance of organized crime,
+counter espionage and executive protection, to name a few -- it has become an essential requirement.  When all radio transmissions were in the clear -- and vulnerable to interception -- these \"tactical\" users needed to be constantly mindful of the threat of eavesdropping by an adversary, and so
+were forced to be stiltedly circumspect in what they could say over the air.
+For these users,
+strong, reliable encryption not only makes their operations more secure, it frees them
+to communicate more effectively.
+<p>
+So how secure is P25? Unfortunately, the news isn't very reassuring.
+<a href=\"http://www.crypto.com/blog/p25/\">See the rest of this (rather long) entry...</a>")) (item nil (title nil "Wiretapping and Cryptography Today") (link nil "http://www.crypto.com/blog/wiretap2010/") (guid nil "http://www.crypto.com/blog/wiretap2010/") (pubDate nil "Tue, 12 Jul 2011 22:36:30 +0000") (description nil "Report from the sky didn't fall department.
+
+
+
+
+	
+<p>
+<a href=\"http://www.flickr.com/photos/mattblaze/2695044170/\"><img style=\"margin: 10px 0px 10px 13px\" src=\"http://www.crypto.com/photos/misc/snst-2-360.jpg\" align=\"right\"></a>
+The <a href=\"http://www.uscourts.gov/Statistics/WiretapReports/WiretapReport2010.aspx\">2010 U.S. Wiretap Report</a> was released a couple
+of weeks ago, the latest in a series of puzzles published annually, on
+and off, by congressional mandate since the Nixon administration.
+The report, as
+its name implies, summarizes legal wiretapping by federal and state law enforcement agencies.   The reports are puzzles because they are notoriously
+incomplete; the data relies on spotty reporting, and information
+on \"national security\" (FISA) taps is excluded altogether.  Still, it's
+the most complete public picture of wiretapping as practiced in the US that we
+have, and as such, is of likely interest to many readers here.
+<p>
+We now know that there were at least 3194 criminal wiretaps
+last year (1207 of these were by federal law enforcement and 1987 were
+done by state and local agencies).  The previous year there were only
+2376 reported, but it isn't clear how much of this increase was due to
+improved data collection in 2010.  Again, this is only \"Title III\" content
+wiretaps for criminal investigations (mostly drug cases); it doesn't include
+\"pen registers\" that record call details without audio or taps for
+counterintelligence and counterterrorism investigations, which presumably
+have accounted for an increasing proportion of intercepts since 2001.
+And there's apparently still a fair
+bit of underreporting in the statistics.  So we don't really know how much wiretapping the government actually does in total or what the trends
+really look like.  There's a lot of noise among the signals here.
+<p>
+But for all the noise, one interesting fact stands out rather clearly.
+Despite dire predictions to the contrary,
+the open availability of cryptography has done little
+to hinder law enforcement's ability to conduct investigations.
+<a href=\"http://www.crypto.com/blog/wiretap2010/\">See the rest of this (rather long) entry...</a>")) (item nil (title nil "Google Plus") (link nil "http://www.crypto.com/blog/GPlus/") (guid nil "http://www.crypto.com/blog/GPlus/") (pubDate nil "Mon, 11 Jul 2011 00:13:31 +0000") (description nil "I, for one, welcome our Googly overlords.
+
+
+
+
+	
+<p>
+A while back when I tried to sign up for a Facebook account it was almost indistinguishable from a phishing attack -- it kept urging me to give them my email and other passwords to \"help\" me keep in better contact with my friends.  (I ended up giving up, but apparently not completely enough to prevent an endless stream of \"friend\" requests from showing up in my mailbox.)
+<p>
+Signing up for <a href=\"https://plus.google.com\">Google+</a> this week was different. It already knew who all my contacts were, no passwords required.
+<p>
+I'm not sure, in retrospect, which was more disconcerting. If FB signup raised my phishing defenses, joining G+ felt more like a cyber-Mafia shakedown. All that was missing from the exhaustive list of friends and loved ones was \"... it would be a shame if something happened to these people.\"
+<p>
+I'd say to look for me there, but it seems you won't have to.")) (item nil (title nil "I'll be on WHYY's Radio Times today") (link nil "http://www.crypto.com/blog/radiotimes/") (guid nil "http://www.crypto.com/blog/radiotimes/") (pubDate nil "Tue, 07 Jun 2011 11:33:43 +0000") (description nil "Radio is what our grandparents listened to before there were podcasts.
+
+
+
+
+	
+<p>
+I'll be talking about computer security and cyberwar this morning live
+at 10am on WHYY-FM's otherwise excellent
+<a href=\"http://whyy.org/cms/radiotimes/2011/06/07/cyberwarfare-and-cybersecurity/\"><em>Radio Times</em></a> show.
+For those who aren't up before the crack of noon, I'm told the show will also be repeated at 10pm as well as podcast online.
+(WHYY is the Philadelphia NPR affiliate).")) (item nil (title nil "Shaking Down Science") (link nil "http://www.crypto.com/blog/copywrongs/") (guid nil "http://www.crypto.com/blog/copywrongs/") (pubDate nil "Tue, 01 Mar 2011 02:58:18 +0000") (description nil "Why do IEEE and ACM act against the interests of scholars?
+
+
+
+
+	
+<p>
+If there is one area where the Web and Internet publishing is truly fulfilling
+its promise, it has to be the free and open availability of scholarly research from all over the world, to anyone who cares to study it.
+ Today's academic does not just publish or perish, but does so
+on the Web first.  This has made science and scholarship not only more democratic -- no journal subscriptions or university library access required to participate -- but faster and better.
+<p>
+And many of the most prominent scientific and engineering societies are doing everything in their power to put a stop to it.  They want to get paid first.
+<p>
+I've <a href=\"http://www.crypto.com/blog/free_usenix\">written here before</a> about
+the way certain major technical societies use regressive, coercive copyright
+policies to obtain from authors exclusive rights to the papers that appear at the conferences
+and in the journals that they organize.
+These organizations, rooted in a rapidly disappearing print-based publishing economy, believe that they naturally \"own\" the writings that (unpaid) authors, editors and reviewers produce.
+They insist on copyright control as a condition of publication, arguing that the sale of conference proceedings and journal subscriptions provides an essential revenue stream that subsidizes their other good works.
+But this income, however well it might be used, has evolved into an ill-gotten entitlement.   We write scientific papers first and last because we want them read.  When papers were disseminated solely in print form it might have been reasonable to expect authors to donate the copyright in exchange for production and distribution.  Today, of course, this model seems, at best, quaintly out of touch with the needs of researchers and academics who no longer expect or
+tolerate the delay and expense of seeking out printed copies of far-flung documents.  We expect to find on it on the open web, and not hidden
+behind a paywall, either.
+<p>
+In my field, computer science (the very field which, ironically, created
+all this new publishing technology in the first place), some of the most restrictive copyright policies can be found in the two largest and oldest professional societies:
+the <a href=\"http://www.acm.org/\">ACM</a>
+and the <a href=\"http://www.ieee.org\">IEEE</a>.
+<p>
+Fortunately, these copyrights have been honored mostly in the breach as far as author-based web publishing has been concerned.
+Many academics
+make their papers available on their personal web sites, a practice that a
+growing number of university libraries,
+<a href=\"http://repository.upenn.edu/\">
+including my own,</a>
+have begun to formalize by hosting
+institution-wide web repositories of faculty papers.  This practice has
+flourished largely through a liberal reading of a provision -- a loophole --
+in many copyright agreements that allows authors to share \"preprint\" versions
+of their papers.
+<p>
+But times may be changing, and not for the better.   Some time in January,
+the IEEE apparently quietly revised its copyright policy to explicitly forbid
+us authors from sharing the \"final\" versions of our papers on the web,
+now reserving that privilege to themselves (available to all comers,
+for the right price).  I found out
+about this policy change in an email sent to all faculty at my school from
+our librarian this morning:
+
+<blockquote>
+February 28, 2011
+<p>
+Dear Faculty,
+<p>
+I am writing to bring to your attention a recent change in IEEE's policy
+for archiving personal papers within institutional repositories.  IEEE
+altered their policy in January from allowing published versions of
+articles to be saved in repositories, like ScholarlyCommons, to only
+allowing pre-published versions.  We received no prior notice about this
+change.
+<p>
+As a result, if you or your students/colleagues publish with IEEE and
+submit papers to ScholarlyCommons, I am writing to ask that you PLEASE
+REFRAIN FROM UPLOADING ANY NEW PUBLISHED VERSIONS OF ARTICLES.  It is
+unclear yet whether IEEE material uploaded prior to January already
+within ScholarlyCommons will need to be removed.  Anything new added at
+this point, however, would be in violation of their new policy.
+<p>
+...
+</blockquote>
+To be fair to IEEE, the ACM's official policy is at least as bad.
+Not all technical societies
+are like this; for example, <a href=\"http://www.usenix.org\">Usenix</a>, on
+whose board I serve, manages to thrive despite making all its publications available online for free, no paywall access required.
+<p>
+Enough is enough. A few years ago, I stopped renewing my ACM
+and IEEE memberships in protest, but that now seems an inadequate gesture. 
+These once great organizations, which exist, remember, to promote the
+exchange and advancement of scientific knowledge, have
+taken a terribly wrong turn in putting their own profits over science.
+The directors and publication board
+members of societies that adopt such policies have allowed a tunnel
+vision of purpose to sell out
+the interests of their members.  To hell with them.
+<p>
+So from now on, I'm adopting my own copyright policies.  In a perfect world,
+I'd simply refuse to publish in IEEE or ACM venues, but that stance is
+complicated
+by my obligations to my student co-authors, who need a wide range
+of publishing options if they are to succeed in their
+budding careers.
+So instead, I will no longer
+serve as a program chair, program committee member, editorial board
+member, referee or reviewer for any conference or journal that does not
+make its papers freely available on the web or at least allow authors to
+do so themselves. 
+<p>
+Please join me.   If enough scholars refuse their services
+as volunteer organizers and reviewers, the quality and prestige of these
+closed publications will diminish and with it their coercive copyright
+power over the authors of new and innovative research.  Or, better yet,
+they will adapt and once again promote, rather than inhibit, progress.
+<br/>
+<br/>
+<br/>
+<b>Update 2 March 2011:</b> <em>There's been quite a response to this post; I
+seem to have hit a high-pressure reservoir of resentment against these
+anti-science publishing policies.  But several people have written me defending ACM's copyright transfer in particular as being \"not as bad\", since authors are
+permitted to post an \"author prepared\" version on their own web sites if
+they choose.  Yes, a savvy ACM author can prepare a special version and hack
+around the policy.
+But the copyright remains with ACM, and the authoritative reviewed final manuscript stays hidden behind the ACM paywall.
+<p>
+Until that changes, I'll confine my service to open-access conferences such as those organized by Usenix.
+<p>
+<b>Update 4 March 2011:</b> <em>I'm told that some ACM sub-groups (such as SIGCOMM) have negotiated non-paywalled access to their conferences' proceedings.  So conference organizers and small groups really can have an impact here!  Protest is not futile.</em>
+<p>
+<b>Update 8 March 2011:</b> <em>A prominent member of the ACM asserted to me that copyright assignment and putting papers behind the ACM's centralized \"digital library\" paywall is the best way to ensure their long-term \"integrity\".  That's certainly a novel theory; most computer scientists would say that wide replication, not centralization, is the best way to ensure availability, and that a
+centrally-controlled repository is more subject to tampering and other mischief than a decentralized and replicated one.
+Usenix's open-access proceedings, by the way, are archived through
+the <a href=\"http://lockss.stanford.edu/lockss/Home\">Stanford LOCKSS</a> project.  Paywalls are poor way to ensure permanence. </em>
+<p>
+<b>Update 9 March 2011:</b> <em>David A. Hodges, IEEE VP of Publication
+Products and Services just sent me a
+(for some reason in PDF format)</a> \"clarifying\" the new policy.  He confirms that IEEE authors are still permitted to post a pre-publication
+version on their
+own (or their employer's) web site, but are now (as of January) prohibited
+from posting the authoritative \"published\" PDF version, which will be
+available exclusively from the IEEE paywall.  (You can read his note
+<a href=\"http://www.crypto.com/papers/IEEE-Response-to-Blaze.pdf\">here [pdf]</a>).</em>
+<p>
+Still no word on whether there's a reason for this policy change other than
+the obvious rent-seeking behavior that it appears to be.  According to this
+<a href=\"http://www.ieee.org/documents/authorversionfaq.pdf\">FAQ [pdf]</a>,
+the reason for the policy change is to \"exercise better control over
+IEEE's intellectual property\".  Which is exactly the problem.
+</em>")) (item nil (title nil "Exhaustive Search Goes to Law School") (link nil "http://www.crypto.com/blog/law_school_exam/") (guid nil "http://www.crypto.com/blog/law_school_exam/") (pubDate nil "Fri, 31 Dec 2010 18:17:38 +0000") (description nil "Contract law for psychic cryptographers.
+
+
+
+
+	
+<p>
+A couple of years ago Jutta Degener and I
+became the first people to solve
+<a href=\"http://www.randi.org\">James Randi's</a>
+$1,000,000 paranormal challenge.
+We derived, from thousands of miles away, the secret contents of a
+locked box held in Randi's offices set up to test whether psychic
+\"remote viewing\" was possible.  Not being actual psychics, we had to
+exploit a weak home-brewed cryptographic commitment scheme that Randi
+had cooked up to authenticate the box's contents rather than the paranormal
+powers he was hoping to test for, but we did correctly figure out that
+the box contained a compact disk.  And being nice people, we never
+formally asked for the million bucks, although we did have a bit of
+fun <a href=\"http://www.crypto.com/blog/psychic_cryptanalysis/\">
+blogging</a> about the cryptologic implications of psychic testing,
+which you can read <a href=\"http://www.crypto.com/blog/psychic_cryptanalysis/\">here</a>.
+<p>
+Our feat of \"psychic cryptanalysis\" got a bit more
+<a href=\"http://www.wired.com/threatlevel/2007/03/cryptographer_s/\">
+attention</a> than I had expected
+given that our earthly cryptographic abilities are anything but paranormal,
+but you never know where the Internet will take things.
+But I was
+even more surprised when someone recently sent me a link to
+<a href=\"http://justice.law.stetson.edu/courses/contracts_exams/pdfs/Spring%202007%20Exam%20-%20Contracts%20I.pdf\">this
+final exam from a contracts course at the Stetson University College of Law
+[pdf]</a>.
+<p>
+Now, my mother definitely didn't raise me to be a law school exam
+question, and yet there we are, playing a staring role in the question
+on the forth page.
+I have no idea whether to be flattered or horrified, but for the record
+(especially in case the IRS is reading), we never asked for or received the million dollars.  And I've definitely never been been to an Alaskan psychic's
+convention.
+<p>
+The one thing I'm sure of is that Prof. Jimenez (who I've never
+met) will be
+making a guest appearance on some exam of mine in
+the near future.  In a perfect world, he might play a role in
+a question involving copyright infringement, defamation,
+and false-light privacy, but since I teach computer science,
+not law, something about
+<a href=\"http://www.crypto.com/course/archive/fall04/cse380/midterm1solutions.pdf\">operating systems</a> will probably have to do
+instead.")) (item nil (title nil "No, You Can't Have My Slides") (link nil "http://www.crypto.com/blog/slideware/") (guid nil "http://www.crypto.com/blog/slideware/") (pubDate nil "Thu, 25 Nov 2010 03:22:52 +0000") (description nil "Why I hate PowerPoint, and you should, too.
+
+
+
+
+	
+<p>
+Fair warning: If I give a talk --- at your conference, lecture series, meeting,
+whatever -- and you ask me for \"a copy of my presentation\" I'm probably going
+to refuse.  It isn't personal and I'm not trying to be difficult.   It's just that I have nothing that I can sensibly give you.
+<p>
+Many speakers these days make their visual aids available, but I don't.
+I don't always use any, but even when I do, they just aren't intended to be
+comprehensible outside the context of my talk.  Creating slides that can
+serve double duty as props for my talk <em>and</em> as a stand-alone
+summary of the content is, I must confess, a talent that lies beyond the
+limits of my ability.
+Fortunately, when I give a talk I've usually also written
+something about the subject too, and almost all my papers are freely available to all.  Unlike my slides, I try to write in a way that
+makes sense even without me standing there explaining things while you read.
+<p>
+\"Presentation software\" like PowerPoint (and KeyNote and others of that ilk)
+has blurred the line between mere visual aids and the presentations themselves.
+I've grown to loathe PowerPoint, not because of particular
+details that don't suit me (though it would be nice if it
+handled equations more cleanly), but because it gets things precisely
+backwards.  When I give a talk, I want to be in control.  But the software
+has other ideas.
+<p>
+PowerPoint isn't content to sit in the background and project the occasional
+chart, graph or bullet list.  It wants to <em>organize</em> the talk, to manage the presentation.  There's always going to be a slide up, whether you need it there or not.  Want to skip over some material?  OK, but only by letting
+the audience watch as you fast-forward awkwardly through the pre-set order.
+Change the order around to answer a question?  Tough -- should have thought of that before you started.  You are not the one in charge here, and don't you
+forget it.
+<p>
+When I give a talk, I like to rely on a range of tools -- my voice,
+hand gestures, props, live demos, and, yes, PowerPoint slides.   I tend
+to mix and match.  In other words, from PowerPoint's perspective, I'm usually
+using it <em>badly</em>, even abusively.  I often ignore the slides for
+minutes on end, or digress on points only elliptically hinted at on the screen.
+When I really get going, the sides are by themselves useless or, worse,
+outright misleading.  Distributing them separately would at best be
+an invitation to take them hopelessly and confusingly out of context, and at worst, a form of perjury.
+<p>
+Unfortunately, \"PowerPoint\" has become synonymous these days
+with \"presentation\", but I just don't work that way. 
+Maybe you don't work that way either.
+There's no one-size-fits-all way to give a talk,
+or even a one-size-fits-me way.  So when I'm asked for my slides, I must
+politely refuse and offer my papers as a substitute (an idea I owe to
+the great <a href=\"http://www.edwardtufte.com/tufte/\">Edward Tufte</a>).
+<p>
+Fortunately, I'm senior enough (or have a reputation for being cranky enough)
+that I can usually get away with refusing.   Sometimes, though, when pressed hard,
+I'll give in and send
+<a href=\"http://www.crypto.com/papers/rsa2011-blaze.pdf\">these slides [pdf]</a>.
+<br/>
+<br/>
+<br/>
+<b>Addendum 26 November 2010:</b>  <em>This post sure has struck a (perhaps
+dissonant) chord somewhere, especially for a long holiday weekend.
+I'm grateful to all who've emailed, blogged, and tweeted.
+<p>
+Several people have thoughtfully suggested their favorite alternatives to PowerPoint
+(Prezi seems to be the popular choice), which I'll certainly check out.
+And for the record, yes, I know about (and use when I can) PowerPoint's
+\"presenter\" mode, which improves control over the audience display.
+Unfortunately, both alternative software and presenter mode, while
+improvements, are at best unreliable, since they assume a particular
+configuration on the projecting computer.  It often isn't possible to
+project from a personal laptop (especially in conferences run on tight schedules), leaving us at the mercy of whatever is at
+the podium.  And that often means PowerPoint in single-screen mode.
+<p>
+In any case, while there is certainly room for me to improve my mastery of
+PowerPoint and its alternatives, this wouldn't solve the basic problem, which is that, in my case at least, my slides -- when I use them at all -- aren't the
+content.  They won't help you understand things much more than would
+any of the other stuff I also happen to bring up on stage with me, like, say, my shoes (which you can't have, either).  But
+you're welcome to my papers.</em>")) (item nil (title nil "Professor Blaze Goes To Washington") (link nil "http://www.crypto.com/blog/ecpa_hearing/") (guid nil "http://www.crypto.com/blog/ecpa_hearing/") (pubDate nil "Thu, 24 Jun 2010 11:48:15 +0000") (description nil "Hearing on \"ECPA Reform and the Revolution in Location-Based Technologies and Services\".
+
+
+
+
+	
+<p>
+I'll be the first witness at this morning's (6/24/10) House Judiciary
+Committee hearing on
+<a href=\"http://judiciary.house.gov/hearings/hear_100624.html\">ECPA
+Reform and the Revolution in Location-Based Technology</a>, which,
+for DC locals, will start at 10am in room 2233 of the Rayburn building.
+<p>
+My
+<a href=\"http://www.crypto.com/papers/blaze-judiciary-20100624.pdf\">testimony
+[pdf]</a> will focus on the technical: how modern cell phones and wireless
+services calculate location, and how accurately they can track and record
+users' positions and movements.  This is all in the context of surveillance: when the government gets a pen register order against a cell phone, for example, what information do (or should) they get about the target's location and movements compared with other kinds of tracking technology?
+<p>
+Other witnesses will include (among others) a special agent (from the Tennessee Bureau of Investigation) who does electronic surveillance, and a federal magistrate judge
+who has to sort out the legal issues when the government requests tracking
+information about a suspect.  The hearing promises to be an
+interesting glimpse into how location tracking actually works in criminal
+investigations. 
+<p>
+No idea if the hearing will be shown via a webcast or C-SPAN coverage.
+<p>
+<em>Update 6/28/10:</em> The hearing was interesting, and I especially enjoyed Chairman Nadler's line of questions to me about how the technology works and about the records kept by carriers.  Unfortunately, video of the hearing doesn't appear to be available online anywhere, at least at the moment.
+<br/>
+<em>Update 5/16/12:</em> An updated version of my testimony is available at <tt><a href=\"http://www.crypto.com/papers/blaze-gps-20120517.pdf\">http://www.crypto.com/papers/blaze-gps-20120517.pdf</a></tt>, as a statement for the record at a house hearing on the \"GPS Act\".")) (item nil (title nil "After the Afterword") (link nil "http://www.crypto.com/blog/afterword/") (guid nil "http://www.crypto.com/blog/afterword/") (pubDate nil "Fri, 09 Apr 2010 20:24:06 +0000") (description nil "Has computer security changed in 15 years?
+
+
+
+<p>
+Back in 1995, Bruce Schneier asked me to write an \"afterword\" for the second edition of <em>Applied Cryptography</em>.   Perhaps to his chagrin, I couldn't think of any better way to sum up a book about cryptography than to dismiss what was then a popular delusion about the subject: that it, above all else, held the secret for securing computers.
+<p>
+1995 now seems like a long time ago, technically and culturally.  The Web was barely around.  Highly connected people had fax lines at home.  The Soviet Union had only recently dissolved.  I could see the World Trade Center from my bedroom window.
+<p>
+Essays written that long ago, especially those about rapidly changing technology, can be a bit embarrassing to read -- conspicuously oblivious to some fast approaching meteorite that would shortly make the author's basic assumptions extinct.  Or they might seem retrospectively obvious and trite: war is bad, puppies are cute, and computers are insecure.
+<p>
+And so it was with some trepidation that I recently dusted off my copy of Bruce's book and found myself staring at my thoughts on cryptography from the previous century.
+
+<a href=\"http://www.crypto.com/blog/afterword/\">See the rest of this (rather long) entry...</a>")) (item nil (title nil "The Spy in the Middle") (link nil "http://www.crypto.com/blog/spycerts/") (guid nil "http://www.crypto.com/blog/spycerts/") (pubDate nil "Wed, 24 Mar 2010 18:23:34 +0000") (description nil "Are SSL certificates even more broken than we thought?
+
+
+
+
+	
+<p>
+A decade ago, I observed that commercial certificate authorities protect you from anyone from whom they are unwilling to take money.  That turns out to be wrong; they don't even do that much.
+<p>
+SSL certificates are the primary mechanism for ensuring that secure web sites -- those displaying that reassuring \"padlock\" icon in the address bar -- really are who they purport to be.   In order for your browser to display the padlock icon, a web site must first present a \"certificate\", digitally signed by a trusted \"root\" authority, that attests to its identity and encryption keys.
+<p>
+Unfortunately, through a confluence of sloppy design, naked commercial maneuvering, and bad user interfaces, today's web browsers have evolved to accept certificates issued by a surprisingly large number of root authorities, from tiny, obscure businesses to various national governments.  And a certificate from any one of them is usually sufficient to bless any web connection as being \"secure\".
+<p>
+What this means is that an eavesdropper who can obtain fake certificates from <em>any</em> certificate authority can successfully impersonate <em>every</em> encrypted web site someone might visit.  Most browsers will happily (and silently) accept new certificates from any valid authority, even for web sites for which certificates had already been obtained.  An eavesdropper with fake certificates and access to a target's internet connection can thus quietly interpose itself as a \"man-in-the-middle\", observing and recording all encrypted web traffic traffic, with the user none the wiser.
+<p>
+But how much of a threat is this in practice?  Are there really eavesdroppers out there -- be they criminals, spies, or law enforcement agencies -- using bogus certificates to intercept encrypted web traffic?  Or is this merely idle speculation, of only theoretical concern?
+<p>
+A <a href=\"http://files.cloudprivacy.net/ssl-mitm.pdf\">paper published today by Chris Soghoian and Sid Stamm [pdf]</a> suggests that the threat may be far more practical than previously thought.   They found turnkey surveillance products, marketed and sold to law enforcement and intelligence agencies in the US and foreign countries, designed to collect encrypted SSL traffic based on forged \"look-alike\" certificates obtained from cooperative certificate authorities.  The products (apparently available only to government agencies) appear sophisticated, mature, and mass-produced, suggesting that \"certified man-in-the-middle\" web surveillance is at least commonplace and widespread enough to support an active vendor community.  Wired's Ryan Singel reports in depth <a href=\"http://www.wired.com/threatlevel/2010/03/packet-forensics/\">here</a>.
+<p>
+It's worth pointing out that, from the perspective of a law enforcement or intelligence agency, this sort of surveillance is far from ideal.  A central requirement for most government wiretapping (mandated, for example, in the CALEA standards for telephone interception) is that surveillance be undetectable.  But issuing a bogus web certificate carries with it the risk of detection by the target, either in real-time or after the fact, especially if it's for a web site already visited.  Although current browsers don't ordinarily detect unusual or suspiciously changed certificates, there's no fundamental reason they couldn't (and the Soghoian/Stamm paper proposes a Firefox plugin to do just that).  In
+any case, there's no reliable way for the wiretapper to know in advance whether the target will be alerted by a browser that scrutinizes new certificates.
+<p>
+Also, it's not clear how web interception would be particularly useful for many of the most common law enforcement investigative scenarios.  If a suspect is buying books or making hotel reservations online, it's usually a simple (and legally relatively uncomplicated) matter to just ask the vendor about the transaction, no wiretapping required.  This suggests that these products may be aimed less at law enforcement than at national intelligence agencies, who might be reluctant (or unable) to obtain overt cooperation from web site operators (who may be located abroad).
+<p>
+Whether this kind of surveillance is currently widespread or not, Soghoian and Stamm's paper underscores the deeply flawed mess that the web certificate model has become.  It's time to design something better.")) (item nil (title nil "Fighting Terror with Uncertainty") (link nil "http://www.crypto.com/blog/random/") (guid nil "http://www.crypto.com/blog/random/") (pubDate nil "Thu, 31 Dec 2009 05:02:02 +0000") (description nil "Has the TSA made it easier for terrorists to game the system?
+
+
+
+
+	
+<p>
+It's been a frighteningly confusing week for frequent flyers (and confirmed cowards) like me.  First we had the Underpants Bomber, his Christmas-day
+attempt to take down a Detroit-bound flight thwarted by slow-acting chemistry and quick-thinking passengers.  Next -- within a day -- came inexplicable new regulations that seemed designed more to punish the rest of us than to discourage future acts of terrorism.  The new rules were unsettling not just because they seemed as laughably ineffective as they were inconvenient,
+but because they suggested
+that the authorities had no idea what to do, no real process for analyzing
+and reacting to potential new threats.  As the
+<em>Economist</em> was moved to write,
+<a href=\"http://www.economist.com/blogs/gulliver/2009/12/the_latest_on_flight_253\">\"the people who run America's airport security apparatus appear to have gone insane\"</a>.
+<p>
+A few days later the TSA, to its credit, rolled back some of the more
+arbitrarily punitive restrictions -- in-flight entertainment systems can now
+be turned back on, and passengers are, at the airline's discretion, again permitted to use the toilets during the last hour of flight.
+<p>
+But while a degree of sanity may have returned to some
+of the rules, the TSA's new security philosophy appears to yield significant advantage to attackers.  The current approach may actually make us more
+vulnerable to disruption and terror now than we were before.
+
+<a href=\"http://www.crypto.com/blog/random/\">See the rest of this (rather long) entry...</a>")))) ("How Law Enforcement Tracks Cellular Phones" "A brief taxonomy of wiretapping esoterica.
+<p>
+<img style=\"margin: 10px 0px 10px 13px\" src=\"http://www.crypto.com/photos/blog/ngnr2000-600.jpg\" alt=\"Recall NGNR2000 DNR\" align=\"right\">
+Recent news stories, notably <a href=\"http://www.usatoday.com/story/news/nation/2013/12/08/cellphone-data-spying-nsa-police/3902809/\">this story in USA Today</a> and <a href=\"http://www.washingtonpost.com/world/national-security/agencies-collected-data-on-americans-cellphone-use-in-thousands-of-tower-dumps/2013/12/08/20549190-5e80-11e3-be07-006c776266ed_story.html\">this story in the Washington Post</a>, have brought to light extensive use of \"Stingray\" devices and \"tower dumps\" by federal -- and local -- law enforcement agencies to track cellular telephones.
+<p>
+Just how how does all this tracking and interception technology work?  There are actually a surprising number of different ways law enforcement agencies can track and get information about phones, each of which exposes different information in different ways. And it's all steeped in arcane surveillance jargon that's evolved over decades of changes in the law and the technology.  So now seems like a good time to summarize what the various phone tapping methods actually are, how they work, and how they differ from one another.
+<p>
+Note that this post is concerned specifically with phone tracking as done by US <em>domestic law enforcement</em> agencies. <em>Intelligence</em> agencies engaged in bulk surveillance, such as the NSA, have different requirements, constraints, and resources, and generally use different techniques. For example, it was recently revealed that NSA has access to <a href=\"http://www.washingtonpost.com/world/national-security/nsa-tracking-cellphone-locations-worldwide-snowden-documents-show/2013/12/04/5492873a-5cf2-11e3-bc56-c6ca94801fac_story.html\">international phone \"roaming\" databases used by phone companies to route calls</a>.  The NSA apparently collects vast amounts of telephone \"metadata\" to discover hidden communications patterns, relationships, and behaviors across the world.  There's also evidence of some data sharing to law enforcement from the intelligence side (see, for example, the DEA's \"Hemisphere\" program). But, as interesting and important as that is, it has little to do with the \"retail\" phone tracking techniques used by local law enforcement, and it's not our focus here.
+<p>
+Phone tracking by law enforcement agencies, in contrast to intelligence agencies, is intended to support investigations of specific crimes and to gather evidence for use in prosecutions.  And so their interception technology -- and the underlying law -- is supposed to be focused on obtaining information about the communications of <em>particular</em> targets rather than of the population at large.
+<p>
+In all, there are six major distinct phone tracking and tapping methods used by investigators in the US: \"call detail records requests\", \"pen register/trap and trace\", \"content wiretaps\", \"E911 pings\", \"tower dumps\", and \"Stingray/IMSI Catchers\".  Each reveals somewhat different information at different times, and each has its own legal implications.  An agency might use any or all of them over the course of a given investigation.  Let's take them one by one.
+<p>
+<a href=\"http://www.crypto.com/blog/celltapping/\">See the rest of this (rather long) entry...</a>" "http://www.crypto.com/blog/celltapping/" (21162 40339) new 1 nil nil ((title nil "How Law Enforcement Tracks Cellular Phones") (link nil "http://www.crypto.com/blog/celltapping/") (guid nil "http://www.crypto.com/blog/celltapping/") (pubDate nil "Fri, 13 Dec 2013 05:39:31 +0000") (description nil "A brief taxonomy of wiretapping esoterica.
+
+
+
+
+	
+<p>
+<img style=\"margin: 10px 0px 10px 13px\" src=\"http://www.crypto.com/photos/blog/ngnr2000-600.jpg\" alt=\"Recall NGNR2000 DNR\" align=\"right\">
+Recent news stories, notably <a href=\"http://www.usatoday.com/story/news/nation/2013/12/08/cellphone-data-spying-nsa-police/3902809/\">this story in USA Today</a> and <a href=\"http://www.washingtonpost.com/world/national-security/agencies-collected-data-on-americans-cellphone-use-in-thousands-of-tower-dumps/2013/12/08/20549190-5e80-11e3-be07-006c776266ed_story.html\">this story in the Washington Post</a>, have brought to light extensive use of \"Stingray\" devices and \"tower dumps\" by federal -- and local -- law enforcement agencies to track cellular telephones.
+<p>
+Just how how does all this tracking and interception technology work?  There are actually a surprising number of different ways law enforcement agencies can track and get information about phones, each of which exposes different information in different ways. And it's all steeped in arcane surveillance jargon that's evolved over decades of changes in the law and the technology.  So now seems like a good time to summarize what the various phone tapping methods actually are, how they work, and how they differ from one another.
+<p>
+Note that this post is concerned specifically with phone tracking as done by US <em>domestic law enforcement</em> agencies. <em>Intelligence</em> agencies engaged in bulk surveillance, such as the NSA, have different requirements, constraints, and resources, and generally use different techniques. For example, it was recently revealed that NSA has access to <a href=\"http://www.washingtonpost.com/world/national-security/nsa-tracking-cellphone-locations-worldwide-snowden-documents-show/2013/12/04/5492873a-5cf2-11e3-bc56-c6ca94801fac_story.html\">international phone \"roaming\" databases used by phone companies to route calls</a>.  The NSA apparently collects vast amounts of telephone \"metadata\" to discover hidden communications patterns, relationships, and behaviors across the world.  There's also evidence of some data sharing to law enforcement from the intelligence side (see, for example, the DEA's \"Hemisphere\" program). But, as interesting and important as that is, it has little to do with the \"retail\" phone tracking techniques used by local law enforcement, and it's not our focus here.
+<p>
+Phone tracking by law enforcement agencies, in contrast to intelligence agencies, is intended to support investigations of specific crimes and to gather evidence for use in prosecutions.  And so their interception technology -- and the underlying law -- is supposed to be focused on obtaining information about the communications of <em>particular</em> targets rather than of the population at large.
+<p>
+In all, there are six major distinct phone tracking and tapping methods used by investigators in the US: \"call detail records requests\", \"pen register/trap and trace\", \"content wiretaps\", \"E911 pings\", \"tower dumps\", and \"Stingray/IMSI Catchers\".  Each reveals somewhat different information at different times, and each has its own legal implications.  An agency might use any or all of them over the course of a given investigation.  Let's take them one by one.
+<p>
+<a href=\"http://www.crypto.com/blog/celltapping/\">See the rest of this (rather long) entry...</a>"))) ("Voting by Email in New Jersey" "Some very preliminary thoughts.
+<p>
+<a href=\"http://www.flickr.com/photos/mattblaze/2999140247/\"><img style=\"margin 10px 0px 10px 13px\" src=\"http://www.crypto.com/photos/misc/ivot-vote-350.jpg\" align=\"right\"></a>
+New Jersey was hit hard by Hurricane Sandy, and many parts of the state still lack electricity and basic infrastructure.  Countless residents have been displaced, at least temporarily.  And election day is on Tuesday.
+<p>
+There can be little doubt that many New Jerseyans, whether newly displaced or rendered homebound, who had originally intended to cast their votes at their normal neighborhood polling stations will be unable to do so next week.  Unless some new flexible voting options are made available, many people will be disenfranchised, perhaps altering the outcome of races. There are compelling reasons for New Jersey officials to act quickly to create viable, flexible, secure and reliable voting options for their citizens in this emergency.
+<p>
+A few hours ago, Gov. Christie <a href=\"http://www.state.nj.us/governor/news/news/552012/approved/20121103d.html\">announced</a> that voters unable to reach their normal polling places would be permitted to vote by electronic mail.  The directive, outlined <a href=\"http://nj.gov/state/elections/2012-results/directive-email-voting.pdf\">here [pdf],</a> allows displaced registered voters to request a \"mail in\" ballot from their local county clerk by email. The voter can then return the ballot, along with a signed \"waiver of secrecy\" form, by email, to be counted as a regular ballot.  (The process is based on one used for  overseas and military voters, but on a larger scale and with a greatly accelerated timeframe.)
+<p>
+Does email voting make sense for New Jersey during this emergency? It's hard to say one way or the other without a lot more information than has been released so far about how the system will work and how it will be secured.
+<p>
+<a href=\"http://www.crypto.com/blog/njvoting/\">See the rest of this (rather long) entry...</a>" "http://www.crypto.com/blog/njvoting/" (20630 6977) new 2 nil nil ((title nil "Voting by Email in New Jersey") (link nil "http://www.crypto.com/blog/njvoting/") (guid nil "http://www.crypto.com/blog/njvoting/") (pubDate nil "Sun, 04 Nov 2012 07:37:37 +0000") (description nil "Some very preliminary thoughts.
+
+
+
+
+	
+<p>
+<a href=\"http://www.flickr.com/photos/mattblaze/2999140247/\"><img style=\"margin 10px 0px 10px 13px\" src=\"http://www.crypto.com/photos/misc/ivot-vote-350.jpg\" align=\"right\"></a>
+New Jersey was hit hard by Hurricane Sandy, and many parts of the state still lack electricity and basic infrastructure.  Countless residents have been displaced, at least temporarily.  And election day is on Tuesday.
+<p>
+There can be little doubt that many New Jerseyans, whether newly displaced or rendered homebound, who had originally intended to cast their votes at their normal neighborhood polling stations will be unable to do so next week.  Unless some new flexible voting options are made available, many people will be disenfranchised, perhaps altering the outcome of races. There are compelling reasons for New Jersey officials to act quickly to create viable, flexible, secure and reliable voting options for their citizens in this emergency.
+<p>
+A few hours ago, Gov. Christie <a href=\"http://www.state.nj.us/governor/news/news/552012/approved/20121103d.html\">announced</a> that voters unable to reach their normal polling places would be permitted to vote by electronic mail.  The directive, outlined <a href=\"http://nj.gov/state/elections/2012-results/directive-email-voting.pdf\">here [pdf],</a> allows displaced registered voters to request a \"mail in\" ballot from their local county clerk by email. The voter can then return the ballot, along with a signed \"waiver of secrecy\" form, by email, to be counted as a regular ballot.  (The process is based on one used for  overseas and military voters, but on a larger scale and with a greatly accelerated timeframe.)
+<p>
+Does email voting make sense for New Jersey during this emergency? It's hard to say one way or the other without a lot more information than has been released so far about how the system will work and how it will be secured.
+<p>
+<a href=\"http://www.crypto.com/blog/njvoting/\">See the rest of this (rather long) entry...</a>"))) ("Having Something to Get Spun Up About" "Ten years ago tomorrow.
+<p>
+A <a href=\"http://www.nytimes.com/2011/09/10/nyregion/biden-describes-bomb-threat-as-security-is-increased.html?hp=&pagewanted=all\">
+recent NY Times piece</a>, on the response to a \"credible, specific and unconfirmed\" threat of a terrorist plot against New York on the tenth anniversary of the September 11 attacks, includes this strikingly telling quote from an anonymous senior law enforcement official:
+<blockquote>
+\"It's 9/11, baby,\" one official said. \"We have to have something to get spun up about.\"
+</blockquote>
+<p>
+Indeed. But while it's easy to understand this remark as a bitingly candid assessment of the cynical and now reflexive fear mongering that we have allowed to become the most lasting and damaging legacy of Al Qaeda's mad war, I must also admit that there's another, equally true but much sadder, interpretation, at least for me.
+<p>
+We have to get spun up about something because the alternative is simply too painful. I can find essentially two viable emotional choices for tomorrow. One is to get ourselves \"spun up\" about a new threat, worry, take action, defend the homeland and otherwise occupy ourselves with the here and now. The other is quieter and simpler but far less palatable: to privately revisit the unspeakable horrors of that awful, awful, day, dislodging shallowly buried memories that emerge all too easily ten years later.
+<p>
+The relentless retrospective news coverage that (inevitably) is accompanying the upcoming anniversary has more than anything else reactivated the fading sense of overwhelming, escalating sadness I felt ten years ago. Sadness was ultimately the only available response, even for New Yorkers like me who lived only a few miles from the towers. It was in many ways the city's proudest moment, everyone wanting and trying to help, very little panic. But really, there wasn't nearly enough for all of us to do. Countless first responders and construction workers rushed without a thought to ground zero for a rescue that quickly became a recovery operation. Medical personnel reported to emergency rooms to treat wounded survivors who largely didn't exist. You couldn't even donate blood, the supply of volunteers overwhelming the small demand. (Working for AT&amp;T at the time, I went to down to a midtown Manhattan switching office, hoping somehow to be able to help keep our phones working with most of the staff unable to get to work, but it was quickly clear I was only getting in the way of the people there who actually knew how do useful work.)
+<p>
+All most of us could really do that day and in the days that followed was bear witness to the horror of senseless death and try to comprehend the enormity of what was lost. Last words to loved ones, captured in voicemails from those who understood enough about what was happening to know that they would never see their families again. The impossible choice made by so many to jump rather than burn to death. The ubiquitous memorials to the dead, plastered in photocopied posters on walls everywhere around the city, created initially as desperate pleas for information on the missing.
+<p>
+Rudy Giuliani, a New York mayor for whom I normally have little patience, found a deep truth that afternoon when he was asked how many were lost. He didn't know, he said, but he cautioned that it would be \"more than any of us can bear\".
+<p>
+I remember trying to get angry at the bastards who inflicted this on us, but it didn't really work. Whoever they were, I knew they must be, in the end, simply crazy, beyond the reach of any meaningful kind of retribution. Anger couldn't displace the helplessness and sadness.
+<p>
+Remember all this or get \"spun up\"? Easy, easy choice." "http://www.crypto.com/blog/spinup911/" (20075 45323) new 3 nil nil ((title nil "Having Something to Get Spun Up About") (link nil "http://www.crypto.com/blog/spinup911/") (guid nil "http://www.crypto.com/blog/spinup911/") (pubDate nil "Sat, 10 Sep 2011 18:48:43 +0000") (description nil "Ten years ago tomorrow.
+
+
+
+
+	
+<p>
+A <a href=\"http://www.nytimes.com/2011/09/10/nyregion/biden-describes-bomb-threat-as-security-is-increased.html?hp=&pagewanted=all\">
+recent NY Times piece</a>, on the response to a \"credible, specific and unconfirmed\" threat of a terrorist plot against New York on the tenth anniversary of the September 11 attacks, includes this strikingly telling quote from an anonymous senior law enforcement official: 
+<blockquote>
+\"It's 9/11, baby,\" one official said. \"We have to have something to get spun up about.\"
+</blockquote>
+<p>
+Indeed. But while it's easy to understand this remark as a bitingly candid assessment of the cynical and now reflexive fear mongering that we have allowed to become the most lasting and damaging legacy of Al Qaeda's mad war, I must also admit that there's another, equally true but much sadder, interpretation, at least for me.
+<p>
+We have to get spun up about something because the alternative is simply too painful. I can find essentially two viable emotional choices for tomorrow. One is to get ourselves \"spun up\" about a new threat, worry, take action, defend the homeland and otherwise occupy ourselves with the here and now. The other is quieter and simpler but far less palatable: to privately revisit the unspeakable horrors of that awful, awful, day, dislodging shallowly buried memories that emerge all too easily ten years later.
+<p>
+The relentless retrospective news coverage that (inevitably) is accompanying the upcoming anniversary has more than anything else reactivated the fading sense of overwhelming, escalating sadness I felt ten years ago. Sadness was ultimately the only available response, even for New Yorkers like me who lived only a few miles from the towers. It was in many ways the city's proudest moment, everyone wanting and trying to help, very little panic. But really, there wasn't nearly enough for all of us to do. Countless first responders and construction workers rushed without a thought to ground zero for a rescue that quickly became a recovery operation. Medical personnel reported to emergency rooms to treat wounded survivors who largely didn't exist. You couldn't even donate blood, the supply of volunteers overwhelming the small demand. (Working for AT&amp;T at the time, I went to down to a midtown Manhattan switching office, hoping somehow to be able to help keep our phones working with most of the staff unable to get to work, but it was quickly clear I was only getting in the way of the people there who actually knew how do useful work.)
+<p>
+All most of us could really do that day and in the days that followed was bear witness to the horror of senseless death and try to comprehend the enormity of what was lost. Last words to loved ones, captured in voicemails from those who understood enough about what was happening to know that they would never see their families again. The impossible choice made by so many to jump rather than burn to death. The ubiquitous memorials to the dead, plastered in photocopied posters on walls everywhere around the city, created initially as desperate pleas for information on the missing.
+<p>
+Rudy Giuliani, a New York mayor for whom I normally have little patience, found a deep truth that afternoon when he was asked how many were lost. He didn't know, he said, but he cautioned that it would be \"more than any of us can bear\". 
+<p>
+I remember trying to get angry at the bastards who inflicted this on us, but it didn't really work. Whoever they were, I knew they must be, in the end, simply crazy, beyond the reach of any meaningful kind of retribution. Anger couldn't displace the helplessness and sadness.
+<p>
+Remember all this or get \"spun up\"? Easy, easy choice."))) ("Wikileaking a Cryptography Lesson" "Authentication and decryption are different.  And sometimes this is important.
+<p>
+Everything else aside, the recent Wikileaks/Guardian <a href=\"http://www.wired.com/threatlevel/2011/09/wikileaks-unredacted-cables/\">fiasco</a> (in which the passphrase for a widely-distributed encrypted file containing an un-redacted database of <em>Wikileaks</em> cables ended up published in a book by a <em>Guardian</em> editor) nicely demonstrates an important cryptologic principle: the security properties of keys used for <b>authentication</b> and those used for <b>decryption</b> are quite different.
+<p>
+Authentication keys, such as login passwords, become effectively useless once they are changed (unless they are re-used in other contexts). An attacker who learns an old authentication key would have to travel back in time to make any use of it. But old decryption keys, even after they have been changed, can remain as valuable as the secrets they once protected, forever. Old ciphertext can still be decrypted with the old keys, even if newer ciphertext can't.
+<p>
+And it appears that confusion between these two concepts is at the root of the leak here. Assuming the <em>Guardian</em> editor's narrative accurately describes his understanding of what was going on, he believed that the passphrase he had been given was a temporary password that would have already been rendered useless by the time his book would be published. But that's not what it was at all; it was a decryption key -- for a file whose ciphertext was widely available.
+<p>
+It might be tempting for us, as cryptographers and security engineers, to snicker at both <em>Wikileaks</em> and the <em>Guardian</em> for the sloppy practices that allowed this high-stakes mishap to have happened in the first place.  But we should also observe that confusion between the semantics of authentication and of confidentiality happens because these are, in fact, subtle concepts that are as poorly understood as they are intertwined, even among those who might now be laughing the hardest. The crypto literature is full of examples of protocol failures that have exactly this confusion at their root.
+<p>
+And it should also remind us that, again, cryptographic usability matters. Sometimes quite a bit." "http://www.crypto.com/blog/wikileaking/" (20063 61826) new 4 nil nil ((title nil "Wikileaking a Cryptography Lesson") (link nil "http://www.crypto.com/blog/wikileaking/") (guid nil "http://www.crypto.com/blog/wikileaking/") (pubDate nil "Thu, 01 Sep 2011 20:56:34 +0000") (description nil "Authentication and decryption are different.  And sometimes this is important.
+
+
+
+
+	
+<p>
+Everything else aside, the recent Wikileaks/Guardian <a href=\"http://www.wired.com/threatlevel/2011/09/wikileaks-unredacted-cables/\">fiasco</a> (in which the passphrase for a widely-distributed encrypted file containing an un-redacted database of <em>Wikileaks</em> cables ended up published in a book by a <em>Guardian</em> editor) nicely demonstrates an important cryptologic principle: the security properties of keys used for <b>authentication</b> and those used for <b>decryption</b> are quite different.
+<p>
+Authentication keys, such as login passwords, become effectively useless once they are changed (unless they are re-used in other contexts). An attacker who learns an old authentication key would have to travel back in time to make any use of it. But old decryption keys, even after they have been changed, can remain as valuable as the secrets they once protected, forever. Old ciphertext can still be decrypted with the old keys, even if newer ciphertext can't.
+<p>
+And it appears that confusion between these two concepts is at the root of the leak here. Assuming the <em>Guardian</em> editor's narrative accurately describes his understanding of what was going on, he believed that the passphrase he had been given was a temporary password that would have already been rendered useless by the time his book would be published. But that's not what it was at all; it was a decryption key -- for a file whose ciphertext was widely available.
+<p>
+It might be tempting for us, as cryptographers and security engineers, to snicker at both <em>Wikileaks</em> and the <em>Guardian</em> for the sloppy practices that allowed this high-stakes mishap to have happened in the first place.  But we should also observe that confusion between the semantics of authentication and of confidentiality happens because these are, in fact, subtle concepts that are as poorly understood as they are intertwined, even among those who might now be laughing the hardest. The crypto literature is full of examples of protocol failures that have exactly this confusion at their root.
+<p>
+And it should also remind us that, again, cryptographic usability matters. Sometimes quite a bit."))) ("Why (special agent) Johnny (still) Can't Encrypt" "One-Way Cryptography and the First Rule of Cryptanalysis.
+<p>
+<a href=\"http://www.crypto.com/blog/p25\"><img style=\"margin: 10px 0px 10px 13px\" src=\"http://www.crypto.com/photos/misc/xts-keyloader_2000-small2.jpg\" align=\"right\"></a>
+Last week at <a href=\"http://www.usenix.org/events/sec11/\">the 20th
+Usenix Security Symposium</a>, Sandy Clark, Travis Goodspeed, Perry Metzger,
+Zachary Wasserman, Kevin Xu, and I presented our paper
+<a href=\"http://www.crypto.com/papers/p25sec.pdf\"><em>Why (Special Agent) Johnny
+(Still) Can't Encrypt: A Security Analysis of the APCO Project 25 Two-Way Radio System </em>[pdf]</a>.  I'm delighted and honored to report that we won an \"Outstanding Paper\" award.
+<p>
+APCO Project 25 (\"P25\") is a suite of wireless communications protocols designed for government two-way (voice) radio systems, used for everything from dispatching police and other first responders by local government to coordinating federal tactical surveillance operations against organized crime
+and suspected terrorists.  P25 is intended to be
+a \"drop-in\" digital replacement for the analog FM systems traditionally used in public safety two-way radio, adding some additional features and security options.   It use the same frequency bands and channel allocations as the older analog systems it replaces, but with a digital modulation format and various higher-level application protocols (the most important being real-time voice broadcast).
+Although many agencies still use analog radio, P25 adoption has accelerated in
+recent years, especially among federal agencies.
+<p>
+One of the advantages of digital radio, and one of the design goals of P25, is the relative ease with which it can
+encrypt sensitive, confidential voice traffic with strong cryptographic algorithms
+and protocols.
+While most public safety
+two-way radio users (local police dispatch centers and so on)
+typically don't use (or need) encryption, for others -- those engaged in
+surveillance of organized crime,
+counter espionage and executive protection, to name a few -- it has become an essential requirement.  When all radio transmissions were in the clear -- and vulnerable to interception -- these \"tactical\" users needed to be constantly mindful of the threat of eavesdropping by an adversary, and so
+were forced to be stiltedly circumspect in what they could say over the air.
+For these users,
+strong, reliable encryption not only makes their operations more secure, it frees them
+to communicate more effectively.
+<p>
+So how secure is P25? Unfortunately, the news isn't very reassuring.
+<a href=\"http://www.crypto.com/blog/p25/\">See the rest of this (rather long) entry...</a>" "http://www.crypto.com/blog/p25/" (20044 1011) new 5 nil nil ((title nil "Why (special agent) Johnny (still) Can't Encrypt") (link nil "http://www.crypto.com/blog/p25/") (guid nil "http://www.crypto.com/blog/p25/") (pubDate nil "Wed, 17 Aug 2011 18:09:55 +0000") (description nil "One-Way Cryptography and the First Rule of Cryptanalysis.
+
+
+
+
+	
+<p>
+<a href=\"http://www.crypto.com/blog/p25\"><img style=\"margin: 10px 0px 10px 13px\" src=\"http://www.crypto.com/photos/misc/xts-keyloader_2000-small2.jpg\" align=\"right\"></a>
+Last week at <a href=\"http://www.usenix.org/events/sec11/\">the 20th
+Usenix Security Symposium</a>, Sandy Clark, Travis Goodspeed, Perry Metzger,
+Zachary Wasserman, Kevin Xu, and I presented our paper
+<a href=\"http://www.crypto.com/papers/p25sec.pdf\"><em>Why (Special Agent) Johnny
+(Still) Can't Encrypt: A Security Analysis of the APCO Project 25 Two-Way Radio System </em>[pdf]</a>.  I'm delighted and honored to report that we won an \"Outstanding Paper\" award.
+<p>
+APCO Project 25 (\"P25\") is a suite of wireless communications protocols designed for government two-way (voice) radio systems, used for everything from dispatching police and other first responders by local government to coordinating federal tactical surveillance operations against organized crime
+and suspected terrorists.  P25 is intended to be
+a \"drop-in\" digital replacement for the analog FM systems traditionally used in public safety two-way radio, adding some additional features and security options.   It use the same frequency bands and channel allocations as the older analog systems it replaces, but with a digital modulation format and various higher-level application protocols (the most important being real-time voice broadcast).
+Although many agencies still use analog radio, P25 adoption has accelerated in
+recent years, especially among federal agencies.
+<p>
+One of the advantages of digital radio, and one of the design goals of P25, is the relative ease with which it can
+encrypt sensitive, confidential voice traffic with strong cryptographic algorithms
+and protocols.
+While most public safety
+two-way radio users (local police dispatch centers and so on)
+typically don't use (or need) encryption, for others -- those engaged in
+surveillance of organized crime,
+counter espionage and executive protection, to name a few -- it has become an essential requirement.  When all radio transmissions were in the clear -- and vulnerable to interception -- these \"tactical\" users needed to be constantly mindful of the threat of eavesdropping by an adversary, and so
+were forced to be stiltedly circumspect in what they could say over the air.
+For these users,
+strong, reliable encryption not only makes their operations more secure, it frees them
+to communicate more effectively.
+<p>
+So how secure is P25? Unfortunately, the news isn't very reassuring.
+<a href=\"http://www.crypto.com/blog/p25/\">See the rest of this (rather long) entry...</a>"))) ("Wiretapping and Cryptography Today" "Report from the sky didn't fall department.
+<p>
+<a href=\"http://www.flickr.com/photos/mattblaze/2695044170/\"><img style=\"margin: 10px 0px 10px 13px\" src=\"http://www.crypto.com/photos/misc/snst-2-360.jpg\" align=\"right\"></a>
+The <a href=\"http://www.uscourts.gov/Statistics/WiretapReports/WiretapReport2010.aspx\">2010 U.S. Wiretap Report</a> was released a couple
+of weeks ago, the latest in a series of puzzles published annually, on
+and off, by congressional mandate since the Nixon administration.
+The report, as
+its name implies, summarizes legal wiretapping by federal and state law enforcement agencies.   The reports are puzzles because they are notoriously
+incomplete; the data relies on spotty reporting, and information
+on \"national security\" (FISA) taps is excluded altogether.  Still, it's
+the most complete public picture of wiretapping as practiced in the US that we
+have, and as such, is of likely interest to many readers here.
+<p>
+We now know that there were at least 3194 criminal wiretaps
+last year (1207 of these were by federal law enforcement and 1987 were
+done by state and local agencies).  The previous year there were only
+2376 reported, but it isn't clear how much of this increase was due to
+improved data collection in 2010.  Again, this is only \"Title III\" content
+wiretaps for criminal investigations (mostly drug cases); it doesn't include
+\"pen registers\" that record call details without audio or taps for
+counterintelligence and counterterrorism investigations, which presumably
+have accounted for an increasing proportion of intercepts since 2001.
+And there's apparently still a fair
+bit of underreporting in the statistics.  So we don't really know how much wiretapping the government actually does in total or what the trends
+really look like.  There's a lot of noise among the signals here.
+<p>
+But for all the noise, one interesting fact stands out rather clearly.
+Despite dire predictions to the contrary,
+the open availability of cryptography has done little
+to hinder law enforcement's ability to conduct investigations.
+<a href=\"http://www.crypto.com/blog/wiretap2010/\">See the rest of this (rather long) entry...</a>" "http://www.crypto.com/blog/wiretap2010/" (19996 52334) new 6 nil nil ((title nil "Wiretapping and Cryptography Today") (link nil "http://www.crypto.com/blog/wiretap2010/") (guid nil "http://www.crypto.com/blog/wiretap2010/") (pubDate nil "Tue, 12 Jul 2011 22:36:30 +0000") (description nil "Report from the sky didn't fall department.
+
+
+
+
+	
+<p>
+<a href=\"http://www.flickr.com/photos/mattblaze/2695044170/\"><img style=\"margin: 10px 0px 10px 13px\" src=\"http://www.crypto.com/photos/misc/snst-2-360.jpg\" align=\"right\"></a>
+The <a href=\"http://www.uscourts.gov/Statistics/WiretapReports/WiretapReport2010.aspx\">2010 U.S. Wiretap Report</a> was released a couple
+of weeks ago, the latest in a series of puzzles published annually, on
+and off, by congressional mandate since the Nixon administration.
+The report, as
+its name implies, summarizes legal wiretapping by federal and state law enforcement agencies.   The reports are puzzles because they are notoriously
+incomplete; the data relies on spotty reporting, and information
+on \"national security\" (FISA) taps is excluded altogether.  Still, it's
+the most complete public picture of wiretapping as practiced in the US that we
+have, and as such, is of likely interest to many readers here.
+<p>
+We now know that there were at least 3194 criminal wiretaps
+last year (1207 of these were by federal law enforcement and 1987 were
+done by state and local agencies).  The previous year there were only
+2376 reported, but it isn't clear how much of this increase was due to
+improved data collection in 2010.  Again, this is only \"Title III\" content
+wiretaps for criminal investigations (mostly drug cases); it doesn't include
+\"pen registers\" that record call details without audio or taps for
+counterintelligence and counterterrorism investigations, which presumably
+have accounted for an increasing proportion of intercepts since 2001.
+And there's apparently still a fair
+bit of underreporting in the statistics.  So we don't really know how much wiretapping the government actually does in total or what the trends
+really look like.  There's a lot of noise among the signals here.
+<p>
+But for all the noise, one interesting fact stands out rather clearly.
+Despite dire predictions to the contrary,
+the open availability of cryptography has done little
+to hinder law enforcement's ability to conduct investigations.
+<a href=\"http://www.crypto.com/blog/wiretap2010/\">See the rest of this (rather long) entry...</a>"))) ("Google Plus" "I, for one, welcome our Googly overlords.
+<p>
+A while back when I tried to sign up for a Facebook account it was almost indistinguishable from a phishing attack -- it kept urging me to give them my email and other passwords to \"help\" me keep in better contact with my friends.  (I ended up giving up, but apparently not completely enough to prevent an endless stream of \"friend\" requests from showing up in my mailbox.)
+<p>
+Signing up for <a href=\"https://plus.google.com\">Google+</a> this week was different. It already knew who all my contacts were, no passwords required.
+<p>
+I'm not sure, in retrospect, which was more disconcerting. If FB signup raised my phishing defenses, joining G+ felt more like a cyber-Mafia shakedown. All that was missing from the exhaustive list of friends and loved ones was \"... it would be a shame if something happened to these people.\"
+<p>
+I'd say to look for me there, but it seems you won't have to." "http://www.crypto.com/blog/GPlus/" (19994 16427) new 7 nil nil ((title nil "Google Plus") (link nil "http://www.crypto.com/blog/GPlus/") (guid nil "http://www.crypto.com/blog/GPlus/") (pubDate nil "Mon, 11 Jul 2011 00:13:31 +0000") (description nil "I, for one, welcome our Googly overlords.
+
+
+
+
+	
+<p>
+A while back when I tried to sign up for a Facebook account it was almost indistinguishable from a phishing attack -- it kept urging me to give them my email and other passwords to \"help\" me keep in better contact with my friends.  (I ended up giving up, but apparently not completely enough to prevent an endless stream of \"friend\" requests from showing up in my mailbox.)
+<p>
+Signing up for <a href=\"https://plus.google.com\">Google+</a> this week was different. It already knew who all my contacts were, no passwords required.
+<p>
+I'm not sure, in retrospect, which was more disconcerting. If FB signup raised my phishing defenses, joining G+ felt more like a cyber-Mafia shakedown. All that was missing from the exhaustive list of friends and loved ones was \"... it would be a shame if something happened to these people.\"
+<p>
+I'd say to look for me there, but it seems you won't have to."))) ("I'll be on WHYY's Radio Times today" "Radio is what our grandparents listened to before there were podcasts.
+<p>
+I'll be talking about computer security and cyberwar this morning live
+at 10am on WHYY-FM's otherwise excellent
+<a href=\"http://whyy.org/cms/radiotimes/2011/06/07/cyberwarfare-and-cybersecurity/\"><em>Radio Times</em></a> show.
+For those who aren't up before the crack of noon, I'm told the show will also be repeated at 10pm as well as podcast online.
+(WHYY is the Philadelphia NPR affiliate)." "http://www.crypto.com/blog/radiotimes/" (19950 3223) new 8 nil nil ((title nil "I'll be on WHYY's Radio Times today") (link nil "http://www.crypto.com/blog/radiotimes/") (guid nil "http://www.crypto.com/blog/radiotimes/") (pubDate nil "Tue, 07 Jun 2011 11:33:43 +0000") (description nil "Radio is what our grandparents listened to before there were podcasts.
+
+
+
+
+	
+<p>
+I'll be talking about computer security and cyberwar this morning live
+at 10am on WHYY-FM's otherwise excellent
+<a href=\"http://whyy.org/cms/radiotimes/2011/06/07/cyberwarfare-and-cybersecurity/\"><em>Radio Times</em></a> show.
+For those who aren't up before the crack of noon, I'm told the show will also be repeated at 10pm as well as podcast online.
+(WHYY is the Philadelphia NPR affiliate)."))) ("Shaking Down Science" "Why do IEEE and ACM act against the interests of scholars?
+<p>
+If there is one area where the Web and Internet publishing is truly fulfilling
+its promise, it has to be the free and open availability of scholarly research from all over the world, to anyone who cares to study it.
+Today's academic does not just publish or perish, but does so
+on the Web first.  This has made science and scholarship not only more democratic -- no journal subscriptions or university library access required to participate -- but faster and better.
+<p>
+And many of the most prominent scientific and engineering societies are doing everything in their power to put a stop to it.  They want to get paid first.
+<p>
+I've <a href=\"http://www.crypto.com/blog/free_usenix\">written here before</a> about
+the way certain major technical societies use regressive, coercive copyright
+policies to obtain from authors exclusive rights to the papers that appear at the conferences
+and in the journals that they organize.
+These organizations, rooted in a rapidly disappearing print-based publishing economy, believe that they naturally \"own\" the writings that (unpaid) authors, editors and reviewers produce.
+They insist on copyright control as a condition of publication, arguing that the sale of conference proceedings and journal subscriptions provides an essential revenue stream that subsidizes their other good works.
+But this income, however well it might be used, has evolved into an ill-gotten entitlement.   We write scientific papers first and last because we want them read.  When papers were disseminated solely in print form it might have been reasonable to expect authors to donate the copyright in exchange for production and distribution.  Today, of course, this model seems, at best, quaintly out of touch with the needs of researchers and academics who no longer expect or
+tolerate the delay and expense of seeking out printed copies of far-flung documents.  We expect to find on it on the open web, and not hidden
+behind a paywall, either.
+<p>
+In my field, computer science (the very field which, ironically, created
+all this new publishing technology in the first place), some of the most restrictive copyright policies can be found in the two largest and oldest professional societies:
+the <a href=\"http://www.acm.org/\">ACM</a>
+and the <a href=\"http://www.ieee.org\">IEEE</a>.
+<p>
+Fortunately, these copyrights have been honored mostly in the breach as far as author-based web publishing has been concerned.
+Many academics
+make their papers available on their personal web sites, a practice that a
+growing number of university libraries,
+<a href=\"http://repository.upenn.edu/\">
+including my own,</a>
+have begun to formalize by hosting
+institution-wide web repositories of faculty papers.  This practice has
+flourished largely through a liberal reading of a provision -- a loophole --
+in many copyright agreements that allows authors to share \"preprint\" versions
+of their papers.
+<p>
+But times may be changing, and not for the better.   Some time in January,
+the IEEE apparently quietly revised its copyright policy to explicitly forbid
+us authors from sharing the \"final\" versions of our papers on the web,
+now reserving that privilege to themselves (available to all comers,
+for the right price).  I found out
+about this policy change in an email sent to all faculty at my school from
+our librarian this morning:
+<blockquote>
+February 28, 2011
+<p>
+Dear Faculty,
+<p>
+I am writing to bring to your attention a recent change in IEEE's policy
+for archiving personal papers within institutional repositories.  IEEE
+altered their policy in January from allowing published versions of
+articles to be saved in repositories, like ScholarlyCommons, to only
+allowing pre-published versions.  We received no prior notice about this
+change.
+<p>
+As a result, if you or your students/colleagues publish with IEEE and
+submit papers to ScholarlyCommons, I am writing to ask that you PLEASE
+REFRAIN FROM UPLOADING ANY NEW PUBLISHED VERSIONS OF ARTICLES.  It is
+unclear yet whether IEEE material uploaded prior to January already
+within ScholarlyCommons will need to be removed.  Anything new added at
+this point, however, would be in violation of their new policy.
+<p>
+...
+</blockquote>
+To be fair to IEEE, the ACM's official policy is at least as bad.
+Not all technical societies
+are like this; for example, <a href=\"http://www.usenix.org\">Usenix</a>, on
+whose board I serve, manages to thrive despite making all its publications available online for free, no paywall access required.
+<p>
+Enough is enough. A few years ago, I stopped renewing my ACM
+and IEEE memberships in protest, but that now seems an inadequate gesture.
+These once great organizations, which exist, remember, to promote the
+exchange and advancement of scientific knowledge, have
+taken a terribly wrong turn in putting their own profits over science.
+The directors and publication board
+members of societies that adopt such policies have allowed a tunnel
+vision of purpose to sell out
+the interests of their members.  To hell with them.
+<p>
+So from now on, I'm adopting my own copyright policies.  In a perfect world,
+I'd simply refuse to publish in IEEE or ACM venues, but that stance is
+complicated
+by my obligations to my student co-authors, who need a wide range
+of publishing options if they are to succeed in their
+budding careers.
+So instead, I will no longer
+serve as a program chair, program committee member, editorial board
+member, referee or reviewer for any conference or journal that does not
+make its papers freely available on the web or at least allow authors to
+do so themselves.
+<p>
+Please join me.   If enough scholars refuse their services
+as volunteer organizers and reviewers, the quality and prestige of these
+closed publications will diminish and with it their coercive copyright
+power over the authors of new and innovative research.  Or, better yet,
+they will adapt and once again promote, rather than inhibit, progress.
+<br/>
+<br/>
+<br/>
+<b>Update 2 March 2011:</b> <em>There's been quite a response to this post; I
+seem to have hit a high-pressure reservoir of resentment against these
+anti-science publishing policies.  But several people have written me defending ACM's copyright transfer in particular as being \"not as bad\", since authors are
+permitted to post an \"author prepared\" version on their own web sites if
+they choose.  Yes, a savvy ACM author can prepare a special version and hack
+around the policy.
+But the copyright remains with ACM, and the authoritative reviewed final manuscript stays hidden behind the ACM paywall.
+<p>
+Until that changes, I'll confine my service to open-access conferences such as those organized by Usenix.
+<p>
+<b>Update 4 March 2011:</b> <em>I'm told that some ACM sub-groups (such as SIGCOMM) have negotiated non-paywalled access to their conferences' proceedings.  So conference organizers and small groups really can have an impact here!  Protest is not futile.</em>
+<p>
+<b>Update 8 March 2011:</b> <em>A prominent member of the ACM asserted to me that copyright assignment and putting papers behind the ACM's centralized \"digital library\" paywall is the best way to ensure their long-term \"integrity\".  That's certainly a novel theory; most computer scientists would say that wide replication, not centralization, is the best way to ensure availability, and that a
+centrally-controlled repository is more subject to tampering and other mischief than a decentralized and replicated one.
+Usenix's open-access proceedings, by the way, are archived through
+the <a href=\"http://lockss.stanford.edu/lockss/Home\">Stanford LOCKSS</a> project.  Paywalls are poor way to ensure permanence. </em>
+<p>
+<b>Update 9 March 2011:</b> <em>David A. Hodges, IEEE VP of Publication
+Products and Services just sent me a
+(for some reason in PDF format)</a> \"clarifying\" the new policy.  He confirms that IEEE authors are still permitted to post a pre-publication
+version on their
+own (or their employer's) web site, but are now (as of January) prohibited
+from posting the authoritative \"published\" PDF version, which will be
+available exclusively from the IEEE paywall.  (You can read his note
+<a href=\"http://www.crypto.com/papers/IEEE-Response-to-Blaze.pdf\">here [pdf]</a>).</em>
+<p>
+Still no word on whether there's a reason for this policy change other than
+the obvious rent-seeking behavior that it appears to be.  According to this
+<a href=\"http://www.ieee.org/documents/authorversionfaq.pdf\">FAQ [pdf]</a>,
+the reason for the policy change is to \"exercise better control over
+IEEE's intellectual property\".  Which is exactly the problem.
+</em>" "http://www.crypto.com/blog/copywrongs/" (19820 24778) new 9 nil nil ((title nil "Shaking Down Science") (link nil "http://www.crypto.com/blog/copywrongs/") (guid nil "http://www.crypto.com/blog/copywrongs/") (pubDate nil "Tue, 01 Mar 2011 02:58:18 +0000") (description nil "Why do IEEE and ACM act against the interests of scholars?
+
+
+
+
+	
+<p>
+If there is one area where the Web and Internet publishing is truly fulfilling
+its promise, it has to be the free and open availability of scholarly research from all over the world, to anyone who cares to study it.
+ Today's academic does not just publish or perish, but does so
+on the Web first.  This has made science and scholarship not only more democratic -- no journal subscriptions or university library access required to participate -- but faster and better.
+<p>
+And many of the most prominent scientific and engineering societies are doing everything in their power to put a stop to it.  They want to get paid first.
+<p>
+I've <a href=\"http://www.crypto.com/blog/free_usenix\">written here before</a> about
+the way certain major technical societies use regressive, coercive copyright
+policies to obtain from authors exclusive rights to the papers that appear at the conferences
+and in the journals that they organize.
+These organizations, rooted in a rapidly disappearing print-based publishing economy, believe that they naturally \"own\" the writings that (unpaid) authors, editors and reviewers produce.
+They insist on copyright control as a condition of publication, arguing that the sale of conference proceedings and journal subscriptions provides an essential revenue stream that subsidizes their other good works.
+But this income, however well it might be used, has evolved into an ill-gotten entitlement.   We write scientific papers first and last because we want them read.  When papers were disseminated solely in print form it might have been reasonable to expect authors to donate the copyright in exchange for production and distribution.  Today, of course, this model seems, at best, quaintly out of touch with the needs of researchers and academics who no longer expect or
+tolerate the delay and expense of seeking out printed copies of far-flung documents.  We expect to find on it on the open web, and not hidden
+behind a paywall, either.
+<p>
+In my field, computer science (the very field which, ironically, created
+all this new publishing technology in the first place), some of the most restrictive copyright policies can be found in the two largest and oldest professional societies:
+the <a href=\"http://www.acm.org/\">ACM</a>
+and the <a href=\"http://www.ieee.org\">IEEE</a>.
+<p>
+Fortunately, these copyrights have been honored mostly in the breach as far as author-based web publishing has been concerned.
+Many academics
+make their papers available on their personal web sites, a practice that a
+growing number of university libraries,
+<a href=\"http://repository.upenn.edu/\">
+including my own,</a>
+have begun to formalize by hosting
+institution-wide web repositories of faculty papers.  This practice has
+flourished largely through a liberal reading of a provision -- a loophole --
+in many copyright agreements that allows authors to share \"preprint\" versions
+of their papers.
+<p>
+But times may be changing, and not for the better.   Some time in January,
+the IEEE apparently quietly revised its copyright policy to explicitly forbid
+us authors from sharing the \"final\" versions of our papers on the web,
+now reserving that privilege to themselves (available to all comers,
+for the right price).  I found out
+about this policy change in an email sent to all faculty at my school from
+our librarian this morning:
+
+<blockquote>
+February 28, 2011
+<p>
+Dear Faculty,
+<p>
+I am writing to bring to your attention a recent change in IEEE's policy
+for archiving personal papers within institutional repositories.  IEEE
+altered their policy in January from allowing published versions of
+articles to be saved in repositories, like ScholarlyCommons, to only
+allowing pre-published versions.  We received no prior notice about this
+change.
+<p>
+As a result, if you or your students/colleagues publish with IEEE and
+submit papers to ScholarlyCommons, I am writing to ask that you PLEASE
+REFRAIN FROM UPLOADING ANY NEW PUBLISHED VERSIONS OF ARTICLES.  It is
+unclear yet whether IEEE material uploaded prior to January already
+within ScholarlyCommons will need to be removed.  Anything new added at
+this point, however, would be in violation of their new policy.
+<p>
+...
+</blockquote>
+To be fair to IEEE, the ACM's official policy is at least as bad.
+Not all technical societies
+are like this; for example, <a href=\"http://www.usenix.org\">Usenix</a>, on
+whose board I serve, manages to thrive despite making all its publications available online for free, no paywall access required.
+<p>
+Enough is enough. A few years ago, I stopped renewing my ACM
+and IEEE memberships in protest, but that now seems an inadequate gesture. 
+These once great organizations, which exist, remember, to promote the
+exchange and advancement of scientific knowledge, have
+taken a terribly wrong turn in putting their own profits over science.
+The directors and publication board
+members of societies that adopt such policies have allowed a tunnel
+vision of purpose to sell out
+the interests of their members.  To hell with them.
+<p>
+So from now on, I'm adopting my own copyright policies.  In a perfect world,
+I'd simply refuse to publish in IEEE or ACM venues, but that stance is
+complicated
+by my obligations to my student co-authors, who need a wide range
+of publishing options if they are to succeed in their
+budding careers.
+So instead, I will no longer
+serve as a program chair, program committee member, editorial board
+member, referee or reviewer for any conference or journal that does not
+make its papers freely available on the web or at least allow authors to
+do so themselves. 
+<p>
+Please join me.   If enough scholars refuse their services
+as volunteer organizers and reviewers, the quality and prestige of these
+closed publications will diminish and with it their coercive copyright
+power over the authors of new and innovative research.  Or, better yet,
+they will adapt and once again promote, rather than inhibit, progress.
+<br/>
+<br/>
+<br/>
+<b>Update 2 March 2011:</b> <em>There's been quite a response to this post; I
+seem to have hit a high-pressure reservoir of resentment against these
+anti-science publishing policies.  But several people have written me defending ACM's copyright transfer in particular as being \"not as bad\", since authors are
+permitted to post an \"author prepared\" version on their own web sites if
+they choose.  Yes, a savvy ACM author can prepare a special version and hack
+around the policy.
+But the copyright remains with ACM, and the authoritative reviewed final manuscript stays hidden behind the ACM paywall.
+<p>
+Until that changes, I'll confine my service to open-access conferences such as those organized by Usenix.
+<p>
+<b>Update 4 March 2011:</b> <em>I'm told that some ACM sub-groups (such as SIGCOMM) have negotiated non-paywalled access to their conferences' proceedings.  So conference organizers and small groups really can have an impact here!  Protest is not futile.</em>
+<p>
+<b>Update 8 March 2011:</b> <em>A prominent member of the ACM asserted to me that copyright assignment and putting papers behind the ACM's centralized \"digital library\" paywall is the best way to ensure their long-term \"integrity\".  That's certainly a novel theory; most computer scientists would say that wide replication, not centralization, is the best way to ensure availability, and that a
+centrally-controlled repository is more subject to tampering and other mischief than a decentralized and replicated one.
+Usenix's open-access proceedings, by the way, are archived through
+the <a href=\"http://lockss.stanford.edu/lockss/Home\">Stanford LOCKSS</a> project.  Paywalls are poor way to ensure permanence. </em>
+<p>
+<b>Update 9 March 2011:</b> <em>David A. Hodges, IEEE VP of Publication
+Products and Services just sent me a
+(for some reason in PDF format)</a> \"clarifying\" the new policy.  He confirms that IEEE authors are still permitted to post a pre-publication
+version on their
+own (or their employer's) web site, but are now (as of January) prohibited
+from posting the authoritative \"published\" PDF version, which will be
+available exclusively from the IEEE paywall.  (You can read his note
+<a href=\"http://www.crypto.com/papers/IEEE-Response-to-Blaze.pdf\">here [pdf]</a>).</em>
+<p>
+Still no word on whether there's a reason for this policy change other than
+the obvious rent-seeking behavior that it appears to be.  According to this
+<a href=\"http://www.ieee.org/documents/authorversionfaq.pdf\">FAQ [pdf]</a>,
+the reason for the policy change is to \"exercise better control over
+IEEE's intellectual property\".  Which is exactly the problem.
+</em>"))) ("Exhaustive Search Goes to Law School" "Contract law for psychic cryptographers.
+<p>
+A couple of years ago Jutta Degener and I
+became the first people to solve
+<a href=\"http://www.randi.org\">James Randi's</a>
+$1,000,000 paranormal challenge.
+We derived, from thousands of miles away, the secret contents of a
+locked box held in Randi's offices set up to test whether psychic
+\"remote viewing\" was possible.  Not being actual psychics, we had to
+exploit a weak home-brewed cryptographic commitment scheme that Randi
+had cooked up to authenticate the box's contents rather than the paranormal
+powers he was hoping to test for, but we did correctly figure out that
+the box contained a compact disk.  And being nice people, we never
+formally asked for the million bucks, although we did have a bit of
+fun <a href=\"http://www.crypto.com/blog/psychic_cryptanalysis/\">
+blogging</a> about the cryptologic implications of psychic testing,
+which you can read <a href=\"http://www.crypto.com/blog/psychic_cryptanalysis/\">here</a>.
+<p>
+Our feat of \"psychic cryptanalysis\" got a bit more
+<a href=\"http://www.wired.com/threatlevel/2007/03/cryptographer_s/\">
+attention</a> than I had expected
+given that our earthly cryptographic abilities are anything but paranormal,
+but you never know where the Internet will take things.
+But I was
+even more surprised when someone recently sent me a link to
+<a href=\"http://justice.law.stetson.edu/courses/contracts_exams/pdfs/Spring%202007%20Exam%20-%20Contracts%20I.pdf\">this
+final exam from a contracts course at the Stetson University College of Law
+[pdf]</a>.
+<p>
+Now, my mother definitely didn't raise me to be a law school exam
+question, and yet there we are, playing a staring role in the question
+on the forth page.
+I have no idea whether to be flattered or horrified, but for the record
+(especially in case the IRS is reading), we never asked for or received the million dollars.  And I've definitely never been been to an Alaskan psychic's
+convention.
+<p>
+The one thing I'm sure of is that Prof. Jimenez (who I've never
+met) will be
+making a guest appearance on some exam of mine in
+the near future.  In a perfect world, he might play a role in
+a question involving copyright infringement, defamation,
+and false-light privacy, but since I teach computer science,
+not law, something about
+<a href=\"http://www.crypto.com/course/archive/fall04/cse380/midterm1solutions.pdf\">operating systems</a> will probably have to do
+instead." "http://www.crypto.com/blog/law_school_exam/" (19742 7746) new 10 nil nil ((title nil "Exhaustive Search Goes to Law School") (link nil "http://www.crypto.com/blog/law_school_exam/") (guid nil "http://www.crypto.com/blog/law_school_exam/") (pubDate nil "Fri, 31 Dec 2010 18:17:38 +0000") (description nil "Contract law for psychic cryptographers.
+
+
+
+
+	
+<p>
+A couple of years ago Jutta Degener and I
+became the first people to solve
+<a href=\"http://www.randi.org\">James Randi's</a>
+$1,000,000 paranormal challenge.
+We derived, from thousands of miles away, the secret contents of a
+locked box held in Randi's offices set up to test whether psychic
+\"remote viewing\" was possible.  Not being actual psychics, we had to
+exploit a weak home-brewed cryptographic commitment scheme that Randi
+had cooked up to authenticate the box's contents rather than the paranormal
+powers he was hoping to test for, but we did correctly figure out that
+the box contained a compact disk.  And being nice people, we never
+formally asked for the million bucks, although we did have a bit of
+fun <a href=\"http://www.crypto.com/blog/psychic_cryptanalysis/\">
+blogging</a> about the cryptologic implications of psychic testing,
+which you can read <a href=\"http://www.crypto.com/blog/psychic_cryptanalysis/\">here</a>.
+<p>
+Our feat of \"psychic cryptanalysis\" got a bit more
+<a href=\"http://www.wired.com/threatlevel/2007/03/cryptographer_s/\">
+attention</a> than I had expected
+given that our earthly cryptographic abilities are anything but paranormal,
+but you never know where the Internet will take things.
+But I was
+even more surprised when someone recently sent me a link to
+<a href=\"http://justice.law.stetson.edu/courses/contracts_exams/pdfs/Spring%202007%20Exam%20-%20Contracts%20I.pdf\">this
+final exam from a contracts course at the Stetson University College of Law
+[pdf]</a>.
+<p>
+Now, my mother definitely didn't raise me to be a law school exam
+question, and yet there we are, playing a staring role in the question
+on the forth page.
+I have no idea whether to be flattered or horrified, but for the record
+(especially in case the IRS is reading), we never asked for or received the million dollars.  And I've definitely never been been to an Alaskan psychic's
+convention.
+<p>
+The one thing I'm sure of is that Prof. Jimenez (who I've never
+met) will be
+making a guest appearance on some exam of mine in
+the near future.  In a perfect world, he might play a role in
+a question involving copyright infringement, defamation,
+and false-light privacy, but since I teach computer science,
+not law, something about
+<a href=\"http://www.crypto.com/course/archive/fall04/cse380/midterm1solutions.pdf\">operating systems</a> will probably have to do
+instead."))) ("No, You Can't Have My Slides" "Why I hate PowerPoint, and you should, too.
+<p>
+Fair warning: If I give a talk --- at your conference, lecture series, meeting,
+whatever -- and you ask me for \"a copy of my presentation\" I'm probably going
+to refuse.  It isn't personal and I'm not trying to be difficult.   It's just that I have nothing that I can sensibly give you.
+<p>
+Many speakers these days make their visual aids available, but I don't.
+I don't always use any, but even when I do, they just aren't intended to be
+comprehensible outside the context of my talk.  Creating slides that can
+serve double duty as props for my talk <em>and</em> as a stand-alone
+summary of the content is, I must confess, a talent that lies beyond the
+limits of my ability.
+Fortunately, when I give a talk I've usually also written
+something about the subject too, and almost all my papers are freely available to all.  Unlike my slides, I try to write in a way that
+makes sense even without me standing there explaining things while you read.
+<p>
+\"Presentation software\" like PowerPoint (and KeyNote and others of that ilk)
+has blurred the line between mere visual aids and the presentations themselves.
+I've grown to loathe PowerPoint, not because of particular
+details that don't suit me (though it would be nice if it
+handled equations more cleanly), but because it gets things precisely
+backwards.  When I give a talk, I want to be in control.  But the software
+has other ideas.
+<p>
+PowerPoint isn't content to sit in the background and project the occasional
+chart, graph or bullet list.  It wants to <em>organize</em> the talk, to manage the presentation.  There's always going to be a slide up, whether you need it there or not.  Want to skip over some material?  OK, but only by letting
+the audience watch as you fast-forward awkwardly through the pre-set order.
+Change the order around to answer a question?  Tough -- should have thought of that before you started.  You are not the one in charge here, and don't you
+forget it.
+<p>
+When I give a talk, I like to rely on a range of tools -- my voice,
+hand gestures, props, live demos, and, yes, PowerPoint slides.   I tend
+to mix and match.  In other words, from PowerPoint's perspective, I'm usually
+using it <em>badly</em>, even abusively.  I often ignore the slides for
+minutes on end, or digress on points only elliptically hinted at on the screen.
+When I really get going, the sides are by themselves useless or, worse,
+outright misleading.  Distributing them separately would at best be
+an invitation to take them hopelessly and confusingly out of context, and at worst, a form of perjury.
+<p>
+Unfortunately, \"PowerPoint\" has become synonymous these days
+with \"presentation\", but I just don't work that way.
+Maybe you don't work that way either.
+There's no one-size-fits-all way to give a talk,
+or even a one-size-fits-me way.  So when I'm asked for my slides, I must
+politely refuse and offer my papers as a substitute (an idea I owe to
+the great <a href=\"http://www.edwardtufte.com/tufte/\">Edward Tufte</a>).
+<p>
+Fortunately, I'm senior enough (or have a reputation for being cranky enough)
+that I can usually get away with refusing.   Sometimes, though, when pressed hard,
+I'll give in and send
+<a href=\"http://www.crypto.com/papers/rsa2011-blaze.pdf\">these slides [pdf]</a>.
+<br/>
+<br/>
+<br/>
+<b>Addendum 26 November 2010:</b>  <em>This post sure has struck a (perhaps
+dissonant) chord somewhere, especially for a long holiday weekend.
+I'm grateful to all who've emailed, blogged, and tweeted.
+<p>
+Several people have thoughtfully suggested their favorite alternatives to PowerPoint
+(Prezi seems to be the popular choice), which I'll certainly check out.
+And for the record, yes, I know about (and use when I can) PowerPoint's
+\"presenter\" mode, which improves control over the audience display.
+Unfortunately, both alternative software and presenter mode, while
+improvements, are at best unreliable, since they assume a particular
+configuration on the projecting computer.  It often isn't possible to
+project from a personal laptop (especially in conferences run on tight schedules), leaving us at the mercy of whatever is at
+the podium.  And that often means PowerPoint in single-screen mode.
+<p>
+In any case, while there is certainly room for me to improve my mastery of
+PowerPoint and its alternatives, this wouldn't solve the basic problem, which is that, in my case at least, my slides -- when I use them at all -- aren't the
+content.  They won't help you understand things much more than would
+any of the other stuff I also happen to bring up on stage with me, like, say, my shoes (which you can't have, either).  But
+you're welcome to my papers.</em>" "http://www.crypto.com/blog/slideware/" (19693 54924) new 11 nil nil ((title nil "No, You Can't Have My Slides") (link nil "http://www.crypto.com/blog/slideware/") (guid nil "http://www.crypto.com/blog/slideware/") (pubDate nil "Thu, 25 Nov 2010 03:22:52 +0000") (description nil "Why I hate PowerPoint, and you should, too.
+
+
+
+
+	
+<p>
+Fair warning: If I give a talk --- at your conference, lecture series, meeting,
+whatever -- and you ask me for \"a copy of my presentation\" I'm probably going
+to refuse.  It isn't personal and I'm not trying to be difficult.   It's just that I have nothing that I can sensibly give you.
+<p>
+Many speakers these days make their visual aids available, but I don't.
+I don't always use any, but even when I do, they just aren't intended to be
+comprehensible outside the context of my talk.  Creating slides that can
+serve double duty as props for my talk <em>and</em> as a stand-alone
+summary of the content is, I must confess, a talent that lies beyond the
+limits of my ability.
+Fortunately, when I give a talk I've usually also written
+something about the subject too, and almost all my papers are freely available to all.  Unlike my slides, I try to write in a way that
+makes sense even without me standing there explaining things while you read.
+<p>
+\"Presentation software\" like PowerPoint (and KeyNote and others of that ilk)
+has blurred the line between mere visual aids and the presentations themselves.
+I've grown to loathe PowerPoint, not because of particular
+details that don't suit me (though it would be nice if it
+handled equations more cleanly), but because it gets things precisely
+backwards.  When I give a talk, I want to be in control.  But the software
+has other ideas.
+<p>
+PowerPoint isn't content to sit in the background and project the occasional
+chart, graph or bullet list.  It wants to <em>organize</em> the talk, to manage the presentation.  There's always going to be a slide up, whether you need it there or not.  Want to skip over some material?  OK, but only by letting
+the audience watch as you fast-forward awkwardly through the pre-set order.
+Change the order around to answer a question?  Tough -- should have thought of that before you started.  You are not the one in charge here, and don't you
+forget it.
+<p>
+When I give a talk, I like to rely on a range of tools -- my voice,
+hand gestures, props, live demos, and, yes, PowerPoint slides.   I tend
+to mix and match.  In other words, from PowerPoint's perspective, I'm usually
+using it <em>badly</em>, even abusively.  I often ignore the slides for
+minutes on end, or digress on points only elliptically hinted at on the screen.
+When I really get going, the sides are by themselves useless or, worse,
+outright misleading.  Distributing them separately would at best be
+an invitation to take them hopelessly and confusingly out of context, and at worst, a form of perjury.
+<p>
+Unfortunately, \"PowerPoint\" has become synonymous these days
+with \"presentation\", but I just don't work that way. 
+Maybe you don't work that way either.
+There's no one-size-fits-all way to give a talk,
+or even a one-size-fits-me way.  So when I'm asked for my slides, I must
+politely refuse and offer my papers as a substitute (an idea I owe to
+the great <a href=\"http://www.edwardtufte.com/tufte/\">Edward Tufte</a>).
+<p>
+Fortunately, I'm senior enough (or have a reputation for being cranky enough)
+that I can usually get away with refusing.   Sometimes, though, when pressed hard,
+I'll give in and send
+<a href=\"http://www.crypto.com/papers/rsa2011-blaze.pdf\">these slides [pdf]</a>.
+<br/>
+<br/>
+<br/>
+<b>Addendum 26 November 2010:</b>  <em>This post sure has struck a (perhaps
+dissonant) chord somewhere, especially for a long holiday weekend.
+I'm grateful to all who've emailed, blogged, and tweeted.
+<p>
+Several people have thoughtfully suggested their favorite alternatives to PowerPoint
+(Prezi seems to be the popular choice), which I'll certainly check out.
+And for the record, yes, I know about (and use when I can) PowerPoint's
+\"presenter\" mode, which improves control over the audience display.
+Unfortunately, both alternative software and presenter mode, while
+improvements, are at best unreliable, since they assume a particular
+configuration on the projecting computer.  It often isn't possible to
+project from a personal laptop (especially in conferences run on tight schedules), leaving us at the mercy of whatever is at
+the podium.  And that often means PowerPoint in single-screen mode.
+<p>
+In any case, while there is certainly room for me to improve my mastery of
+PowerPoint and its alternatives, this wouldn't solve the basic problem, which is that, in my case at least, my slides -- when I use them at all -- aren't the
+content.  They won't help you understand things much more than would
+any of the other stuff I also happen to bring up on stage with me, like, say, my shoes (which you can't have, either).  But
+you're welcome to my papers.</em>"))) ("Professor Blaze Goes To Washington" "Hearing on \"ECPA Reform and the Revolution in Location-Based Technologies and Services\".
+<p>
+I'll be the first witness at this morning's (6/24/10) House Judiciary
+Committee hearing on
+<a href=\"http://judiciary.house.gov/hearings/hear_100624.html\">ECPA
+Reform and the Revolution in Location-Based Technology</a>, which,
+for DC locals, will start at 10am in room 2233 of the Rayburn building.
+<p>
+My
+<a href=\"http://www.crypto.com/papers/blaze-judiciary-20100624.pdf\">testimony
+[pdf]</a> will focus on the technical: how modern cell phones and wireless
+services calculate location, and how accurately they can track and record
+users' positions and movements.  This is all in the context of surveillance: when the government gets a pen register order against a cell phone, for example, what information do (or should) they get about the target's location and movements compared with other kinds of tracking technology?
+<p>
+Other witnesses will include (among others) a special agent (from the Tennessee Bureau of Investigation) who does electronic surveillance, and a federal magistrate judge
+who has to sort out the legal issues when the government requests tracking
+information about a suspect.  The hearing promises to be an
+interesting glimpse into how location tracking actually works in criminal
+investigations.
+<p>
+No idea if the hearing will be shown via a webcast or C-SPAN coverage.
+<p>
+<em>Update 6/28/10:</em> The hearing was interesting, and I especially enjoyed Chairman Nadler's line of questions to me about how the technology works and about the records kept by carriers.  Unfortunately, video of the hearing doesn't appear to be available online anywhere, at least at the moment.
+<br/>
+<em>Update 5/16/12:</em> An updated version of my testimony is available at <tt><a href=\"http://www.crypto.com/papers/blaze-gps-20120517.pdf\">http://www.crypto.com/papers/blaze-gps-20120517.pdf</a></tt>, as a statement for the record at a house hearing on the \"GPS Act\"." "http://www.crypto.com/blog/ecpa_hearing/" (19491 17919) new 12 nil nil ((title nil "Professor Blaze Goes To Washington") (link nil "http://www.crypto.com/blog/ecpa_hearing/") (guid nil "http://www.crypto.com/blog/ecpa_hearing/") (pubDate nil "Thu, 24 Jun 2010 11:48:15 +0000") (description nil "Hearing on \"ECPA Reform and the Revolution in Location-Based Technologies and Services\".
+
+
+
+
+	
+<p>
+I'll be the first witness at this morning's (6/24/10) House Judiciary
+Committee hearing on
+<a href=\"http://judiciary.house.gov/hearings/hear_100624.html\">ECPA
+Reform and the Revolution in Location-Based Technology</a>, which,
+for DC locals, will start at 10am in room 2233 of the Rayburn building.
+<p>
+My
+<a href=\"http://www.crypto.com/papers/blaze-judiciary-20100624.pdf\">testimony
+[pdf]</a> will focus on the technical: how modern cell phones and wireless
+services calculate location, and how accurately they can track and record
+users' positions and movements.  This is all in the context of surveillance: when the government gets a pen register order against a cell phone, for example, what information do (or should) they get about the target's location and movements compared with other kinds of tracking technology?
+<p>
+Other witnesses will include (among others) a special agent (from the Tennessee Bureau of Investigation) who does electronic surveillance, and a federal magistrate judge
+who has to sort out the legal issues when the government requests tracking
+information about a suspect.  The hearing promises to be an
+interesting glimpse into how location tracking actually works in criminal
+investigations. 
+<p>
+No idea if the hearing will be shown via a webcast or C-SPAN coverage.
+<p>
+<em>Update 6/28/10:</em> The hearing was interesting, and I especially enjoyed Chairman Nadler's line of questions to me about how the technology works and about the records kept by carriers.  Unfortunately, video of the hearing doesn't appear to be available online anywhere, at least at the moment.
+<br/>
+<em>Update 5/16/12:</em> An updated version of my testimony is available at <tt><a href=\"http://www.crypto.com/papers/blaze-gps-20120517.pdf\">http://www.crypto.com/papers/blaze-gps-20120517.pdf</a></tt>, as a statement for the record at a house hearing on the \"GPS Act\"."))) ("After the Afterword" "Has computer security changed in 15 years?
+<p>
+Back in 1995, Bruce Schneier asked me to write an \"afterword\" for the second edition of <em>Applied Cryptography</em>.   Perhaps to his chagrin, I couldn't think of any better way to sum up a book about cryptography than to dismiss what was then a popular delusion about the subject: that it, above all else, held the secret for securing computers.
+<p>
+1995 now seems like a long time ago, technically and culturally.  The Web was barely around.  Highly connected people had fax lines at home.  The Soviet Union had only recently dissolved.  I could see the World Trade Center from my bedroom window.
+<p>
+Essays written that long ago, especially those about rapidly changing technology, can be a bit embarrassing to read -- conspicuously oblivious to some fast approaching meteorite that would shortly make the author's basic assumptions extinct.  Or they might seem retrospectively obvious and trite: war is bad, puppies are cute, and computers are insecure.
+<p>
+And so it was with some trepidation that I recently dusted off my copy of Bruce's book and found myself staring at my thoughts on cryptography from the previous century.
+<a href=\"http://www.crypto.com/blog/afterword/\">See the rest of this (rather long) entry...</a>" "http://www.crypto.com/blog/afterword/" (19391 36070) new 13 nil nil ((title nil "After the Afterword") (link nil "http://www.crypto.com/blog/afterword/") (guid nil "http://www.crypto.com/blog/afterword/") (pubDate nil "Fri, 09 Apr 2010 20:24:06 +0000") (description nil "Has computer security changed in 15 years?
+
+
+
+<p>
+Back in 1995, Bruce Schneier asked me to write an \"afterword\" for the second edition of <em>Applied Cryptography</em>.   Perhaps to his chagrin, I couldn't think of any better way to sum up a book about cryptography than to dismiss what was then a popular delusion about the subject: that it, above all else, held the secret for securing computers.
+<p>
+1995 now seems like a long time ago, technically and culturally.  The Web was barely around.  Highly connected people had fax lines at home.  The Soviet Union had only recently dissolved.  I could see the World Trade Center from my bedroom window.
+<p>
+Essays written that long ago, especially those about rapidly changing technology, can be a bit embarrassing to read -- conspicuously oblivious to some fast approaching meteorite that would shortly make the author's basic assumptions extinct.  Or they might seem retrospectively obvious and trite: war is bad, puppies are cute, and computers are insecure.
+<p>
+And so it was with some trepidation that I recently dusted off my copy of Bruce's book and found myself staring at my thoughts on cryptography from the previous century.
+
+<a href=\"http://www.crypto.com/blog/afterword/\">See the rest of this (rather long) entry...</a>"))) ("The Spy in the Middle" "Are SSL certificates even more broken than we thought?
+<p>
+A decade ago, I observed that commercial certificate authorities protect you from anyone from whom they are unwilling to take money.  That turns out to be wrong; they don't even do that much.
+<p>
+SSL certificates are the primary mechanism for ensuring that secure web sites -- those displaying that reassuring \"padlock\" icon in the address bar -- really are who they purport to be.   In order for your browser to display the padlock icon, a web site must first present a \"certificate\", digitally signed by a trusted \"root\" authority, that attests to its identity and encryption keys.
+<p>
+Unfortunately, through a confluence of sloppy design, naked commercial maneuvering, and bad user interfaces, today's web browsers have evolved to accept certificates issued by a surprisingly large number of root authorities, from tiny, obscure businesses to various national governments.  And a certificate from any one of them is usually sufficient to bless any web connection as being \"secure\".
+<p>
+What this means is that an eavesdropper who can obtain fake certificates from <em>any</em> certificate authority can successfully impersonate <em>every</em> encrypted web site someone might visit.  Most browsers will happily (and silently) accept new certificates from any valid authority, even for web sites for which certificates had already been obtained.  An eavesdropper with fake certificates and access to a target's internet connection can thus quietly interpose itself as a \"man-in-the-middle\", observing and recording all encrypted web traffic traffic, with the user none the wiser.
+<p>
+But how much of a threat is this in practice?  Are there really eavesdroppers out there -- be they criminals, spies, or law enforcement agencies -- using bogus certificates to intercept encrypted web traffic?  Or is this merely idle speculation, of only theoretical concern?
+<p>
+A <a href=\"http://files.cloudprivacy.net/ssl-mitm.pdf\">paper published today by Chris Soghoian and Sid Stamm [pdf]</a> suggests that the threat may be far more practical than previously thought.   They found turnkey surveillance products, marketed and sold to law enforcement and intelligence agencies in the US and foreign countries, designed to collect encrypted SSL traffic based on forged \"look-alike\" certificates obtained from cooperative certificate authorities.  The products (apparently available only to government agencies) appear sophisticated, mature, and mass-produced, suggesting that \"certified man-in-the-middle\" web surveillance is at least commonplace and widespread enough to support an active vendor community.  Wired's Ryan Singel reports in depth <a href=\"http://www.wired.com/threatlevel/2010/03/packet-forensics/\">here</a>.
+<p>
+It's worth pointing out that, from the perspective of a law enforcement or intelligence agency, this sort of surveillance is far from ideal.  A central requirement for most government wiretapping (mandated, for example, in the CALEA standards for telephone interception) is that surveillance be undetectable.  But issuing a bogus web certificate carries with it the risk of detection by the target, either in real-time or after the fact, especially if it's for a web site already visited.  Although current browsers don't ordinarily detect unusual or suspiciously changed certificates, there's no fundamental reason they couldn't (and the Soghoian/Stamm paper proposes a Firefox plugin to do just that).  In
+any case, there's no reliable way for the wiretapper to know in advance whether the target will be alerted by a browser that scrutinizes new certificates.
+<p>
+Also, it's not clear how web interception would be particularly useful for many of the most common law enforcement investigative scenarios.  If a suspect is buying books or making hotel reservations online, it's usually a simple (and legally relatively uncomplicated) matter to just ask the vendor about the transaction, no wiretapping required.  This suggests that these products may be aimed less at law enforcement than at national intelligence agencies, who might be reluctant (or unable) to obtain overt cooperation from web site operators (who may be located abroad).
+<p>
+Whether this kind of surveillance is currently widespread or not, Soghoian and Stamm's paper underscores the deeply flawed mess that the web certificate model has become.  It's time to design something better." "http://www.crypto.com/blog/spycerts/" (19370 22694) new 14 nil nil ((title nil "The Spy in the Middle") (link nil "http://www.crypto.com/blog/spycerts/") (guid nil "http://www.crypto.com/blog/spycerts/") (pubDate nil "Wed, 24 Mar 2010 18:23:34 +0000") (description nil "Are SSL certificates even more broken than we thought?
+
+
+
+
+	
+<p>
+A decade ago, I observed that commercial certificate authorities protect you from anyone from whom they are unwilling to take money.  That turns out to be wrong; they don't even do that much.
+<p>
+SSL certificates are the primary mechanism for ensuring that secure web sites -- those displaying that reassuring \"padlock\" icon in the address bar -- really are who they purport to be.   In order for your browser to display the padlock icon, a web site must first present a \"certificate\", digitally signed by a trusted \"root\" authority, that attests to its identity and encryption keys.
+<p>
+Unfortunately, through a confluence of sloppy design, naked commercial maneuvering, and bad user interfaces, today's web browsers have evolved to accept certificates issued by a surprisingly large number of root authorities, from tiny, obscure businesses to various national governments.  And a certificate from any one of them is usually sufficient to bless any web connection as being \"secure\".
+<p>
+What this means is that an eavesdropper who can obtain fake certificates from <em>any</em> certificate authority can successfully impersonate <em>every</em> encrypted web site someone might visit.  Most browsers will happily (and silently) accept new certificates from any valid authority, even for web sites for which certificates had already been obtained.  An eavesdropper with fake certificates and access to a target's internet connection can thus quietly interpose itself as a \"man-in-the-middle\", observing and recording all encrypted web traffic traffic, with the user none the wiser.
+<p>
+But how much of a threat is this in practice?  Are there really eavesdroppers out there -- be they criminals, spies, or law enforcement agencies -- using bogus certificates to intercept encrypted web traffic?  Or is this merely idle speculation, of only theoretical concern?
+<p>
+A <a href=\"http://files.cloudprivacy.net/ssl-mitm.pdf\">paper published today by Chris Soghoian and Sid Stamm [pdf]</a> suggests that the threat may be far more practical than previously thought.   They found turnkey surveillance products, marketed and sold to law enforcement and intelligence agencies in the US and foreign countries, designed to collect encrypted SSL traffic based on forged \"look-alike\" certificates obtained from cooperative certificate authorities.  The products (apparently available only to government agencies) appear sophisticated, mature, and mass-produced, suggesting that \"certified man-in-the-middle\" web surveillance is at least commonplace and widespread enough to support an active vendor community.  Wired's Ryan Singel reports in depth <a href=\"http://www.wired.com/threatlevel/2010/03/packet-forensics/\">here</a>.
+<p>
+It's worth pointing out that, from the perspective of a law enforcement or intelligence agency, this sort of surveillance is far from ideal.  A central requirement for most government wiretapping (mandated, for example, in the CALEA standards for telephone interception) is that surveillance be undetectable.  But issuing a bogus web certificate carries with it the risk of detection by the target, either in real-time or after the fact, especially if it's for a web site already visited.  Although current browsers don't ordinarily detect unusual or suspiciously changed certificates, there's no fundamental reason they couldn't (and the Soghoian/Stamm paper proposes a Firefox plugin to do just that).  In
+any case, there's no reliable way for the wiretapper to know in advance whether the target will be alerted by a browser that scrutinizes new certificates.
+<p>
+Also, it's not clear how web interception would be particularly useful for many of the most common law enforcement investigative scenarios.  If a suspect is buying books or making hotel reservations online, it's usually a simple (and legally relatively uncomplicated) matter to just ask the vendor about the transaction, no wiretapping required.  This suggests that these products may be aimed less at law enforcement than at national intelligence agencies, who might be reluctant (or unable) to obtain overt cooperation from web site operators (who may be located abroad).
+<p>
+Whether this kind of surveillance is currently widespread or not, Soghoian and Stamm's paper underscores the deeply flawed mess that the web certificate model has become.  It's time to design something better."))) ("Fighting Terror with Uncertainty" "Has the TSA made it easier for terrorists to game the system?
+<p>
+It's been a frighteningly confusing week for frequent flyers (and confirmed cowards) like me.  First we had the Underpants Bomber, his Christmas-day
+attempt to take down a Detroit-bound flight thwarted by slow-acting chemistry and quick-thinking passengers.  Next -- within a day -- came inexplicable new regulations that seemed designed more to punish the rest of us than to discourage future acts of terrorism.  The new rules were unsettling not just because they seemed as laughably ineffective as they were inconvenient,
+but because they suggested
+that the authorities had no idea what to do, no real process for analyzing
+and reacting to potential new threats.  As the
+<em>Economist</em> was moved to write,
+<a href=\"http://www.economist.com/blogs/gulliver/2009/12/the_latest_on_flight_253\">\"the people who run America's airport security apparatus appear to have gone insane\"</a>.
+<p>
+A few days later the TSA, to its credit, rolled back some of the more
+arbitrarily punitive restrictions -- in-flight entertainment systems can now
+be turned back on, and passengers are, at the airline's discretion, again permitted to use the toilets during the last hour of flight.
+<p>
+But while a degree of sanity may have returned to some
+of the rules, the TSA's new security philosophy appears to yield significant advantage to attackers.  The current approach may actually make us more
+vulnerable to disruption and terror now than we were before.
+<a href=\"http://www.crypto.com/blog/random/\">See the rest of this (rather long) entry...</a>" "http://www.crypto.com/blog/random/" (19260 12362) new 15 nil nil ((title nil "Fighting Terror with Uncertainty") (link nil "http://www.crypto.com/blog/random/") (guid nil "http://www.crypto.com/blog/random/") (pubDate nil "Thu, 31 Dec 2009 05:02:02 +0000") (description nil "Has the TSA made it easier for terrorists to game the system?
+
+
+
+
+	
+<p>
+It's been a frighteningly confusing week for frequent flyers (and confirmed cowards) like me.  First we had the Underpants Bomber, his Christmas-day
+attempt to take down a Detroit-bound flight thwarted by slow-acting chemistry and quick-thinking passengers.  Next -- within a day -- came inexplicable new regulations that seemed designed more to punish the rest of us than to discourage future acts of terrorism.  The new rules were unsettling not just because they seemed as laughably ineffective as they were inconvenient,
+but because they suggested
+that the authorities had no idea what to do, no real process for analyzing
+and reacting to potential new threats.  As the
+<em>Economist</em> was moved to write,
+<a href=\"http://www.economist.com/blogs/gulliver/2009/12/the_latest_on_flight_253\">\"the people who run America's airport security apparatus appear to have gone insane\"</a>.
+<p>
+A few days later the TSA, to its credit, rolled back some of the more
+arbitrarily punitive restrictions -- in-flight entertainment systems can now
+be turned back on, and passengers are, at the airline's discretion, again permitted to use the toilets during the last hour of flight.
+<p>
+But while a degree of sanity may have returned to some
+of the rules, the TSA's new security philosophy appears to yield significant advantage to attackers.  The current approach may actually make us more
+vulnerable to disruption and terror now than we were before.
+
+<a href=\"http://www.crypto.com/blog/random/\">See the rest of this (rather long) entry...</a>"))))

@@ -1,0 +1,206 @@
+;; -*- coding: utf-8 -*-
+(("Existential Comics" "Existential Comics: A comic about the inevitable anguish of living a brief life in an absurd world. Also jokes." "http://existentialcomics.com" (21317 55270 546625 673000) feed 0 nil nil ((title nil "Existential Comics") (link nil "http://existentialcomics.com") (description nil "Existential Comics: A comic about the inevitable anguish of living a brief life in an absurd world. Also jokes.") (language nil "en") (item nil (title nil "Dungeons & Dragons & Philosophers") (link nil "http://existentialcomics.com/comic/23") (description nil "
+            <img src=\"http://static.existentialcomics.com//comics/dungeonsAndDragons.jpg\">
+            <br /><hr /><br />
+            <img src=\"http://static.existentialcomics.com//comics/dungeonsAndDragons2.jpg\" alt=\"About half the time spent on this comic was spent on figuring out how exactly Simone de Beauvoir's hair works, and it still ended up looking terrible. I make no apologies for Derrida's hair, however, for no artist alive can capture that glorious mane.\" title=\"\">
+            
+        ") (pubDate nil)) (item nil (title nil "Maimonides on the Nature of God") (link nil "http://existentialcomics.com/comic/22") (description nil "
+            <img src=\"http://static.existentialcomics.com//comics/maimonides.jpg\" alt=\"God has no extension...if you know what I mean\" title=\"\">
+            
+        ") (pubDate nil)) (item nil (title nil "The Adventures of Fallacy Man part II: A Worthy Foe") (link nil "http://existentialcomics.com/comic/21") (description nil "
+            <img src=\"http://static.existentialcomics.com//comics/cognitiveBiasBoy1.jpg\">
+            <br /><hr /><br />
+            <img src=\"http://static.existentialcomics.com//comics/cognitiveBiasBoy2.jpg\">
+            <br /><hr /><br />
+            <img src=\"http://static.existentialcomics.com//comics/cognitiveBiasBoy3.jpg\" alt=\"Now all they need is a grammer and spelling pedant, and their troupe will be complete. \" title=\"\">
+            
+        ") (pubDate nil)) (item nil (title nil "Kierkegaard wasn't really the greatest at small talk.") (link nil "http://existentialcomics.com/comic/20") (description nil "
+            <img src=\"http://static.existentialcomics.com//comics/KierkegaardWasBadAtSmallTalk.jpg\" alt=\"He wasn't the best babysitter either\" title=\"\">
+            
+        ") (pubDate nil)) (item nil (title nil "The Germans Play Monopoly") (link nil "http://existentialcomics.com/comic/19") (description nil "
+            <img src=\"http://static.existentialcomics.com//comics/germansPlayMonopoly1.jpg\">
+            <br /><hr /><br />
+            <img src=\"http://static.existentialcomics.com//comics/germansPlayMonopoly2.jpg\" alt=\"I'm not sure what they expected, it was inevitable really.\" title=\"\">
+            
+        ") (pubDate nil)) (item nil (title nil "The Wrath of the Sea") (link nil "http://existentialcomics.com/comic/18") (description nil "
+            <img src=\"http://static.existentialcomics.com//comics/sublime1.jpg\">
+            <br /><hr /><br />
+            <img src=\"http://static.existentialcomics.com//comics/sublime2.jpg\">
+            <br /><hr /><br />
+            <img src=\"http://static.existentialcomics.com//comics/sublime3.jpg\">
+            <br /><hr /><br />
+            <img src=\"http://static.existentialcomics.com//comics/sublime4.jpg\">
+            
+        ") (pubDate nil)) (item nil (title nil "Sartre and Hobbes play Monopoly") (link nil "http://existentialcomics.com/comic/17") (description nil "
+            <img src=\"http://static.existentialcomics.com//comics/sartreHobbesMonopoly.jpg\" alt=\"Hume: Just because the rules have always said that people break out of jail when they roll a double in the past doesn't mean they do now. Check the inside of the box again.\" title=\"\">
+            
+        ") (pubDate nil)) (item nil (title nil "Kafka at the DMV") (link nil "http://existentialcomics.com/comic/16") (description nil "
+            <img src=\"http://static.existentialcomics.com//comics/kafkaAtTheDMV.jpg\" alt=\"I wish everything was more like the DMV...\" title=\"\">
+            
+        ") (pubDate nil)) (item nil (title nil "Turing Test") (link nil "http://existentialcomics.com/comic/15") (description nil "
+            <img src=\"http://static.existentialcomics.com//comics/turingTest.jpg\" alt=\"Checklist: Barks, check. Barks more, check. Doesn't stop barking when you yell 'SHUT THE HELL UP DOG I'M TRYING TO SLEEP', double check\" title=\"\">
+            
+        ") (pubDate nil)) (item nil (title nil "How Philosophy is Made") (link nil "http://existentialcomics.com/comic/14") (description nil "
+            <img src=\"http://static.existentialcomics.com//comics/howPhilosophyIsMade1.jpg\">
+            <br /><hr /><br />
+            <img src=\"http://static.existentialcomics.com//comics/howPhilosophyIsMade2.jpg\" alt=\"There are no known historical records of Socrates owning an armchair, which has caused some to theorize that all his philosophy was actually done by his wife in the bath. He would then listen in, in secret, and repeat what he had heard in the town square, as if it were his own ideas.\" title=\"\">
+            
+        ") (pubDate nil)) (item nil (title nil "How to Quit Smoking") (link nil "http://existentialcomics.com/comic/13") (description nil "
+            <img src=\"http://static.existentialcomics.com//comics/quitsmoking1.jpg\">
+            <br /><hr /><br />
+            <img src=\"http://static.existentialcomics.com//comics/quitsmoking2.jpg\">
+            <br /><hr /><br />
+            <img src=\"http://static.existentialcomics.com//comics/quitsmoking3.jpg\">
+            <br /><hr /><br />
+            <img src=\"http://static.existentialcomics.com//comics/quitsmoking4.jpg\">
+            
+        ") (pubDate nil)) (item nil (title nil "Plotinus was a helluva cardshark") (link nil "http://existentialcomics.com/comic/12") (description nil "
+            <img src=\"http://static.existentialcomics.com//comics/plotinusCardShark.jpg\" alt=\"Plotinus jokes are where the money's at\" title=\"\">
+            
+        ") (pubDate nil)) (item nil (title nil "Bad news at the Doctor") (link nil "http://existentialcomics.com/comic/11") (description nil "
+            <img src=\"http://static.existentialcomics.com//comics/p-zombie-test.jpg\" alt=\"Have you had any desire to eat brains by any chance?\" title=\"\">
+            
+        ") (pubDate nil)) (item nil (title nil "Logicians Find a Genie") (link nil "http://existentialcomics.com/comic/10") (description nil "
+            <img src=\"http://static.existentialcomics.com//comics/genie.jpg\" alt=\"\"Or maybe you wish for the power to wish for more wishes first. Hey is that a lake over there?\" \"No, it's probably just your heat stroked brain hallucinating\"\" title=\"\">
+            
+        ") (pubDate nil)) (item nil (title nil "The Adventures of Fallacy Man") (link nil "http://existentialcomics.com/comic/9") (description nil "
+            <img src=\"http://static.existentialcomics.com//comics/fallacyMan1.jpg\">
+            <br /><hr /><br />
+            <img src=\"http://static.existentialcomics.com//comics/fallacyMan2.jpg\">
+            <br /><hr /><br />
+            <img src=\"http://static.existentialcomics.com//comics/fallacyMan3.jpg\" alt=\"It's a good thing Fallacy Man didn't think of responding with 'Fallacy Fallacy' back, or they would have gotten into an infinite regress of logic and reason\" title=\"\">
+            
+        ") (pubDate nil)) (item nil (title nil "In which Peter Singer investigates a basement flood") (link nil "http://existentialcomics.com/comic/8") (description nil "
+            <img src=\"http://static.existentialcomics.com//comics/peterSingersBasement.jpg\" alt=\"Don't worry, I did the math. The amount of pleasure I got from writing this terrible joke outweighs the suffering it caused from people having to read it.\" title=\"\">
+            
+        ") (pubDate nil)) (item nil (title nil "Kierkegaard at the Rave") (link nil "http://existentialcomics.com/comic/7") (description nil "
+            <img src=\"http://static.existentialcomics.com//comics/kierkegaardAtTheRave.jpg\" alt=\"Hegel was DJing that night and he swears the Absolute promised to meet up with him later, but Kierkegaard was pretty sure he's full of shit.\" title=\"\">
+            
+        ") (pubDate nil)) (item nil (title nil "Beetle in a Box") (link nil "http://existentialcomics.com/comic/6") (description nil "
+            <img src=\"http://static.existentialcomics.com//comics/beetleInABox.jpg\" alt=\"Five naked, blindfolded men get into a hottub. The water represents the totality of facts, what we feel with our hands represents our picture of the world, and our penises...\" title=\"\">
+            
+        ") (pubDate nil)) (item nil (title nil "A Dialog with a Madman") (link nil "http://existentialcomics.com/comic/5") (description nil "
+            <img src=\"http://static.existentialcomics.com//comics/dialogWithAMadman_one.jpg\">
+            <br /><hr /><br />
+            <img src=\"http://static.existentialcomics.com//comics/dialogWithAMadman_two.jpg\">
+            
+        ") (pubDate nil)) (item nil (title nil "Pyrrho wins the lottery") (link nil "http://existentialcomics.com/comic/4") (description nil "
+            <img src=\"http://static.existentialcomics.com/comics/pyrrhoWinsLottery.jpg\" alt=\"Pyrrho sometimes has a hard time believing whether or not it is butter\" title=\"\">
+            
+        ") (pubDate nil)))) ("Dungeons & Dragons & Philosophers" "<img src=\"http://static.existentialcomics.com//comics/dungeonsAndDragons.jpg\">
+<br /><hr /><br />
+<img src=\"http://static.existentialcomics.com//comics/dungeonsAndDragons2.jpg\" alt=\"About half the time spent on this comic was spent on figuring out how exactly Simone de Beauvoir's hair works, and it still ended up looking terrible. I make no apologies for Derrida's hair, however, for no artist alive can capture that glorious mane.\" title=\"\">" "http://existentialcomics.com/comic/23" (21317 48070 537291 479000) old 1 nil nil ((title nil "Dungeons & Dragons & Philosophers") (link nil "http://existentialcomics.com/comic/23") (description nil "
+            <img src=\"http://static.existentialcomics.com//comics/dungeonsAndDragons.jpg\">
+            <br /><hr /><br />
+            <img src=\"http://static.existentialcomics.com//comics/dungeonsAndDragons2.jpg\" alt=\"About half the time spent on this comic was spent on figuring out how exactly Simone de Beauvoir's hair works, and it still ended up looking terrible. I make no apologies for Derrida's hair, however, for no artist alive can capture that glorious mane.\" title=\"\">
+            
+        ") (pubDate nil))) ("Maimonides on the Nature of God" "<img src=\"http://static.existentialcomics.com//comics/maimonides.jpg\" alt=\"God has no extension...if you know what I mean\" title=\"\">" "http://existentialcomics.com/comic/22" (21317 48070 537291 479000) old 2 nil nil ((title nil "Maimonides on the Nature of God") (link nil "http://existentialcomics.com/comic/22") (description nil "
+            <img src=\"http://static.existentialcomics.com//comics/maimonides.jpg\" alt=\"God has no extension...if you know what I mean\" title=\"\">
+            
+        ") (pubDate nil))) ("The Adventures of Fallacy Man part II: A Worthy Foe" "<img src=\"http://static.existentialcomics.com//comics/cognitiveBiasBoy1.jpg\">
+<br /><hr /><br />
+<img src=\"http://static.existentialcomics.com//comics/cognitiveBiasBoy2.jpg\">
+<br /><hr /><br />
+<img src=\"http://static.existentialcomics.com//comics/cognitiveBiasBoy3.jpg\" alt=\"Now all they need is a grammer and spelling pedant, and their troupe will be complete. \" title=\"\">" "http://existentialcomics.com/comic/21" (21317 48070 537291 479000) old 3 nil nil ((title nil "The Adventures of Fallacy Man part II: A Worthy Foe") (link nil "http://existentialcomics.com/comic/21") (description nil "
+            <img src=\"http://static.existentialcomics.com//comics/cognitiveBiasBoy1.jpg\">
+            <br /><hr /><br />
+            <img src=\"http://static.existentialcomics.com//comics/cognitiveBiasBoy2.jpg\">
+            <br /><hr /><br />
+            <img src=\"http://static.existentialcomics.com//comics/cognitiveBiasBoy3.jpg\" alt=\"Now all they need is a grammer and spelling pedant, and their troupe will be complete. \" title=\"\">
+            
+        ") (pubDate nil))) ("Kierkegaard wasn't really the greatest at small talk." "<img src=\"http://static.existentialcomics.com//comics/KierkegaardWasBadAtSmallTalk.jpg\" alt=\"He wasn't the best babysitter either\" title=\"\">" "http://existentialcomics.com/comic/20" (21317 48070 537291 479000) old 4 nil nil ((title nil "Kierkegaard wasn't really the greatest at small talk.") (link nil "http://existentialcomics.com/comic/20") (description nil "
+            <img src=\"http://static.existentialcomics.com//comics/KierkegaardWasBadAtSmallTalk.jpg\" alt=\"He wasn't the best babysitter either\" title=\"\">
+            
+        ") (pubDate nil))) ("The Germans Play Monopoly" "<img src=\"http://static.existentialcomics.com//comics/germansPlayMonopoly1.jpg\">
+<br /><hr /><br />
+<img src=\"http://static.existentialcomics.com//comics/germansPlayMonopoly2.jpg\" alt=\"I'm not sure what they expected, it was inevitable really.\" title=\"\">" "http://existentialcomics.com/comic/19" (21317 48070 537291 479000) old 5 nil nil ((title nil "The Germans Play Monopoly") (link nil "http://existentialcomics.com/comic/19") (description nil "
+            <img src=\"http://static.existentialcomics.com//comics/germansPlayMonopoly1.jpg\">
+            <br /><hr /><br />
+            <img src=\"http://static.existentialcomics.com//comics/germansPlayMonopoly2.jpg\" alt=\"I'm not sure what they expected, it was inevitable really.\" title=\"\">
+            
+        ") (pubDate nil))) ("The Wrath of the Sea" "<img src=\"http://static.existentialcomics.com//comics/sublime1.jpg\">
+<br /><hr /><br />
+<img src=\"http://static.existentialcomics.com//comics/sublime2.jpg\">
+<br /><hr /><br />
+<img src=\"http://static.existentialcomics.com//comics/sublime3.jpg\">
+<br /><hr /><br />
+<img src=\"http://static.existentialcomics.com//comics/sublime4.jpg\">" "http://existentialcomics.com/comic/18" (21317 48070 537291 479000) old 6 nil nil ((title nil "The Wrath of the Sea") (link nil "http://existentialcomics.com/comic/18") (description nil "
+            <img src=\"http://static.existentialcomics.com//comics/sublime1.jpg\">
+            <br /><hr /><br />
+            <img src=\"http://static.existentialcomics.com//comics/sublime2.jpg\">
+            <br /><hr /><br />
+            <img src=\"http://static.existentialcomics.com//comics/sublime3.jpg\">
+            <br /><hr /><br />
+            <img src=\"http://static.existentialcomics.com//comics/sublime4.jpg\">
+            
+        ") (pubDate nil))) ("Sartre and Hobbes play Monopoly" "<img src=\"http://static.existentialcomics.com//comics/sartreHobbesMonopoly.jpg\" alt=\"Hume: Just because the rules have always said that people break out of jail when they roll a double in the past doesn't mean they do now. Check the inside of the box again.\" title=\"\">" "http://existentialcomics.com/comic/17" (21317 48070 537291 479000) old 7 nil nil ((title nil "Sartre and Hobbes play Monopoly") (link nil "http://existentialcomics.com/comic/17") (description nil "
+            <img src=\"http://static.existentialcomics.com//comics/sartreHobbesMonopoly.jpg\" alt=\"Hume: Just because the rules have always said that people break out of jail when they roll a double in the past doesn't mean they do now. Check the inside of the box again.\" title=\"\">
+            
+        ") (pubDate nil))) ("Kafka at the DMV" "<img src=\"http://static.existentialcomics.com//comics/kafkaAtTheDMV.jpg\" alt=\"I wish everything was more like the DMV...\" title=\"\">" "http://existentialcomics.com/comic/16" (21317 48070 537291 479000) old 8 nil nil ((title nil "Kafka at the DMV") (link nil "http://existentialcomics.com/comic/16") (description nil "
+            <img src=\"http://static.existentialcomics.com//comics/kafkaAtTheDMV.jpg\" alt=\"I wish everything was more like the DMV...\" title=\"\">
+            
+        ") (pubDate nil))) ("Turing Test" "<img src=\"http://static.existentialcomics.com//comics/turingTest.jpg\" alt=\"Checklist: Barks, check. Barks more, check. Doesn't stop barking when you yell 'SHUT THE HELL UP DOG I'M TRYING TO SLEEP', double check\" title=\"\">" "http://existentialcomics.com/comic/15" (21317 48070 537291 479000) old 9 nil nil ((title nil "Turing Test") (link nil "http://existentialcomics.com/comic/15") (description nil "
+            <img src=\"http://static.existentialcomics.com//comics/turingTest.jpg\" alt=\"Checklist: Barks, check. Barks more, check. Doesn't stop barking when you yell 'SHUT THE HELL UP DOG I'M TRYING TO SLEEP', double check\" title=\"\">
+            
+        ") (pubDate nil))) ("How Philosophy is Made" "<img src=\"http://static.existentialcomics.com//comics/howPhilosophyIsMade1.jpg\">
+<br /><hr /><br />
+<img src=\"http://static.existentialcomics.com//comics/howPhilosophyIsMade2.jpg\" alt=\"There are no known historical records of Socrates owning an armchair, which has caused some to theorize that all his philosophy was actually done by his wife in the bath. He would then listen in, in secret, and repeat what he had heard in the town square, as if it were his own ideas.\" title=\"\">" "http://existentialcomics.com/comic/14" (21317 48070 537291 479000) old 10 nil nil ((title nil "How Philosophy is Made") (link nil "http://existentialcomics.com/comic/14") (description nil "
+            <img src=\"http://static.existentialcomics.com//comics/howPhilosophyIsMade1.jpg\">
+            <br /><hr /><br />
+            <img src=\"http://static.existentialcomics.com//comics/howPhilosophyIsMade2.jpg\" alt=\"There are no known historical records of Socrates owning an armchair, which has caused some to theorize that all his philosophy was actually done by his wife in the bath. He would then listen in, in secret, and repeat what he had heard in the town square, as if it were his own ideas.\" title=\"\">
+            
+        ") (pubDate nil))) ("How to Quit Smoking" "<img src=\"http://static.existentialcomics.com//comics/quitsmoking1.jpg\">
+<br /><hr /><br />
+<img src=\"http://static.existentialcomics.com//comics/quitsmoking2.jpg\">
+<br /><hr /><br />
+<img src=\"http://static.existentialcomics.com//comics/quitsmoking3.jpg\">
+<br /><hr /><br />
+<img src=\"http://static.existentialcomics.com//comics/quitsmoking4.jpg\">" "http://existentialcomics.com/comic/13" (21317 48070 537291 479000) old 11 nil nil ((title nil "How to Quit Smoking") (link nil "http://existentialcomics.com/comic/13") (description nil "
+            <img src=\"http://static.existentialcomics.com//comics/quitsmoking1.jpg\">
+            <br /><hr /><br />
+            <img src=\"http://static.existentialcomics.com//comics/quitsmoking2.jpg\">
+            <br /><hr /><br />
+            <img src=\"http://static.existentialcomics.com//comics/quitsmoking3.jpg\">
+            <br /><hr /><br />
+            <img src=\"http://static.existentialcomics.com//comics/quitsmoking4.jpg\">
+            
+        ") (pubDate nil))) ("Plotinus was a helluva cardshark" "<img src=\"http://static.existentialcomics.com//comics/plotinusCardShark.jpg\" alt=\"Plotinus jokes are where the money's at\" title=\"\">" "http://existentialcomics.com/comic/12" (21317 48070 537291 479000) new 12 nil nil ((title nil "Plotinus was a helluva cardshark") (link nil "http://existentialcomics.com/comic/12") (description nil "
+            <img src=\"http://static.existentialcomics.com//comics/plotinusCardShark.jpg\" alt=\"Plotinus jokes are where the money's at\" title=\"\">
+            
+        ") (pubDate nil))) ("Bad news at the Doctor" "<img src=\"http://static.existentialcomics.com//comics/p-zombie-test.jpg\" alt=\"Have you had any desire to eat brains by any chance?\" title=\"\">" "http://existentialcomics.com/comic/11" (21317 48070 537291 479000) new 13 nil nil ((title nil "Bad news at the Doctor") (link nil "http://existentialcomics.com/comic/11") (description nil "
+            <img src=\"http://static.existentialcomics.com//comics/p-zombie-test.jpg\" alt=\"Have you had any desire to eat brains by any chance?\" title=\"\">
+            
+        ") (pubDate nil))) ("Logicians Find a Genie" "<img src=\"http://static.existentialcomics.com//comics/genie.jpg\" alt=\"\"Or maybe you wish for the power to wish for more wishes first. Hey is that a lake over there?\" \"No, it's probably just your heat stroked brain hallucinating\"\" title=\"\">" "http://existentialcomics.com/comic/10" (21317 48070 537291 479000) new 14 nil nil ((title nil "Logicians Find a Genie") (link nil "http://existentialcomics.com/comic/10") (description nil "
+            <img src=\"http://static.existentialcomics.com//comics/genie.jpg\" alt=\"\"Or maybe you wish for the power to wish for more wishes first. Hey is that a lake over there?\" \"No, it's probably just your heat stroked brain hallucinating\"\" title=\"\">
+            
+        ") (pubDate nil))) ("The Adventures of Fallacy Man" "<img src=\"http://static.existentialcomics.com//comics/fallacyMan1.jpg\">
+<br /><hr /><br />
+<img src=\"http://static.existentialcomics.com//comics/fallacyMan2.jpg\">
+<br /><hr /><br />
+<img src=\"http://static.existentialcomics.com//comics/fallacyMan3.jpg\" alt=\"It's a good thing Fallacy Man didn't think of responding with 'Fallacy Fallacy' back, or they would have gotten into an infinite regress of logic and reason\" title=\"\">" "http://existentialcomics.com/comic/9" (21317 48070 537291 479000) old 15 nil nil ((title nil "The Adventures of Fallacy Man") (link nil "http://existentialcomics.com/comic/9") (description nil "
+            <img src=\"http://static.existentialcomics.com//comics/fallacyMan1.jpg\">
+            <br /><hr /><br />
+            <img src=\"http://static.existentialcomics.com//comics/fallacyMan2.jpg\">
+            <br /><hr /><br />
+            <img src=\"http://static.existentialcomics.com//comics/fallacyMan3.jpg\" alt=\"It's a good thing Fallacy Man didn't think of responding with 'Fallacy Fallacy' back, or they would have gotten into an infinite regress of logic and reason\" title=\"\">
+            
+        ") (pubDate nil))) ("In which Peter Singer investigates a basement flood" "<img src=\"http://static.existentialcomics.com//comics/peterSingersBasement.jpg\" alt=\"Don't worry, I did the math. The amount of pleasure I got from writing this terrible joke outweighs the suffering it caused from people having to read it.\" title=\"\">" "http://existentialcomics.com/comic/8" (21317 48070 537291 479000) new 16 nil nil ((title nil "In which Peter Singer investigates a basement flood") (link nil "http://existentialcomics.com/comic/8") (description nil "
+            <img src=\"http://static.existentialcomics.com//comics/peterSingersBasement.jpg\" alt=\"Don't worry, I did the math. The amount of pleasure I got from writing this terrible joke outweighs the suffering it caused from people having to read it.\" title=\"\">
+            
+        ") (pubDate nil))) ("Kierkegaard at the Rave" "<img src=\"http://static.existentialcomics.com//comics/kierkegaardAtTheRave.jpg\" alt=\"Hegel was DJing that night and he swears the Absolute promised to meet up with him later, but Kierkegaard was pretty sure he's full of shit.\" title=\"\">" "http://existentialcomics.com/comic/7" (21317 48070 537291 479000) new 17 nil nil ((title nil "Kierkegaard at the Rave") (link nil "http://existentialcomics.com/comic/7") (description nil "
+            <img src=\"http://static.existentialcomics.com//comics/kierkegaardAtTheRave.jpg\" alt=\"Hegel was DJing that night and he swears the Absolute promised to meet up with him later, but Kierkegaard was pretty sure he's full of shit.\" title=\"\">
+            
+        ") (pubDate nil))) ("Beetle in a Box" "<img src=\"http://static.existentialcomics.com//comics/beetleInABox.jpg\" alt=\"Five naked, blindfolded men get into a hottub. The water represents the totality of facts, what we feel with our hands represents our picture of the world, and our penises...\" title=\"\">" "http://existentialcomics.com/comic/6" (21317 48070 537291 479000) new 18 nil nil ((title nil "Beetle in a Box") (link nil "http://existentialcomics.com/comic/6") (description nil "
+            <img src=\"http://static.existentialcomics.com//comics/beetleInABox.jpg\" alt=\"Five naked, blindfolded men get into a hottub. The water represents the totality of facts, what we feel with our hands represents our picture of the world, and our penises...\" title=\"\">
+            
+        ") (pubDate nil))) ("A Dialog with a Madman" "<img src=\"http://static.existentialcomics.com//comics/dialogWithAMadman_one.jpg\">
+<br /><hr /><br />
+<img src=\"http://static.existentialcomics.com//comics/dialogWithAMadman_two.jpg\">" "http://existentialcomics.com/comic/5" (21317 48070 537291 479000) new 19 nil nil ((title nil "A Dialog with a Madman") (link nil "http://existentialcomics.com/comic/5") (description nil "
+            <img src=\"http://static.existentialcomics.com//comics/dialogWithAMadman_one.jpg\">
+            <br /><hr /><br />
+            <img src=\"http://static.existentialcomics.com//comics/dialogWithAMadman_two.jpg\">
+            
+        ") (pubDate nil))) ("Pyrrho wins the lottery" "<img src=\"http://static.existentialcomics.com/comics/pyrrhoWinsLottery.jpg\" alt=\"Pyrrho sometimes has a hard time believing whether or not it is butter\" title=\"\">" "http://existentialcomics.com/comic/4" (21317 48070 537291 479000) new 20 nil nil ((title nil "Pyrrho wins the lottery") (link nil "http://existentialcomics.com/comic/4") (description nil "
+            <img src=\"http://static.existentialcomics.com/comics/pyrrhoWinsLottery.jpg\" alt=\"Pyrrho sometimes has a hard time believing whether or not it is butter\" title=\"\">
+            
+        ") (pubDate nil))))

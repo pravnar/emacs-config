@@ -97,3 +97,13 @@
 (add-to-list 'ac-dictionary-directories 
 	     "~/emacs/plugins/auto-complete-1.3.1/ac-dict")
 (ac-config-default)
+
+
+;; Newsticker
+
+(load-library "newsticker_config")
+
+
+;; w3m
+
+(load-library "w3m_config")

@@ -112,3 +112,7 @@
 	     (equal (user-login-name) "praveennarayanan"))
   (load-library "w3m_config"))
 
+
+;; Web
+
+(load-library "web")

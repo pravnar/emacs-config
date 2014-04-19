@@ -101,9 +101,14 @@
 
 ;; Newsticker
 
-(load-library "newsticker_config")
+(unless (and (eq system-type 'darwin)
+	     (equal (user-login-name) "praveennarayanan"))
+  (load-library "newsticker_config"))
 
 
 ;; w3m
 
-(load-library "w3m_config")
+(unless (and (eq system-type 'darwin)
+	     (equal (user-login-name) "praveennarayanan"))
+  (load-library "w3m_config"))
+

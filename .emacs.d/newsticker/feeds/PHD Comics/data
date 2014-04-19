@@ -1,5 +1,5 @@
 ;; -*- coding: utf-8 -*-
-(("PHD Comics" "Providing global up-to-the-minute procrastination!" "http://www.phdcomics.com" (21316 20114 751085 612000) feed 0 nil nil ((title nil "PHD Comics") (description nil "Providing global up-to-the-minute procrastination!") (link nil "http://www.phdcomics.com") (language nil "en-us") (generator nil "PHP/") (image nil (url nil "http://www.phdcomics.com/images/rss_logo_01.gif") (title nil "PHD Comics") (link nil "http://www.phdcomics.com") (description nil "Join now! Or sometime soon!")) (lastBuildDate nil "Fri, 04 Apr 2014 14:43:43 -0400") (item nil (title nil "04/04/14 PHD comic: 'So Typical'") (link nil "http://www.phdcomics.com/comics.php?f=1695") (description nil "<center>
+(("PHD Comics" "Providing global up-to-the-minute procrastination!" "http://www.phdcomics.com" (21321 41635 170210 850000) feed 0 nil nil ((title nil "PHD Comics") (description nil "Providing global up-to-the-minute procrastination!") (link nil "http://www.phdcomics.com") (language nil "en-us") (generator nil "PHP/") (image nil (url nil "http://www.phdcomics.com/images/rss_logo_01.gif") (title nil "PHD Comics") (link nil "http://www.phdcomics.com") (description nil "Join now! Or sometime soon!")) (lastBuildDate nil "Fri, 04 Apr 2014 14:43:43 -0400") (item nil (title nil "04/04/14 PHD comic: 'So Typical'") (link nil "http://www.phdcomics.com/comics.php?f=1695") (description nil "<center>
   <table border=\"0\" cellspacing=\"0\" cellpadding=\"0\" bgcolor=#ffffff>        
     <tr>
       <td><b><font face=\"Arial, Helvetica, sans-serif\" size=\"+1\">Piled Higher
@@ -166,7 +166,7 @@ href=\"http://www.phdcomics.com/comics.php\">CLICK HERE!</a></font></p>
 </td>
 </tr>
 </table>
-</center>" "http://www.phdcomics.com/comics.php?f=1695" (21310 64863) old 2 nil nil ((title nil "04/04/14 PHD comic: 'So Typical'") (link nil "http://www.phdcomics.com/comics.php?f=1695") (description nil "<center>
+</center>" "http://www.phdcomics.com/comics.php?f=1695" (21310 64863) old 3 nil nil ((title nil "04/04/14 PHD comic: 'So Typical'") (link nil "http://www.phdcomics.com/comics.php?f=1695") (description nil "<center>
   <table border=\"0\" cellspacing=\"0\" cellpadding=\"0\" bgcolor=#ffffff>        
     <tr>
       <td><b><font face=\"Arial, Helvetica, sans-serif\" size=\"+1\">Piled Higher
@@ -221,7 +221,7 @@ href=\"http://www.phdcomics.com/comics.php\">CLICK HERE!</a></font></p>
 </td>
 </tr>
 </table>
-</center>" "http://www.phdcomics.com/comics.php?f=1694" (21306 38712) old 3 nil nil ((title nil "04/02/14 PHD comic: 'Neil Armstrong on Being a Nerd'") (link nil "http://www.phdcomics.com/comics.php?f=1694") (description nil "<center>
+</center>" "http://www.phdcomics.com/comics.php?f=1694" (21306 38712) old 4 nil nil ((title nil "04/02/14 PHD comic: 'Neil Armstrong on Being a Nerd'") (link nil "http://www.phdcomics.com/comics.php?f=1694") (description nil "<center>
   <table border=\"0\" cellspacing=\"0\" cellpadding=\"0\" bgcolor=#ffffff>        
     <tr>
       <td><b><font face=\"Arial, Helvetica, sans-serif\" size=\"+1\">Piled Higher
@@ -276,7 +276,7 @@ href=\"http://www.phdcomics.com/comics.php\">CLICK HERE!</a></font></p>
 </td>
 </tr>
 </table>
-</center>" "http://www.phdcomics.com/comics.php?f=1693" (21306 37736) old 4 nil nil ((title nil "03/31/14 PHD comic: 'Check it'") (link nil "http://www.phdcomics.com/comics.php?f=1693") (description nil "<center>
+</center>" "http://www.phdcomics.com/comics.php?f=1693" (21306 37736) old 5 nil nil ((title nil "03/31/14 PHD comic: 'Check it'") (link nil "http://www.phdcomics.com/comics.php?f=1693") (description nil "<center>
   <table border=\"0\" cellspacing=\"0\" cellpadding=\"0\" bgcolor=#ffffff>        
     <tr>
       <td><b><font face=\"Arial, Helvetica, sans-serif\" size=\"+1\">Piled Higher
@@ -304,62 +304,7 @@ href=\"http://www.phdcomics.com/comics.php\">CLICK HERE!</a></font></p>
       </td>
     </tr>
   </table>
-</center>") (pubDate nil "Tue, 01 Apr 2014 06:22:32 -0400"))) ("03/26/14 PHD comic: 'Not Pretty'" "<center>
-<table border=\"0\" cellspacing=\"0\" cellpadding=\"0\" bgcolor=#ffffff>
-<tr>
-<td><b><font face=\"Arial, Helvetica, sans-serif\" size=\"+1\">Piled Higher
-&amp; Deeper</font><font face=\"Arial, Helvetica, sans-serif\"> <i> by Jorge
-Cham</i></font></b></td>
-<td> </td>
-<td>
-<div align=\"right\"><b><font face=\"Arial, Helvetica,
-sans-serif\">www.phdcomics.com</font></b></div>
-</td>
-</tr>
-<tr align=\"center\">
-<td colspan=\"3\"><font face=\"Arial, Helvetica, sans-serif\"><img alt=\"Click on the title below to read the comic\" src=\"http://www.phdcomics.com/comics/archive/phd032614s.gif\" border=\"0\"
-align=\"top\"></img></font></td>
-</tr>
-<tr>
-<td colspan=\"3\">
-<div align=\"center\"><font size=\"-2\" face=\"Arial, Helvetica, sans-serif\">title:
-&quot;<a href=http://www.phdcomics.com/comics.php?f=1692>Not Pretty</a>&quot; - originally published
-3/26/2014
-</font><p><font face=\"arial\">For the latest news in PHD Comics, <a
-href=\"http://www.phdcomics.com/comics.php\">CLICK HERE!</a></font></p>
-</div>
-</td>
-</tr>
-</table>
-</center>" "http://www.phdcomics.com/comics.php?f=1692" (21301 6426) old 5 nil nil ((title nil "03/26/14 PHD comic: 'Not Pretty'") (link nil "http://www.phdcomics.com/comics.php?f=1692") (description nil "<center>
-  <table border=\"0\" cellspacing=\"0\" cellpadding=\"0\" bgcolor=#ffffff>        
-    <tr>
-      <td><b><font face=\"Arial, Helvetica, sans-serif\" size=\"+1\">Piled Higher
-        &amp; Deeper</font><font face=\"Arial, Helvetica, sans-serif\"> <i> by Jorge
-        Cham</i></font></b></td>
-      <td> </td>
-      <td>
-        <div align=\"right\"><b><font face=\"Arial, Helvetica, 
-sans-serif\">www.phdcomics.com</font></b></div>
-      </td>
-    </tr>
-    <tr align=\"center\">
-      <td colspan=\"3\"><font face=\"Arial, Helvetica, sans-serif\"><img alt=\"Click on the title below to read the comic\" src=\"http://www.phdcomics.com/comics/archive/phd032614s.gif\" border=\"0\"  
-align=\"top\"></img></font></td>
-    </tr>
-    <tr>
-      <td colspan=\"3\">
-        <div align=\"center\"><font size=\"-2\" face=\"Arial, Helvetica, sans-serif\">title:
-          &quot;<a href=http://www.phdcomics.com/comics.php?f=1692>Not Pretty</a>&quot; - originally published 
-3/26/2014  
-        </font><p><font face=\"arial\">For the latest news in PHD Comics, <a 
-href=\"http://www.phdcomics.com/comics.php\">CLICK HERE!</a></font></p>
- 
-</div>
-      </td>
-    </tr>
-  </table>
-</center>") (pubDate nil "Fri, 28 Mar 2014 02:39:22 -0400"))) ("04/07/14 PHD comic: 'Announcement'" "<center>
+</center>") (pubDate nil "Tue, 01 Apr 2014 06:22:32 -0400"))) ("04/07/14 PHD comic: 'Announcement'" "<center>
 <table border=\"0\" cellspacing=\"0\" cellpadding=\"0\" bgcolor=#ffffff>
 <tr>
 <td><b><font face=\"Arial, Helvetica, sans-serif\" size=\"+1\">Piled Higher
@@ -386,7 +331,7 @@ href=\"http://www.phdcomics.com/comics.php\">CLICK HERE!</a></font></p>
 </td>
 </tr>
 </table>
-</center>" "http://www.phdcomics.com/comics.php?f=1696" (21316 18859) new 1 nil nil ((title nil "04/07/14 PHD comic: 'Announcement'") (link nil "http://www.phdcomics.com/comics.php?f=1696") (description nil "<center>
+</center>" "http://www.phdcomics.com/comics.php?f=1696" (21316 18859) old 2 nil nil ((title nil "04/07/14 PHD comic: 'Announcement'") (link nil "http://www.phdcomics.com/comics.php?f=1696") (description nil "<center>
   <table border=\"0\" cellspacing=\"0\" cellpadding=\"0\" bgcolor=#ffffff>        
     <tr>
       <td><b><font face=\"Arial, Helvetica, sans-serif\" size=\"+1\">Piled Higher
@@ -414,4 +359,59 @@ href=\"http://www.phdcomics.com/comics.php\">CLICK HERE!</a></font></p>
       </td>
     </tr>
   </table>
-</center>") (pubDate nil "Tue, 08 Apr 2014 15:10:35 -0400"))))
+</center>") (pubDate nil "Tue, 08 Apr 2014 15:10:35 -0400"))) ("04/09/14 PHD comic: 'Defending'" "<center>
+<table border=\"0\" cellspacing=\"0\" cellpadding=\"0\" bgcolor=#ffffff>
+<tr>
+<td><b><font face=\"Arial, Helvetica, sans-serif\" size=\"+1\">Piled Higher
+&amp; Deeper</font><font face=\"Arial, Helvetica, sans-serif\"> <i> by Jorge
+Cham</i></font></b></td>
+<td> </td>
+<td>
+<div align=\"right\"><b><font face=\"Arial, Helvetica,
+sans-serif\">www.phdcomics.com</font></b></div>
+</td>
+</tr>
+<tr align=\"center\">
+<td colspan=\"3\"><font face=\"Arial, Helvetica, sans-serif\"><img alt=\"Click on the title below to read the comic\" src=\"http://www.phdcomics.com/comics/archive/phd040914s.gif\" border=\"0\"
+align=\"top\"></img></font></td>
+</tr>
+<tr>
+<td colspan=\"3\">
+<div align=\"center\"><font size=\"-2\" face=\"Arial, Helvetica, sans-serif\">title:
+&quot;<a href=http://www.phdcomics.com/comics.php?f=1697>Defending</a>&quot; - originally published
+4/9/2014
+</font><p><font face=\"arial\">For the latest news in PHD Comics, <a
+href=\"http://www.phdcomics.com/comics.php\">CLICK HERE!</a></font></p>
+</div>
+</td>
+</tr>
+</table>
+</center>" "http://www.phdcomics.com/comics.php?f=1697" (21321 1724) old 1 nil nil ((title nil "04/09/14 PHD comic: 'Defending'") (link nil "http://www.phdcomics.com/comics.php?f=1697") (description nil "<center>
+  <table border=\"0\" cellspacing=\"0\" cellpadding=\"0\" bgcolor=#ffffff>        
+    <tr>
+      <td><b><font face=\"Arial, Helvetica, sans-serif\" size=\"+1\">Piled Higher
+        &amp; Deeper</font><font face=\"Arial, Helvetica, sans-serif\"> <i> by Jorge
+        Cham</i></font></b></td>
+      <td> </td>
+      <td>
+        <div align=\"right\"><b><font face=\"Arial, Helvetica, 
+sans-serif\">www.phdcomics.com</font></b></div>
+      </td>
+    </tr>
+    <tr align=\"center\">
+      <td colspan=\"3\"><font face=\"Arial, Helvetica, sans-serif\"><img alt=\"Click on the title below to read the comic\" src=\"http://www.phdcomics.com/comics/archive/phd040914s.gif\" border=\"0\"  
+align=\"top\"></img></font></td>
+    </tr>
+    <tr>
+      <td colspan=\"3\">
+        <div align=\"center\"><font size=\"-2\" face=\"Arial, Helvetica, sans-serif\">title:
+          &quot;<a href=http://www.phdcomics.com/comics.php?f=1697>Defending</a>&quot; - originally published 
+4/9/2014  
+        </font><p><font face=\"arial\">For the latest news in PHD Comics, <a 
+href=\"http://www.phdcomics.com/comics.php\">CLICK HERE!</a></font></p>
+ 
+</div>
+      </td>
+    </tr>
+  </table>
+</center>") (pubDate nil "Sat, 12 Apr 2014 05:26:20 -0400"))))

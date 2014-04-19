@@ -107,3 +107,8 @@
 ;; w3m
 
 (load-library "w3m_config")
+
+
+;; Web
+
+(load-library "web")

@@ -79,7 +79,7 @@
 
 (require 'linum)
 ;; (setq linum-format "%d ")
-(global-linum-mode 1)
+(global-linum-mode 0)
 ;; (set-face-attribute 'linum nil :background "#2d2d2d")
 
 ;; Add this hook to modes where you don't want line numbers
@@ -101,6 +101,10 @@
 ;; (set-face-attribute 'default nil
 ;; 		    :family "monaco" :height 185 :weight 'normal)
 ;; (set-face-attribute 'default nil :height 155)
+
+;; Font size
+
+;; (set-face-attribute 'default nil :height 120)
 
 
 ;; Transparency

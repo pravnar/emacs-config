@@ -102,6 +102,10 @@
 ;; 		    :family "monaco" :height 185 :weight 'normal)
 ;; (set-face-attribute 'default nil :height 155)
 
+;; Font size
+
+;; (set-face-attribute 'default nil :height 120)
+
 
 ;; Transparency
 ;; Syntax:  (set-frame-parameter (selected-frame) 'alpha '(<active> [<inactive>]))

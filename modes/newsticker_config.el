@@ -22,7 +22,8 @@
 		       ("The Geomblog" "http://feeds.feedburner.com/TheGeomblog")
 		       ("Gödel's Lost Letter and P=NP" "http://rjlipton.wordpress.com/feed/")
 		       ("Rajiv Sethi" "http://rajivsethi.blogspot.com/feeds/posts/default")
-		       ("Existential Comics" "http://existentialcomics.com/rss.xml")))
+		       ("Existential Comics" "http://existentialcomics.com/rss.xml")
+		       ("Control.Monad.Writer" "http://donsbot.wordpress.com/feed/")))
 
 (global-set-key (kbd "C-c r t") 'newsticker-treeview)
 (global-set-key (kbd "C-c r p") 'newsticker-plainview)

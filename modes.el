@@ -47,11 +47,24 @@
 
 ;; Marmalade for fun packages
 ;; Do M-x package-list-packages to see them (learnt while using haskell-mode)
+;; Do M-x package-refresh-contents first
+;; Do M-x package-install [RET] package-name to install a package
 
 (unless (boundp 'aquamacs-version)
   (require 'package)
   (add-to-list 'package-archives
 	       '("marmalade" . "http://marmalade-repo.org/packages/"))
+  (package-initialize))
+
+;; *Stable* MELPA for fun packages
+;; Used for installing Emacs front-end, an extension to haskell-mode
+;; Needed for use with ghc-mod
+;; I believe the commands are the same as that for Marmalade
+
+(unless (boundp 'aquamacs-version)
+  (require 'package)
+  (add-to-list 'package-archives 
+	       '("melpa" . "http://melpa-stable.milkbox.net/packages/"))
   (package-initialize))
 
 
@@ -101,16 +114,16 @@
 
 ;; Newsticker
 
-(unless (and (eq system-type 'darwin)
-	     (equal (user-login-name) "praveennarayanan"))
-  (load-library "newsticker_config"))
+;; (unless (and (eq system-type 'darwin)
+;; 	     (equal (user-login-name) "praveennarayanan"))
+;;   (load-library "newsticker_config"))
 
 
 ;; w3m
 
-(unless (and (eq system-type 'darwin)
-	     (equal (user-login-name) "praveennarayanan"))
-  (load-library "w3m_config"))
+;; (unless (and (eq system-type 'darwin)
+;; 	     (equal (user-login-name) "praveennarayanan"))
+;;   (load-library "w3m_config"))
 
 
 ;; Web

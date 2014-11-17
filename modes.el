@@ -45,27 +45,24 @@
 (load-library "markdown")
 
 
-;; Marmalade for fun packages
-;; Do M-x package-list-packages to see them (learnt while using haskell-mode)
-;; Do M-x package-refresh-contents first
-;; Do M-x package-install [RET] package-name to install a package
-
-(unless (boundp 'aquamacs-version)
-  (require 'package)
-  (add-to-list 'package-archives
-	       '("marmalade" . "http://marmalade-repo.org/packages/"))
-  (package-initialize))
-
 ;; *Stable* MELPA for fun packages
+
+;; Do M-x package-refresh-contents first
+;; Do M-x package-list-packages to see them (learnt while using haskell-mode)
+;; Do M-x package-install [RET] package-name to install a package
 ;; Used for installing Emacs front-end, an extension to haskell-mode
 ;; Needed for use with ghc-mod
-;; I believe the commands are the same as that for Marmalade
 
 (unless (boundp 'aquamacs-version)
   (require 'package)
   (add-to-list 'package-archives 
 	       '("melpa" . "http://melpa-stable.milkbox.net/packages/"))
+  (add-to-list 'package-archives
+	       '("org" . "http://orgmode.org/elpa/"))
   (package-initialize))
+
+(when (not package-archive-contents)
+  (package-refresh-contents))
 
 
 ;; Haskell
@@ -128,4 +125,4 @@
 
 ;; Web
 
-(load-library "web")
+;; (load-library "web")

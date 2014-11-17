@@ -161,7 +161,10 @@
 
 
 ;; Fullscreen
-;; For now, this is used only for Emacs v. 24.3._
+
+;; For now, toggle-fullscreen is used only for Emacs v. 24.3._
+;; UPDATE (August 20,2014):: Using 24.3 on the Mac,
+;; and the kbd for "M-RET" is ns-toggle-fullscreen for this version too (see below)
 
 (defun toggle-fullscreen ()
   "Toggle full screen"
@@ -178,7 +181,7 @@
 (when (eq emacs-major-version 24)
   (case emacs-minor-version
     (2 (global-set-key (kbd "M-RET") 'ns-toggle-fullscreen))
-    (3 (global-set-key (kbd "M-RET") 'toggle-fullscreen))))
+    (3 (global-set-key (kbd "M-RET") 'toggle-frame-fullscreen))))
 
 
 
@@ -195,3 +198,11 @@
   (global-set-key [M-right] 'windmove-right)        ; move to right window
   (global-set-key [M-up] 'windmove-up)              ; move to upper window
   (global-set-key [M-down] 'windmove-down))         ; move to downer window
+
+
+;; exec-path-from-shell
+
+;; https://github.com/purcell/exec-path-from-shell
+
+(when (memq window-system '(mac ns))
+  (exec-path-from-shell-initialize))

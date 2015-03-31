@@ -1,48 +1,6 @@
-; Configurations for various modes
 ;; ==========================================
-
-
-;; Common Lisp
-;; Use bindings when writing Elisp
-
-(require 'cl)
-
-
-;; Macaulay 2
-
-(when (and (eq system-type 'darwin)
-	   (eq (user-login-name) "praveennarayanan"))
-  (load-library "macaulay2"))
-
-
-;; OCaml
-
-(load-library "ocaml")
-
-
-;; C, C++, Objective-C, Java, CORBA's IDL, Pike, and AWK
-
-(require 'cc-mode)
-
-
-;; Scheme
-
-(load-library "scheme_config")
-
-
-;; miniKanren
-
-(load-library "minikanren")
-
-
-;; Mode to make SpeedBar show in Current Frame
-
-(require 'sr-speedbar)
-
-
-;; Markdown
-
-(load-library "markdown")
+;; Configurations for various modes
+;; ==========================================
 
 
 ;; *Stable* MELPA for fun packages
@@ -56,7 +14,9 @@
 (unless (boundp 'aquamacs-version)
   (require 'package)
   (add-to-list 'package-archives 
-	       '("melpa" . "http://melpa-stable.milkbox.net/packages/"))
+	       '("melpa" . "http://melpa.milkbox.net/packages/"))
+  (add-to-list 'package-archives 
+	       '("melpa-stable" . "http://melpa-stable.milkbox.net/packages/"))
   (add-to-list 'package-archives
 	       '("org" . "http://orgmode.org/elpa/"))
   (package-initialize))
@@ -65,25 +25,69 @@
   (package-refresh-contents))
 
 
-;; Haskell
+;; ;; Haskell
 
 (load-library "haskell")
 
 
-;; LaTeX with AucTex
+;; Common Lisp
+;; Use bindings when writing Elisp
 
-;; (load "auctex.el" nil t t)
-;; (load "preview-latex.el" nil t t)
-
-
-;; Grammatical Framework
-
-(load-library "gf_config")
+(require 'cl)
 
 
-;; Agda
+;; ;; Macaulay 2
 
-(load-library "agda")
+;; (when (and (eq system-type 'darwin)
+;; 	   (eq (user-login-name) "praveennarayanan"))
+;;   (load-library "macaulay2"))
+
+
+;; ;; OCaml
+
+;; (load-library "ocaml")
+
+
+;; ;; C, C++, Objective-C, Java, CORBA's IDL, Pike, and AWK
+
+;; (require 'cc-mode)
+
+
+;; Scheme
+
+(load-library "scheme_config")
+
+
+;; ;; miniKanren
+
+;; (load-library "minikanren")
+
+
+;; ;; Mode to make SpeedBar show in Current Frame
+
+;; (require 'sr-speedbar)
+
+
+;; Markdown
+
+(load-library "markdown")
+
+
+
+;; ;; LaTeX with AucTex
+
+;; ;; (load "auctex.el" nil t t)
+;; ;; (load "preview-latex.el" nil t t)
+
+
+;; ;; Grammatical Framework
+
+;; (load-library "gf_config")
+
+
+;; ;; Agda
+
+;; (load-library "agda")
 
 
 ;; Org mode
@@ -96,17 +100,17 @@
 (load-library "deft_config")
 
 
-;; ESS (Emacs Speaks Statistics)
+;; ;; ESS (Emacs Speaks Statistics)
 
-(load "ess-13.09/lisp/ess-site")
+;; (load "ess-13.09/lisp/ess-site")
 
 
-;; Autocomplete
+;; ;; Autocomplete
 
-(require 'auto-complete-config)
-(add-to-list 'ac-dictionary-directories 
-	     "~/emacs/plugins/auto-complete-1.3.1/ac-dict")
-(ac-config-default)
+;; (require 'auto-complete-config)
+;; (add-to-list 'ac-dictionary-directories 
+;; 	     "~/emacs/plugins/auto-complete-1.3.1/ac-dict")
+;; (ac-config-default)
 
 
 ;; Newsticker
@@ -126,3 +130,8 @@
 ;; Web
 
 ;; (load-library "web")
+
+
+;; Coq + Proof General
+
+(load-library "coq")

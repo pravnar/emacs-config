@@ -27,22 +27,16 @@
 ;; How to show the matching offscreen paren (line shown in minibuffer)
 
 (defadvice show-paren-function
-      (after show-matching-paren-offscreen activate)
-      "If the matching paren is offscreen, show the matching line in the
+  (after show-matching-paren-offscreen activate)
+  "If the matching paren is offscreen, show the matching line in the
         echo area. Has no effect if the character before point is not of
         the syntax class ')'."
-      (interactive)
-      (if (not (minibuffer-prompt))
-          (let ((matching-text nil))
-            ;; Only call `blink-matching-open' if the character before point
-            ;; is a close parentheses type character. Otherwise, there's not
-            ;; really any point, and `blink-matching-open' would just echo
-            ;; "Mismatched parentheses", which gets really annoying.
-            (if (char-equal (char-syntax (char-before (point))) ?\))
-                (setq matching-text (blink-matching-open)))
-            (if (not (null matching-text))
-                (message matching-text)))))
-
+  (interactive)
+  (let* ((cb (char-before (point)))
+	 (matching-text (and cb
+			     (char-equal (char-syntax cb) ?\) )
+			     (blink-matching-open))))
+    (when matching-text (message matching-text))))
 
 
 ;; Tabs are evil?
@@ -154,6 +148,7 @@
   ;; (load-theme 'pastels-on-dark t)
   ;; (load-theme 'sea-before-storm t)
   ;; (load-theme 'subatomic-enhanced t)
+  ;; (load-theme 'solarized-light t)
   ;; (load-theme 'twilight t)
   ;; (load-theme 'waher t)
   ;; (load-theme 'zen-and-art t)
@@ -163,25 +158,28 @@
 ;; Fullscreen
 
 ;; For now, toggle-fullscreen is used only for Emacs v. 24.3._
-;; UPDATE (August 20,2014):: Using 24.3 on the Mac,
+;; UPDATE (August 20,2014):: Using 24.3 on the white Mac,
 ;; and the kbd for "M-RET" is ns-toggle-fullscreen for this version too (see below)
 
-(defun toggle-fullscreen ()
-  "Toggle full screen"
-  (interactive)
-  (when window-system
-    (set-frame-parameter
-     nil 'fullscreen
-     (when (not (frame-parameter nil 'fullscreen)) 'fullboth))))
+;; (defun toggle-fullscreen ()
+;;   "Toggle full screen"
+;;   (interactive)
+;;   (when window-system
+;;     (set-frame-parameter
+;;      nil 'fullscreen
+;;      (when (not (frame-parameter nil 'fullscreen)) 'fullboth))))
 
-
-
-;; Keybindings
+;; Fullscreen Keybindings
 
 (when (eq emacs-major-version 24)
   (case emacs-minor-version
     (2 (global-set-key (kbd "M-RET") 'ns-toggle-fullscreen))
     (3 (global-set-key (kbd "M-RET") 'toggle-frame-fullscreen))))
+
+(when (and (eq system-type 'darwin)
+	   (equal user-login-name "pravnar"))
+  (setq mac-command-modifier 'super)
+  (global-set-key (kbd "<s-return>") 'toggle-frame-fullscreen))
 
 
 
@@ -191,7 +189,7 @@
 
 
 
-;; Windows
+;; Window management (windows in emacs terminology)
 
 (when (not (eq system-type 'darwin))
   (global-set-key [M-left] 'windmove-left)          ; move to left window

@@ -3,37 +3,16 @@
 ;; ==========================================
 
 
-;; *Stable* MELPA for fun packages
-
-;; Do M-x package-refresh-contents first
-;; Do M-x package-list-packages to see them (learnt while using haskell-mode)
-;; Do M-x package-install [RET] package-name to install a package
-;; Used for installing Emacs front-end, an extension to haskell-mode
-;; Needed for use with ghc-mod
-
-(unless (boundp 'aquamacs-version)
-  (require 'package)
-  (add-to-list 'package-archives 
-	       '("melpa" . "http://melpa.milkbox.net/packages/"))
-  (add-to-list 'package-archives 
-	       '("melpa-stable" . "http://melpa-stable.milkbox.net/packages/"))
-  (add-to-list 'package-archives
-	       '("org" . "http://orgmode.org/elpa/"))
-  (package-initialize))
-
-(when (not package-archive-contents)
-  (package-refresh-contents))
-
-
-;; ;; Haskell
-
-(load-library "haskell")
-
 
 ;; Common Lisp
 ;; Use bindings when writing Elisp
 
 (require 'cl)
+
+
+;; Haskell
+
+(load-library "haskell_config")
 
 
 ;; ;; Macaulay 2
@@ -43,9 +22,9 @@
 ;;   (load-library "macaulay2"))
 
 
-;; ;; OCaml
+;; OCaml
 
-;; (load-library "ocaml")
+(load-library "ocaml")
 
 
 ;; ;; C, C++, Objective-C, Java, CORBA's IDL, Pike, and AWK
@@ -68,16 +47,17 @@
 ;; (require 'sr-speedbar)
 
 
+;; NeoTree
+
+(require 'neotree)
+(global-set-key [f8] 'neotree-toggle)
+(setq neo-theme 'nerd)
+;; Every time when the neotree window is opened, let it find current file and jump to node.
+(setq neo-smart-open t)
+
 ;; Markdown
 
 (load-library "markdown")
-
-
-
-;; ;; LaTeX with AucTex
-
-;; ;; (load "auctex.el" nil t t)
-;; ;; (load "preview-latex.el" nil t t)
 
 
 ;; ;; Grammatical Framework
@@ -85,9 +65,9 @@
 ;; (load-library "gf_config")
 
 
-;; ;; Agda
+;; Agda
 
-;; (load-library "agda")
+(load-library "agda")
 
 
 ;; Org mode
@@ -100,17 +80,9 @@
 (load-library "deft_config")
 
 
-;; ;; ESS (Emacs Speaks Statistics)
+;; ESS (Emacs Speaks Statistics)
 
-;; (load "ess-13.09/lisp/ess-site")
-
-
-;; ;; Autocomplete
-
-;; (require 'auto-complete-config)
-;; (add-to-list 'ac-dictionary-directories 
-;; 	     "~/emacs/plugins/auto-complete-1.3.1/ac-dict")
-;; (ac-config-default)
+(load "ess-13.09/lisp/ess-site")
 
 
 ;; Newsticker
@@ -135,3 +107,67 @@
 ;; Coq + Proof General
 
 (load-library "coq")
+
+
+;; Racket
+
+(load-library "racket")
+
+
+;; Use aspell for spell checking
+
+(setq ispell-program-name "aspell")
+
+
+;; Use company for completion
+
+(add-hook 'after-init-hook 'global-company-mode)
+
+;; global activation of the unicode symbol completion with company-math
+(with-eval-after-load 'company
+  (add-to-list 'company-backends 'company-math-symbols-unicode))
+
+(setq company-tooltip-align-annotations t)
+
+;; ;; Autocomplete
+
+;; (require 'auto-complete-config)
+;; (add-to-list 'ac-dictionary-directories 
+;; 	     "~/emacs/plugins/auto-complete-1.3.1/ac-dict")
+;; (ac-config-default)
+
+
+;; LaTeX with company-math https://github.com/vspinu/company-math
+
+;; local configuration for TeX modes
+(defun latex-mode-setup ()
+  (setq-local company-backends
+              (append '((company-math-symbols-latex company-latex-commands))
+                      company-backends)))
+
+(add-hook 'tex-mode-hook 'latex-mode-setup)
+
+
+;; Keybinding for using recompile (uses the last entered command, no confirmation needed)
+
+(global-set-key (kbd "C-c r") 'recompile)
+
+
+;; ERC for chatting
+
+(require 'erc)
+
+
+;; Email using mu (and mu4e)
+
+(load-library "mu")
+
+
+;; Helm
+
+(load-library "helm_config")
+
+
+;; Magit
+
+(global-set-key (kbd "C-x g") 'magit-status)
